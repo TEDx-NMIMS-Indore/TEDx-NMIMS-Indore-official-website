@@ -11,3 +11,5 @@ Some information regarding the website:
 - Framework used: [React.js](https://reactjs.org)
 - UI library: [Ant-design](https://ant.design/)
 - Background images site: [Pixabay](https://pixabay.com/)
+- Programming language: JavaScript
+- Scripting language: [Sass](https://sass-lang.com/)
