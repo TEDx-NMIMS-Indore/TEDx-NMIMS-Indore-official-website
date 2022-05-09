@@ -1,4 +1,4 @@
-# TEDxNMIMS, Indore
+# TEDxNMIMS, Indore official website
 
 ---
 
