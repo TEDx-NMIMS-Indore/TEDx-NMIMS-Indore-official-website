@@ -12,4 +12,4 @@ Some information regarding the website:
 - UI library: [Ant-design](https://ant.design/)
 - Background images site: [Pixabay](https://pixabay.com/)
 - Programming language: JavaScript
-- Scripting language: [Sass](https://sass-lang.com/)
+- Markup language: [Sass](https://sass-lang.com/)
