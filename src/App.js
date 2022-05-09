@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Heading from "./components/homepage/title";
+import MenuItem from "./components/homepage/Menu";
+import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
+import AboutTed from "./components/aboutTed/aboutTedPage1";
+import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="headingPage">
+            <MenuItem />
+            <Heading />
+            <AboutNMIMS />
+            <AboutTed />
+            <TedxNMIMS />
+        </div>
+    );
 }
 
 export default App;
