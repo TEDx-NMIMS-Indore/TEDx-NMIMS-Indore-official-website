@@ -2,6 +2,10 @@
 
 ---
 
+![TEDx logo](%PUBLIC%/../public/images/tedNMIMSBg.jpg)
+
+---
+
 This is the official website of TEDxNMIMS, Indore.
 
 ---
