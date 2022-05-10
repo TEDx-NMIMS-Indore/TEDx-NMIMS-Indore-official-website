@@ -29,6 +29,6 @@ Here are the instructions if you wish to run the website on your machine, locall
 
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository.
 2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the forked repository.
-3. Execute `cd TEDEX-NMIMS` command in the powershell.
+3. Execute `cd TEDx-NMIMS-Indore-official-website` command in the powershell.
 4. Now execute `npm i` command to install all packages used to make this website.
 5. Now execute `npm start` command to run the code on your machine.
