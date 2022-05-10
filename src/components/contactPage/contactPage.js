@@ -14,27 +14,36 @@ export default function ContactPage() {
                     ></iframe>
                 </div>
                 <div className="contactPageGridDivRight">
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" title="Instagram">
                         <div className="socialMedia">
                             <img src="images/icons/instagram.png" />
                             @tedx-nmims-indore
                         </div>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" title="Linkedin">
                         <div className="socialMedia">
                             <img src="images/icons/linkedin.png" />
                             @tedx-nmims-indore
                         </div>
                     </a>
-                    <a href="mailto:sam.varg.2003@gmail.com" target="_blank">
+                    <a href="mailto:sam.varg.2003@gmail.com" target="_blank" title="Email">
                         <div className="socialMedia">
                             <img src="images/icons/email.png" />
                             tedxNmimsIndore@gmail.com
                         </div>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="#" target="_blank" title="Twitter">
                         <div className="socialMedia">
                             <img src="images/icons/twitter.png" />
+                            @tedx-nmims-indore
+                        </div>
+                    </a>
+                    <a
+                        href="https://github.com/TEDx-NMIMS-Indore"
+                        target="_blank" title="GitHub"
+                    >
+                        <div className="socialMedia">
+                            <img src="images/icons/github.png" />
                             @tedx-nmims-indore
                         </div>
                     </a>

@@ -6,3 +6,8 @@
     user-select: none;
     font-family: "Montserrat", sans-serif;
 }
+
+.backToTop{
+    background-color: rgba(59, 150, 230, 0.5);
+    border-radius: 0.5vw;
+}
