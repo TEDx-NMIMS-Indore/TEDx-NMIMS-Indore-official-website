@@ -6,7 +6,7 @@
 
 ---
 
-This is the official website of TEDxNMIMS, Indore.
+This is the official website of TEDxNMIMS, Indore. The source code is available to everyone under the standard [MIT License](https://github.com/TEDx-NMIMS-Indore/TEDx-NMIMS-Indore-official-website/blob/main/LICENSE)
 
 ---
 
@@ -44,3 +44,18 @@ Here are the instructions if you wish to run the website on your machine, locall
 ---
 
 The head of technical team of TEDxNMIMS, Indore is [@Sam-Varghese](https://www.linkedin.com/in/sam-varghese-1a7701209/). In case you would like to contribute to this repository, or wish to become a member, etc; feel free to contact him.
+
+---
+
+## Contributing guidelines
+
+---
+
+Here are procedure to make contributions to this project:
+
+1. Wether it's a bug or a feature request, you are required to [create a new issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue), explaining the changes you'd like to make/ have, in detail.
+2. Your issue will get reviewed by Mr. Sam Varghese soon, and you'll get the further details/ status regarding that in the issue section itself.
+3. If you wish to create the feature, or solve the bug, then kindly inform Sam. If everything goes well, then you shall be assigned the issue.
+4. Thankyou for showing interest to contribute to the development of this project :)
+
+---
