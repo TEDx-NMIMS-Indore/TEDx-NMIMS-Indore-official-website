@@ -1,0 +1,27 @@
+// Styles that can be imported, and used in custom components
+
+// Default font size of the texts used in the website
+$defaultRegularFontSize: 1.3vw;
+
+// Default font size for the headings used in the website
+$defaultHeadingFontSize: 5vw;
+
+// For centering the content inside div, both vertically and horizontally
+@mixin centerContentVerticallyHorizontally() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// Mixin for fixing the background image of a web-page
+@mixin fixBackgroundImage($coverImage: true) {
+    background-repeat: no-repeat;
+    @if $coverImage {
+        background-size: cover;
+    } @else {
+        background-size: contain;
+    }
+    background-position: center;
+    background-attachment: fixed;
+}

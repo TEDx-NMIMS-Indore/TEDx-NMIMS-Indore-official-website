@@ -1,0 +1,9 @@
+@import "../../_globalUtilityScss.scss";
+
+.gradientHeading {
+    font-size: $defaultHeadingFontSize;
+    font-weight: 500;
+    color: transparent;
+    background: linear-gradient(blue, cyan, blue);
+    -webkit-background-clip: text;
+};

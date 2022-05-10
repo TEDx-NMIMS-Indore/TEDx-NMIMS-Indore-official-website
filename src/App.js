@@ -4,7 +4,7 @@ import MenuItem from "./components/homepage/Menu";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
-
+import ContactPage from "./components/contactPage/contactPage";
 function App() {
     return (
         <div className="headingPage">
@@ -13,6 +13,7 @@ function App() {
             <AboutNMIMS />
             <AboutTed />
             <TedxNMIMS />
+            <ContactPage />
         </div>
     );
 }
