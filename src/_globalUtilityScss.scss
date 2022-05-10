@@ -1,10 +1,14 @@
 // Styles that can be imported, and used in custom components
+// This file name contains an underscore before its name to prevent it from get compiled to CSS all the time
 
 // Default font size of the texts used in the website
 $defaultRegularFontSize: 1.3vw;
 
 // Default font size for the headings used in the website
 $defaultHeadingFontSize: 5vw;
+
+// Default border radius for all the borders
+$defaultBorderRadius: 0.5vw;
 
 // For centering the content inside div, both vertically and horizontally
 @mixin centerContentVerticallyHorizontally() {
@@ -17,6 +21,7 @@ $defaultHeadingFontSize: 5vw;
 // Mixin for fixing the background image of a web-page
 @mixin fixBackgroundImage($coverImage: true) {
     background-repeat: no-repeat;
+    // Some webpages might require the image to be contained, rather than covered, hence the conditionals have been applied
     @if $coverImage {
         background-size: cover;
     } @else {

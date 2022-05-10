@@ -8,7 +8,6 @@ import {
     FileImageFilled,
     InfoCircleFilled,
 } from "@ant-design/icons";
-import "antd/dist/antd.css";
 
 export default function MenuItem() {
     return (

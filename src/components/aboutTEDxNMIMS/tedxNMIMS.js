@@ -2,7 +2,6 @@ import "./tedexNMIMS.scss";
 import data from "../../masterData.json";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import { Button } from "antd";
-import "antd/dist/antd.css";
 
 const showMoreButtonComponent = () => {
     if (data.tedxNMIMSDescription.showMoreButton) {
@@ -16,12 +15,11 @@ const showMoreButtonComponent = () => {
     }
 };
 
-
 export default function TedxNMIMS() {
     return (
         <div className="aboutTedxNMIMS">
             <div className="descSection">
-                <GradientHeading heading = {data.tedxNMIMSDescription.title} />
+                <GradientHeading heading={data.tedxNMIMSDescription.title} />
                 <div className="descContent">
                     {data.tedxNMIMSDescription.description}
                 </div>
