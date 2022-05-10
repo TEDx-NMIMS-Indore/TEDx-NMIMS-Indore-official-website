@@ -32,3 +32,7 @@ Here are the instructions if you wish to run the website on your machine, locall
 3. Execute `cd TEDx-NMIMS-Indore-official-website` command in the powershell.
 4. Now execute `npm i` command to install all packages used to make this website.
 5. Now execute `npm start` command to run the code on your machine.
+
+---
+
+The head of technical team of TEDxNMIMS, Indore is [@Sam-Varghese](https://www.linkedin.com/in/sam-varghese-1a7701209/). In case you would like to contribute to this repository, or wish to become a member, etc; feel free to contact him.
