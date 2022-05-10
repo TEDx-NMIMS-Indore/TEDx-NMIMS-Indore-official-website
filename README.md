@@ -21,6 +21,14 @@ Some information regarding the website and its production:
 
 ---
 
+System requirements:
+
+- Node.js
+- VSCode (or any code editor)
+- Git
+
+---
+
 ## Running website on local machine
 
 ---
