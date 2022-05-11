@@ -31,9 +31,9 @@ Some information regarding the website and its production:
 
 System requirements:
 
-- Node.js
-- VSCode (or any code editor)
-- Git
+- [Node.js](https://nodejs.org/en/)
+- [VSCode](https://code.visualstudio.com/) (or any code editor)
+- [Git](https://git-scm.com/)
 
 ---
 
