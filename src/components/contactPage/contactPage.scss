@@ -8,7 +8,7 @@
     .contactPageGridDiv {
         display: flex;
         iframe {
-            height: 55vh;// Fibonacci numbers :)
+            height: 55vh; // Fibonacci numbers :)
             width: 34vw;
             border-radius: $defaultBorderRadius;
         }
@@ -30,9 +30,9 @@
                     margin-right: 1vw;
                     margin-bottom: 0.8vw;
                 }
-                display: flex;
+                @include centerContentVerticallyHorizontally();
                 flex-direction: row;
-                align-items: center;
+                justify-content: left;
                 font-size: $defaultRegularFontSize;
                 cursor: pointer;
                 color: white;

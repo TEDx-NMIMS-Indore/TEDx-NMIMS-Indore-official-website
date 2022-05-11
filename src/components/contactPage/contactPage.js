@@ -1,6 +1,7 @@
 import "./contactPage.scss";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import { Tooltip } from "antd";
+import data from "../../masterData.json";
 
 export default function ContactPage() {
     return (
@@ -16,15 +17,21 @@ export default function ContactPage() {
                 </div>
                 <div className="contactPageGridDivRight">
                     <Tooltip
-                        color="pink"
+                        color="#F63285"
                         position="topLeft"
                         title="Instagram"
                         arrowPointAtCenter
                     >
-                        <a href="#" target="_blank">
+                        <a
+                            href={data.tedexNMIMSContactDetails.instagram.link}
+                            target="_blank"
+                        >
                             <div className="socialMedia">
                                 <img src="images/icons/instagram.png" />
-                                @tedx-nmims-indore
+                                {
+                                    data.tedexNMIMSContactDetails.instagram
+                                        .username
+                                }
                             </div>
                         </a>
                     </Tooltip>
@@ -34,10 +41,16 @@ export default function ContactPage() {
                         title="Linkedin"
                         arrowPointAtCenter
                     >
-                        <a href="#" target="_blank">
+                        <a
+                            href={data.tedexNMIMSContactDetails.linkedin.link}
+                            target="_blank"
+                        >
                             <div className="socialMedia">
                                 <img src="images/icons/linkedin.png" />
-                                @tedx-nmims-indore
+                                {
+                                    data.tedexNMIMSContactDetails.linkedin
+                                        .username
+                                }
                             </div>
                         </a>
                     </Tooltip>
@@ -48,12 +61,15 @@ export default function ContactPage() {
                         arrowPointAtCenter
                     >
                         <a
-                            href="mailto:sam.varg.2003@gmail.com"
+                            href={
+                                "mailto" +
+                                data.tedexNMIMSContactDetails.mail.link
+                            }
                             target="_blank"
                         >
                             <div className="socialMedia">
                                 <img src="images/icons/email.png" />
-                                tedxNmimsIndore@gmail.com
+                                {data.tedexNMIMSContactDetails.mail.link}
                             </div>
                         </a>
                     </Tooltip>
@@ -63,10 +79,13 @@ export default function ContactPage() {
                         title="Twitter"
                         arrowPointAtCenter
                     >
-                        <a href="#" target="_blank">
+                        <a
+                            href={data.tedexNMIMSContactDetails.twitter.link}
+                            target="_blank"
+                        >
                             <div className="socialMedia">
                                 <img src="images/icons/twitter.png" />
-                                @tedx-nmims-indore
+                                {data.tedexNMIMSContactDetails.twitter.username}
                             </div>
                         </a>
                     </Tooltip>
@@ -77,12 +96,12 @@ export default function ContactPage() {
                         arrowPointAtCenter
                     >
                         <a
-                            href="https://github.com/TEDx-NMIMS-Indore"
+                            href={data.tedexNMIMSContactDetails.github.link}
                             target="_blank"
                         >
                             <div className="socialMedia">
                                 <img src="images/icons/github.png" />
-                                @tedx-nmims-indore
+                                {data.tedexNMIMSContactDetails.github.username}
                             </div>
                         </a>
                     </Tooltip>
