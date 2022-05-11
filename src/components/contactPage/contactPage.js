@@ -1,5 +1,6 @@
 import "./contactPage.scss";
 import GradientHeading from "../gradientHeading/gradientHeading";
+import { Tooltip } from "antd";
 
 export default function ContactPage() {
     return (
@@ -14,39 +15,77 @@ export default function ContactPage() {
                     ></iframe>
                 </div>
                 <div className="contactPageGridDivRight">
-                    <a href="#" target="_blank" title="Instagram">
-                        <div className="socialMedia">
-                            <img src="images/icons/instagram.png" />
-                            @tedx-nmims-indore
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" title="Linkedin">
-                        <div className="socialMedia">
-                            <img src="images/icons/linkedin.png" />
-                            @tedx-nmims-indore
-                        </div>
-                    </a>
-                    <a href="mailto:sam.varg.2003@gmail.com" target="_blank" title="Email">
-                        <div className="socialMedia">
-                            <img src="images/icons/email.png" />
-                            tedxNmimsIndore@gmail.com
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" title="Twitter">
-                        <div className="socialMedia">
-                            <img src="images/icons/twitter.png" />
-                            @tedx-nmims-indore
-                        </div>
-                    </a>
-                    <a
-                        href="https://github.com/TEDx-NMIMS-Indore"
-                        target="_blank" title="GitHub"
+                    <Tooltip
+                        color="pink"
+                        position="topLeft"
+                        title="Instagram"
+                        arrowPointAtCenter
                     >
-                        <div className="socialMedia">
-                            <img src="images/icons/github.png" />
-                            @tedx-nmims-indore
-                        </div>
-                    </a>
+                        <a href="#" target="_blank">
+                            <div className="socialMedia">
+                                <img src="images/icons/instagram.png" />
+                                @tedx-nmims-indore
+                            </div>
+                        </a>
+                    </Tooltip>
+                    <Tooltip
+                        color="#009AE5"
+                        position="topLeft"
+                        title="Linkedin"
+                        arrowPointAtCenter
+                    >
+                        <a href="#" target="_blank">
+                            <div className="socialMedia">
+                                <img src="images/icons/linkedin.png" />
+                                @tedx-nmims-indore
+                            </div>
+                        </a>
+                    </Tooltip>
+                    <Tooltip
+                        color="#FFCD14"
+                        position="topLeft"
+                        title="EMail"
+                        arrowPointAtCenter
+                    >
+                        <a
+                            href="mailto:sam.varg.2003@gmail.com"
+                            target="_blank"
+                        >
+                            <div className="socialMedia">
+                                <img src="images/icons/email.png" />
+                                tedxNmimsIndore@gmail.com
+                            </div>
+                        </a>
+                    </Tooltip>
+                    <Tooltip
+                        color="#03A9F4"
+                        position="topLeft"
+                        title="Twitter"
+                        arrowPointAtCenter
+                    >
+                        <a href="#" target="_blank">
+                            <div className="socialMedia">
+                                <img src="images/icons/twitter.png" />
+                                @tedx-nmims-indore
+                            </div>
+                        </a>
+                    </Tooltip>
+                    <Tooltip
+                        color="#3E77BF"
+                        position="topLeft"
+                        title="GitHub"
+                        arrowPointAtCenter
+                    >
+                        <a
+                            href="https://github.com/TEDx-NMIMS-Indore"
+                            target="_blank"
+                        >
+                            <div className="socialMedia">
+                                <img src="images/icons/github.png" />
+                                @tedx-nmims-indore
+                            </div>
+                        </a>
+                    </Tooltip>
                 </div>
             </div>
         </div>

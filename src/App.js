@@ -5,14 +5,13 @@ import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import ContactPage from "./components/contactPage/contactPage";
-import { BackTop } from "antd";
+import { BackTop, Tooltip } from "antd";
 function App() {
     return (
         <div className="headingPage">
-            <BackTop 
-                className="backToTop"
-                title="Back to top"
-            />
+            <Tooltip placement="topLeft" title="Back to top" color="blue">
+                <BackTop className="backToTop" />
+            </Tooltip>
             <MenuItem />
             <Heading />
             <AboutNMIMS />
