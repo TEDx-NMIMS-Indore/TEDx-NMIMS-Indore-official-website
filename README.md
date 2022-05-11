@@ -71,4 +71,6 @@ Here are procedure to make contributions to this project:
 
 ## Code of conduct
 
+---
+
 We follow *Contributor Covenant Code Of Conduct*. You may read that [here](./CODE_OF_CONDUCT.md). Everybody is requested to adhere to these code of conducts.
