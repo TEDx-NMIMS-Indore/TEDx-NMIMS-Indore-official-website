@@ -27,7 +27,7 @@ export default function ContactPage() {
                             target="_blank"
                         >
                             <div className="socialMedia">
-                                <img src="images/icons/instagram.png" />
+                                <img src="images/icons/instagram.png" alt="Instagram logo"/>
                                 {
                                     data.tedexNMIMSContactDetails.instagram
                                         .username
@@ -46,7 +46,7 @@ export default function ContactPage() {
                             target="_blank"
                         >
                             <div className="socialMedia">
-                                <img src="images/icons/linkedin.png" />
+                                <img src="images/icons/linkedin.png" alt="Linkedin logo"/>
                                 {
                                     data.tedexNMIMSContactDetails.linkedin
                                         .username
@@ -68,7 +68,7 @@ export default function ContactPage() {
                             target="_blank"
                         >
                             <div className="socialMedia">
-                                <img src="images/icons/email.png" />
+                                <img src="images/icons/email.png" alt="EMail logo"/>
                                 {data.tedexNMIMSContactDetails.mail.link}
                             </div>
                         </a>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                             target="_blank"
                         >
                             <div className="socialMedia">
-                                <img src="images/icons/twitter.png" />
+                                <img src="images/icons/twitter.png" alt="Twitter icon"/>
                                 {data.tedexNMIMSContactDetails.twitter.username}
                             </div>
                         </a>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                             target="_blank"
                         >
                             <div className="socialMedia">
-                                <img src="images/icons/github.png" />
+                                <img src="images/icons/github.png" alt="Github icon. Please check you internet connection :)"/>
                                 {data.tedexNMIMSContactDetails.github.username}
                             </div>
                         </a>
