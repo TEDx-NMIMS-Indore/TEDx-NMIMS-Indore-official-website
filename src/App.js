@@ -6,6 +6,7 @@ import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import ContactPage from "./components/contactPage/contactPage";
 import { BackTop, Tooltip } from "antd";
+import PageNotFound from "./components/pageNotFound/pageNotFound";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Some secret console text to showcase the name of contributors :)
@@ -50,9 +51,7 @@ function App() {
                     path="*"
                     exact={true}
                     element={
-                        <div>
-                            <h1>Page not found</h1>
-                        </div>
+                            <PageNotFound />
                     }
                 ></Route>
             </Routes>
