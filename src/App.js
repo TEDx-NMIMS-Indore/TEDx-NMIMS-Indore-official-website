@@ -6,6 +6,7 @@ import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import ContactPage from "./components/contactPage/contactPage";
 import { BackTop, Tooltip } from "antd";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -21,17 +22,41 @@ console.log(
 
 function App() {
     return (
-        <div className="headingPage">
-            <Tooltip placement="topLeft" title="Back to top" color="blue">
-                <BackTop className="backToTop" />
-            </Tooltip>
-            <MenuItem />
-            <Heading />
-            <AboutNMIMS />
-            <AboutTed />
-            <TedxNMIMS />
-            <ContactPage />
-        </div>
+        <Router>
+            <Routes>
+                <Route exact path="/abs" element={<MenuItem />}></Route>
+                <Route
+                    exact
+                    path="/"
+                    element={
+                        <div className="headingPage">
+                            <Tooltip
+                                placement="topLeft"
+                                title="Back to top"
+                                color="blue"
+                            >
+                                <BackTop className="backToTop" />
+                            </Tooltip>
+                            <MenuItem />
+                            <Heading />
+                            <AboutNMIMS />
+                            <AboutTed />
+                            <TedxNMIMS />
+                            <ContactPage />
+                        </div>
+                    }
+                ></Route>
+                <Route
+                    path="*"
+                    exact={true}
+                    element={
+                        <div>
+                            <h1>Page not found</h1>
+                        </div>
+                    }
+                ></Route>
+            </Routes>
+        </Router>
     );
 }
 
