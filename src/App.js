@@ -51,7 +51,10 @@ function App() {
                     path="*"
                     exact={true}
                     element={
+                        <div>
+                            <MenuItem />
                             <PageNotFound />
+                        </div>
                     }
                 ></Route>
             </Routes>
