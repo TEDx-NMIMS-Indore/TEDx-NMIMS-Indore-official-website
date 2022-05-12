@@ -21,42 +21,55 @@ console.log(
     "color: yellow; background-color: black; padding: 1vw;"
 );
 
+const HomePageComponents = () => {
+    return (
+        <div className="headingPage">
+            <Tooltip placement="topLeft" title="Back to top" color="blue">
+                <BackTop className="backToTop" />
+            </Tooltip>
+            <Heading />
+            <AboutNMIMS />
+            <AboutTed />
+            <TedxNMIMS />
+            <ContactPage />
+        </div>
+    );
+};
+
 function App() {
     return (
         <Router>
+            {/* MenuItem component will by default appear in all the web pages */}
+            <MenuItem />
             <Routes>
-                <Route exact path="/abs" element={<MenuItem />}></Route>
-                <Route
-                    exact
-                    path="/"
-                    element={
-                        <div className="headingPage">
-                            <Tooltip
-                                placement="topLeft"
-                                title="Back to top"
-                                color="blue"
-                            >
-                                <BackTop className="backToTop" />
-                            </Tooltip>
-                            <MenuItem />
-                            <Heading />
-                            <AboutNMIMS />
-                            <AboutTed />
-                            <TedxNMIMS />
-                            <ContactPage />
-                        </div>
-                    }
-                ></Route>
+                {/* Homepage route */}
+                <Route exact path="/" element={HomePageComponents()}></Route>
+                {/* 404 Page */}
                 <Route
                     path="*"
                     exact={true}
                     element={
                         <div>
-                            <MenuItem />
                             <PageNotFound />
                         </div>
                     }
                 ></Route>
+                {/* About NMIMS */}
+                <Route
+                    exact
+                    path="/aboutNMIMS"
+                    element={<AboutNMIMS />}
+                ></Route>
+                {/* About TED */}
+                <Route exact path="/aboutTED" element={<AboutTed />}></Route>
+                {/* About TEDxNMIMS */}
+                <Route
+                    exact
+                    path="/aboutTEDxNMIMS"
+                    element={<TedxNMIMS />}
+                ></Route>
+                {/* Contacts route */}
+                <Route exact path="/contact" element={<ContactPage />}></Route>
             </Routes>
         </Router>
     );
