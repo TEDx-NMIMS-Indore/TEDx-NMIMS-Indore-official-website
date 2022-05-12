@@ -5,81 +5,87 @@ import {
     AppstoreOutlined,
     TeamOutlined,
     HomeOutlined,
-    FileImageFilled,
+    FileImageOutlined,
     InfoCircleFilled,
+    BankOutlined,
+    SoundOutlined,
+    DollarCircleOutlined,
+    ContactsOutlined,
 } from "@ant-design/icons";
 import data from "../../masterData.json";
+import React from "react";
+
+const items = [
+    {
+        label: <a href="/">Home</a>,
+        key: "mainHomepage",
+        icon: <HomeOutlined />,
+    },
+    {
+        label: "About",
+        key: "about",
+        icon: <InfoCircleFilled />,
+        children: [
+            {
+                label: <a href="aboutNMIMS">About NMIMS</a>,
+                key: "aboutNMIMS",
+                icon: <BankOutlined />,
+            },
+            {
+                label: <a href="aboutTED">About TED talks</a>,
+                key: "aboutTED",
+                icon: <SoundOutlined />,
+            },
+            {
+                label: <a href="aboutTEDxNMIMS">About TEDxNMIMS</a>,
+                key: "aboutTEDxNMIMS",
+                icon: <SoundOutlined />,
+            },
+            {
+                label: "About team",
+                key: "aboutTEDxTeam",
+                icon: <TeamOutlined />,
+            },
+            {
+                label: "About events",
+                key: "aboutTEDxEvents",
+                icon: <FileImageOutlined />,
+            },
+        ],
+    },
+    {
+        label: "Sponsors",
+        key: "sponsors",
+        icon: <DollarCircleOutlined />,
+        children: [
+            {
+                label: <a href="/sponsors">Sponsors 2022</a>,
+                key: "sponsor2022",
+                icon: <DollarCircleOutlined />,
+            },
+        ],
+    },
+    {
+        label: <a href="contact">Contact</a>,
+        key: "contact",
+        icon: <ContactsOutlined />,
+    },
+];
 
 export default function MenuItem() {
-    return (
-        <Menu mode="horizontal" defaultSelectedKeys={["home"]}>
-            <a href="/">
-                <Menu.Item key="home" icon={<HomeOutlined />}>
-                    Home
-                </Menu.Item>
-            </a>
-            <Menu.SubMenu key="about" title="About" icon={<InfoCircleFilled />}>
-                <a href="/aboutTED">
-                    <Menu.Item key="aboutTed" icon={<AppstoreOutlined />}>
-                        Ted
-                    </Menu.Item>
-                </a>
-                <a href="/aboutNMIMS">
-                    <Menu.Item key="aboutNMIMS" icon={<AppstoreOutlined />}>
-                        NMIMS
-                    </Menu.Item>
-                </a>
-                <a href="/aboutTEDxNMIMS">
-                    <Menu.Item key="aboutTedxNMIMS" icon={<AppstoreOutlined />}>
-                        TEDxNMIMS
-                    </Menu.Item>
-                </a>
-                <Menu.Item key="aboutTeam" icon={<TeamOutlined />}>
-                    Meet the team
-                </Menu.Item>
-                <Menu.Item key="aboutPhotos" icon={<FileImageFilled />}>
-                    Photos
-                </Menu.Item>
-            </Menu.SubMenu>
+    const [current, setCurrent] = React.useState("mail");
 
-            <Menu.SubMenu
-                key="speakers"
-                icon={<TeamOutlined />}
-                title="Speakers"
-            >
-                <Menu.Item icon={<TeamOutlined />}>Speakers 2022</Menu.Item>
-            </Menu.SubMenu>
-            <Menu.SubMenu key="talks" icon={<MailOutlined />} title="Talks">
-                <Menu.Item icon={<AppstoreOutlined />}>Talks 2022</Menu.Item>
-            </Menu.SubMenu>
-            <Menu.SubMenu
-                key="sponsors"
-                icon={<MailOutlined />}
-                title="Sponsors"
-            >
-                <Menu.Item icon={<AppstoreOutlined />}>Sponsors 2022</Menu.Item>
-            </Menu.SubMenu>
-            <Menu.SubMenu key="three" icon={<MailOutlined />} title="Contact">
-                <a href="/contact">
-                    <Menu.Item icon={<AppstoreOutlined />}>All</Menu.Item>
-                </a>
-                <a href={"mailto:" + data.tedexNMIMSContactDetails.mail.link}>
-                    <Menu.Item icon={<AppstoreOutlined />}>Mail</Menu.Item>
-                </a>
-                <a
-                    href={data.tedexNMIMSContactDetails.instagram.link}
-                    target="_blank"
-                >
-                    <Menu.Item icon={<AppstoreOutlined />}>Instagram</Menu.Item>
-                </a>
-                <a
-                    href={data.tedexNMIMSContactDetails.linkedin.link}
-                    target="_blank"
-                >
-                    <Menu.Item icon={<AppstoreOutlined />}>Linkedin</Menu.Item>
-                </a>
-                <Menu.Item icon={<AppstoreOutlined />}>Youtube</Menu.Item>
-            </Menu.SubMenu>
-        </Menu>
+    const onClick = (e) => {
+        console.log("click ", e.key);
+        setCurrent(e.key);
+    };
+
+    return (
+        <Menu
+            onClick={onClick}
+            selectedKeys={[current]}
+            mode="horizontal"
+            items={items}
+        />
     );
 }
