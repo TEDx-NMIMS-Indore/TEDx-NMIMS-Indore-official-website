@@ -35,5 +35,10 @@
         },
         "mail": { "link": "tedxNMIMSIndore@gmail.com" }
     },
-    "teamMembers": {}
+    "teamMembers": {},
+    "theme": {
+        "title": "Unravel to unleash",
+        "description": "Exercitation veniam cupidatat nisi culpa incididunt id reprehenderit ipsum reprehenderit cupidatat minim pariatur id. Sint nisi Lorem aute et reprehenderit. Laboris aliqua adipisicing magna non Lorem duis. Aliqua aliquip sit qui dolore esse anim deserunt excepteur minim enim dolor excepteur occaecat aliqua. Lorem veniam Lorem Lorem reprehenderit elit laboris esse.Proident non Lorem consequat aliquip id consectetur labore. Adipisicing fugiat occaecat id non nulla tempor proident velit incididunt amet tempor. Ea sint aliquip velit in deserunt laboris mollit officia mollit aute ea sit. Ex amet esse minim reprehenderit. Enim amet dolore ut adipisicing. Adipisicing et irure laboris aliqua aliquip nostrud do irure et.",
+        "link": "https://youtube.com"
+    }
 }

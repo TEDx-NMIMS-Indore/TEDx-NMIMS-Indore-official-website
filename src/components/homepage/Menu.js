@@ -6,7 +6,7 @@ import {
     TeamOutlined,
     HomeOutlined,
     FileImageOutlined,
-    InfoCircleFilled,
+    InfoCircleOutlined,
     BankOutlined,
     SoundOutlined,
     DollarCircleOutlined,
@@ -24,7 +24,7 @@ const items = [
     {
         label: "About",
         key: "about",
-        icon: <InfoCircleFilled />,
+        icon: <InfoCircleOutlined />,
         children: [
             {
                 label: <a href="aboutNMIMS">About NMIMS</a>,
@@ -85,7 +85,8 @@ export default function MenuItem() {
             onClick={onClick}
             selectedKeys={[current]}
             mode="horizontal"
-            items={items}
+            items={items} 
+            theme="dark"
         />
     );
 }

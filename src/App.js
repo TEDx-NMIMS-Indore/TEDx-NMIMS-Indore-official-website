@@ -8,6 +8,7 @@ import ContactPage from "./components/contactPage/contactPage";
 import { BackTop, Tooltip } from "antd";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ThemeComponent from "./components/TEDTheme/TEDTheme";
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -28,6 +29,7 @@ const HomePageComponents = () => {
                 <BackTop className="backToTop" />
             </Tooltip>
             <Heading />
+            <ThemeComponent />
             <AboutNMIMS />
             <AboutTed />
             <TedxNMIMS />

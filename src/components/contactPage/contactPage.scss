@@ -1,5 +1,13 @@
 @import "../../_globalUtilityScss.scss";
 
+.formLabel{
+    color: white;
+}
+
+body{
+    background-color: black !important;
+}
+
 .contactBackgroundDiv {
     background-image: url("https://cdn.pixabay.com/photo/2016/12/08/09/32/abstract-1891289_960_720.jpg");
     height: 100vh;
