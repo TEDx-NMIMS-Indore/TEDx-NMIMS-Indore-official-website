@@ -20,8 +20,10 @@
         transition-duration: 1s;
         object-fit: contain;
         box-shadow: 0.2vw 0.2vw 0.5vw black;
+        cursor: pointer;
     }
     .post {
+        cursor: pointer;
         font-size: $defaultRegularFontSize;
         padding: 1vw;
         background: #232526; /* fallback for old browsers */

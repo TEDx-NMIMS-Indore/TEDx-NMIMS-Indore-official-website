@@ -3,6 +3,10 @@ import GradientHeading from "../gradientHeading/gradientHeading";
 import "./TEDTeam.scss";
 import data from "../../masterData.json";
 
+// Member details are read from src/masterData.json
+
+// Creating the list of components for all the members of all sub-committees one by one
+
 const Organizer = (
     <div className="membersProfileDiv">
         {data.teamMembers.Organizer.map((value, index) => {

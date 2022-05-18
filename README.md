@@ -26,6 +26,7 @@ Some information regarding the website and its production:
 - Programming language: JavaScript
 - Markup language: [Sass](https://sass-lang.com/)
 - Code editor used: [VSCode](https://code.visualstudio.com/)
+- All images of this repository should be compressed in order to get them loaded as soon as possible.
 
 ---
 

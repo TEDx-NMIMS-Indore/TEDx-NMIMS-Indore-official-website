@@ -1,7 +1,9 @@
 import "./memberProfile.scss";
 
 export default function MemberProfile(props) {
+    // Function to put up the fallback image
     function addDefaultSrc(ev) {
+        // Fallback images will be on the basis of gender
         if (props.gender == "Female") {
             ev.target.src = "images/femaleIcon.webp";
         } else {
