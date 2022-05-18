@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Thanks for reporting an issue in the website. Your issue will get reviewed as soon as possible by the head os technical team of TEDxNMIMS, Indore, Mr. Sam Varghese.'
+        pr-message: 'Thanks for creating your first pull request. We appreciate your time and efforts for the development of this website. Your pull request will get reviewed as soon as possible by the head os technical team of TEDxNMIMS, Indore, Mr. Sam Varghese.'
