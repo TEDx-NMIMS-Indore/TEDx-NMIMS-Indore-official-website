@@ -11,9 +11,9 @@ export default function Heading() {
                 alt="TEDxNMIMS, Indore logo"
             />
             ;
-            <Button type="primary" className="button" size="large">
+            {/* <Button type="primary" className="button" size="large">
                 Join today
-            </Button>
+            </Button> */}
         </div>
     );
 }

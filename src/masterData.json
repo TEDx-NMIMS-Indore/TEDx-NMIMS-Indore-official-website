@@ -35,7 +35,156 @@
         },
         "mail": { "link": "tedxNMIMSIndore@gmail.com" }
     },
-    "teamMembers": {},
+    "teamMembers": {
+        "Organizer": [
+            {
+                "post": "Organizer",
+                "name": "Swayam Jasoria",
+                "gender": "Male",
+                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Swayam-Jasoria.jpeg"
+            }
+        ],
+        "Curators": [
+            {
+                "post": "Curator",
+                "name": "Nandini Malani",
+                "gender": "Female",
+                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Nandini-Malani.jpg"
+            },
+            {
+                "post": "Curator",
+                "name": "Vanshika Nyati",
+                "gender": "Female",
+                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Vanshika.png"
+            }
+        ],
+        "Executive producers": [
+            {
+                "post": "Executive producer",
+                "name": "Aastha Dwivedi",
+                "gender": "Female",
+                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Aastha-Dwivedi.jpg"
+            },
+            {
+                "post": "Executive producer",
+                "name": "Sara Saxena",
+                "gender": "Female",
+                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Event managers": [
+            {
+                "post": "Event manager",
+                "name": "Ashri Neema",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Ashri.jpg"
+            },
+            {
+                "post": "Event manager",
+                "name": "Sarthak Waliwadekar",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Finance heads": [
+            {
+                "post": "Finance head",
+                "name": "Ananya Motwani",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Ananya-Motwani.jpg"
+            },
+            {
+                "post": "Finance head",
+                "name": "Vinayak Agarwal",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Digital designs heads": [
+            {
+                "post": "Digital designs head",
+                "name": "Varnika Singh",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Varnika-Singh.jpg"
+            }
+        ],
+        "Manual designs head": [
+            {
+                "post": "Manual designs head",
+                "name": "Soumya Nagar",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Soumya.jpg"
+            },
+            {
+                "post": "Manual designs head",
+                "name": "Presksha Bhagwani",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Presksha-Bhagwani.jpg"
+            }
+        ],
+        "Content & marketing head": [
+            {
+                "post": "Content & marketing",
+                "name": "Devansh Jain",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Devansh-Jain.jpg"
+            },
+            {
+                "post": "Content & marketing head",
+                "name": "Simran Khanduja",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Technical team": [
+            {
+                "post": "Technical team",
+                "name": "Sam Varghese",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Media head": [
+            {
+                "post": "Media head",
+                "name": "Aryaman Batra",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ],
+        "Logistics head": [
+            {
+                "post": "Logistics head",
+                "name": "Akshat Khandelwal",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Akshat-Khandelwal.jpg"
+            },
+            {
+                "post": "Logistics head",
+                "name": "Arsh Parwez",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+            }
+        ]
+    },
     "theme": {
         "title": "Unravel to unleash",
         "description": "Exercitation veniam cupidatat nisi culpa incididunt id reprehenderit ipsum reprehenderit cupidatat minim pariatur id. Sint nisi Lorem aute et reprehenderit. Laboris aliqua adipisicing magna non Lorem duis. Aliqua aliquip sit qui dolore esse anim deserunt excepteur minim enim dolor excepteur occaecat aliqua. Lorem veniam Lorem Lorem reprehenderit elit laboris esse.Proident non Lorem consequat aliquip id consectetur labore. Adipisicing fugiat occaecat id non nulla tempor proident velit incididunt amet tempor. Ea sint aliquip velit in deserunt laboris mollit officia mollit aute ea sit. Ex amet esse minim reprehenderit. Enim amet dolore ut adipisicing. Adipisicing et irure laboris aliqua aliquip nostrud do irure et.",

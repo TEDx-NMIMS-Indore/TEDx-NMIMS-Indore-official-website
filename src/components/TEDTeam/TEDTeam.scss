@@ -1,0 +1,10 @@
+@import "../../_globalUtilityScss.scss";
+
+.TEDTeamBackground{
+    @include centerContentVerticallyHorizontally();
+    .membersProfileDiv{
+        @include centerContentVerticallyHorizontally();
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

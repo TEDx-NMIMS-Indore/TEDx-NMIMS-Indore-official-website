@@ -16,6 +16,7 @@ $defaultBorderRadius: 0.5vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 // Mixin for fixing the background image of a web-page

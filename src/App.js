@@ -9,6 +9,8 @@ import { BackTop, Tooltip } from "antd";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ThemeComponent from "./components/TEDTheme/TEDTheme";
+import EventsCarousel from "./components/eventsCarousel/eventsCarousel";
+import Team from "./components/TEDTeam/TEDTeam";
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -28,6 +30,7 @@ const HomePageComponents = () => {
             <Tooltip placement="topLeft" title="Back to top" color="blue">
                 <BackTop className="backToTop" />
             </Tooltip>
+            <EventsCarousel />
             <Heading />
             <ThemeComponent />
             <AboutNMIMS />
@@ -72,6 +75,8 @@ function App() {
                 ></Route>
                 {/* Contacts route */}
                 <Route exact path="/contact" element={<ContactPage />}></Route>
+                {/* Team members route */}
+                <Route exact path = "/team" element={<Team />}></Route>
             </Routes>
         </Router>
     );

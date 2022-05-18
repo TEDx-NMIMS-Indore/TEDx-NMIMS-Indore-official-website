@@ -42,7 +42,7 @@ const items = [
                 icon: <SoundOutlined />,
             },
             {
-                label: "About team",
+                label: <a href="team">About team</a>,
                 key: "aboutTEDxTeam",
                 icon: <TeamOutlined />,
             },
