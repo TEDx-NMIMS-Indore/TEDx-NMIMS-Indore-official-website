@@ -27,27 +27,22 @@ const items = [
         icon: <InfoCircleOutlined />,
         children: [
             {
-                label: <a href="aboutNMIMS">About NMIMS</a>,
+                label: <a href="aboutNMIMS">NMIMS, Indore</a>,
                 key: "aboutNMIMS",
                 icon: <BankOutlined />,
             },
             {
-                label: <a href="aboutTED">About TED talks</a>,
-                key: "aboutTED",
+                label: <a href="aboutTEDxNMIMS">TEDxNMIMSIndore</a>,
+                key: "aboutTEDxNMIMSIndore",
                 icon: <SoundOutlined />,
             },
             {
-                label: <a href="aboutTEDxNMIMS">About TEDxNMIMS</a>,
-                key: "aboutTEDxNMIMS",
-                icon: <SoundOutlined />,
-            },
-            {
-                label: <a href="team">About team</a>,
+                label: <a href="team">Our team</a>,
                 key: "aboutTEDxTeam",
                 icon: <TeamOutlined />,
             },
             {
-                label: "About events",
+                label: "Past events",
                 key: "aboutTEDxEvents",
                 icon: <FileImageOutlined />,
             },
@@ -58,6 +53,20 @@ const items = [
         key: "sponsors",
         icon: <DollarCircleOutlined />,
         children: [
+            {
+                label: <a href="/sponsors">Sponsors 2019</a>,
+                icon: <DollarCircleOutlined />,
+            },
+            {
+                label: <a href="/sponsors">Sponsors 2020</a>,
+                key: "sponsor2020",
+                icon: <DollarCircleOutlined />,
+            },
+            {
+                label: <a href="/sponsors">Sponsors 2021</a>,
+                key: "sponsor2021",
+                icon: <DollarCircleOutlined />,
+            },
             {
                 label: <a href="/sponsors">Sponsors 2022</a>,
                 key: "sponsor2022",
@@ -85,8 +94,7 @@ export default function MenuItem() {
             onClick={onClick}
             selectedKeys={[current]}
             mode="horizontal"
-            items={items} 
-            theme="dark"
+            items={items}
         />
     );
 }

@@ -1,14 +1,45 @@
+@import "../../_globalUtilityScss.scss";
+
 .tedLogo{
-    width: 40%;
+    width: 60%;
     margin: 5%;
 
 }
 
 .headingDiv{
-    background-color: #000000;
-    // height: 40vh;
+    background-color: #f7f2f2;
+    background-image: url("../../../public/images/redWhiteBg.jpg");
+    @include fixBackgroundImage();
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.tedStyle{
+    color: red;
+    font-weight: 900;
+}
+
+.TEDName{
+    font-size: $defaultHeadingFontSize;
+    font-weight: 550;
+}
+
+.Theme{
+    font-size: $defaultHeadingFontSize;
+    font-weight: 550;
+    // border: 2px solid;
+}
+
+.smallText{
+    font-size: $defaultRegularFontSize;
+    // border: 2px solid;
+    // margin-top: 0;
+}
+
+.eventDate{
+    font-size: $defaultRegularFontSize;
+    margin-bottom: 1vw;
+    font-weight: 500;
 }

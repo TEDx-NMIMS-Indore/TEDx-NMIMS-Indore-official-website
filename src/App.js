@@ -30,13 +30,10 @@ const HomePageComponents = () => {
             <Tooltip placement="topLeft" title="Back to top" color="blue">
                 <BackTop className="backToTop" />
             </Tooltip>
-            <EventsCarousel />
             <Heading />
-            <ThemeComponent />
-            <AboutNMIMS />
-            <AboutTed />
-            <TedxNMIMS />
-            <ContactPage />
+            {/* <AboutNMIMS /> */}
+            {/* <TedxNMIMS /> */}
+            {/* <ContactPage /> */}
         </div>
     );
 };

@@ -1,8 +1,14 @@
 @import "../../_globalUtilityScss.scss";
 
-.TEDTeamBackground{
+h1 {
+    font-weight: 700;
+    font-size: $defaultHeadingFontSize - 1vw;
+}
+
+.TEDTeamBackground {
     @include centerContentVerticallyHorizontally();
-    .membersProfileDiv{
+    background-color: whitesmoke;
+    .membersProfileDiv {
         @include centerContentVerticallyHorizontally();
         flex-direction: row;
         align-items: flex-start;

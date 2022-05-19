@@ -6,13 +6,13 @@
         "showMoreButton": true
     },
     "nmimsDescription": {
-        "title": "NMIMS, Indore",
+        "title": "About NMIMS, Indore",
         "description": "NMIMS is the all-encompassing educational platform for diverse fields of career such as Engineering, Science and Technology, Management, Commerce, Architecture, Law, Economics, Pharmacy, Aviation, Design, Performing Arts, Liberal Arts, Hospitality Management, Mathematical Science, Branding and Advertising, Agricultural Sciences and much more.",
         "link": "https://nmims.edu",
         "showMoreButton": true
     },
     "tedxNMIMSDescription": {
-        "title": "TEDxNMIMS",
+        "title": "TEDxNMIMSIndore",
         "description": "TEDx is a grassroots initiative, created in the spirit of TED’s overall mission to research and discover “ideas worth spreading.” TEDx brings the spirit of TED to local communities around the globe through TEDx events. These events are organized by passionate individuals who seek to uncover new ideas and to share the latest research in their local areas that spark conversations in their communities. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED. These events are not controlled by TED, but event organizers agree to abide by our format, and are offered guidelines for curation, speaker coaching, event organizing and more. They learn from us and from each other. More than 3000 events are now held annually.",
         "showMoreButton": true
     },
@@ -51,24 +51,17 @@
                 "name": "Nandini Malani",
                 "gender": "Female",
                 "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "images/TEDTeam/Nandini-Malani.jpg"
+                "profileImage": "images/TEDTeam/Nandini-Malani.jpeg"
             },
             {
                 "post": "Curator",
                 "name": "Vanshika Nyati",
                 "gender": "Female",
                 "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "images/TEDTeam/Vanshika.png"
+                "profileImage": "images/TEDTeam/Vanshika-Nyati.png"
             }
         ],
         "Executive producers": [
-            {
-                "post": "Executive producer",
-                "name": "Aastha Dwivedi",
-                "gender": "Female",
-                "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "images/TEDTeam/Aastha-Dwivedi.jpg"
-            },
             {
                 "post": "Executive producer",
                 "name": "Sara Saxena",
@@ -99,7 +92,7 @@
                 "name": "Ananya Motwani",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "images/TEDTeam/Ananya-Motwani.jpg"
+                "profileImage": "images/TEDTeam/Ananya-Motwani.png"
             },
             {
                 "post": "Finance head",

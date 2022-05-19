@@ -2,6 +2,7 @@ import "./aboutNMIMS.scss";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import data from "../../masterData.json";
 import { Button } from "antd";
+import Glass from "../glassSection/glass";
 
 const showMoreButtonComponent = () => {
     if (data.nmimsDescription.showMoreButton) {
@@ -18,15 +19,7 @@ const showMoreButtonComponent = () => {
 export default function AboutNMIMS() {
     return (
         <div className="NMIMSBackground">
-            <div className="descSection">
-                {/* Putting up the heading of NMIMS */}
-                <GradientHeading heading={data.nmimsDescription.title} />
-                {/* Putting up the description of NMIMS */}
-                <div className="descContent">
-                    {data.nmimsDescription.description}
-                </div>
-                {showMoreButtonComponent()}
-            </div>
+            <Glass heading={data.nmimsDescription.title} content = {data.nmimsDescription.description} />
         </div>
     );
 }

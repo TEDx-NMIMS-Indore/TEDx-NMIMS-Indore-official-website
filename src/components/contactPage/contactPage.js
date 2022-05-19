@@ -7,7 +7,7 @@ import { Form, Input, Button, Checkbox } from "antd";
 export default function ContactPage() {
     return (
         <div className="contactBackgroundDiv">
-            <GradientHeading heading="Contact" />
+            <h1>Contact</h1>
             <div className="contactPageGridDiv">
                 <div className="contactPageGridDivLeft">
                     {/* Adding google maps */}
@@ -43,29 +43,7 @@ export default function ContactPage() {
                             </div>
                         </a>
                     </Tooltip>
-                    {/* Linkedin */}
-                    <Tooltip
-                        color="#009AE5"
-                        position="topLeft"
-                        title="Linkedin"
-                        arrowPointAtCenter
-                    >
-                        <a
-                            href={data.tedexNMIMSContactDetails.linkedin.link}
-                            target="_blank"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/linkedin.png"
-                                    alt="Linkedin logo"
-                                />
-                                {
-                                    data.tedexNMIMSContactDetails.linkedin
-                                        .username
-                                }
-                            </div>
-                        </a>
-                    </Tooltip>
+
                     {/* EMail ID */}
                     <Tooltip
                         color="#FFCD14"
@@ -89,43 +67,26 @@ export default function ContactPage() {
                             </div>
                         </a>
                     </Tooltip>
-                    {/* Twitter */}
+                    {/* Facebook */}
                     <Tooltip
-                        color="#03A9F4"
+                        color="#1877F2"
                         position="topLeft"
-                        title="Twitter"
+                        title="Facebook"
                         arrowPointAtCenter
                     >
                         <a
-                            href={data.tedexNMIMSContactDetails.twitter.link}
+                            href={
+                                "mailto" +
+                                data.tedexNMIMSContactDetails.mail.link
+                            }
                             target="_blank"
                         >
                             <div className="socialMedia">
                                 <img
-                                    src="images/icons/twitter.png"
-                                    alt="Twitter icon"
+                                    src="images/icons/facebook.png"
+                                    alt="EMail logo"
                                 />
-                                {data.tedexNMIMSContactDetails.twitter.username}
-                            </div>
-                        </a>
-                    </Tooltip>
-                    {/* GitHub */}
-                    <Tooltip
-                        color="#3E77BF"
-                        position="topLeft"
-                        title="GitHub"
-                        arrowPointAtCenter
-                    >
-                        <a
-                            href={data.tedexNMIMSContactDetails.github.link}
-                            target="_blank"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/github.png"
-                                    alt="Github icon. Please check you internet connection :)"
-                                />
-                                {data.tedexNMIMSContactDetails.github.username}
+                                {data.tedexNMIMSContactDetails.mail.link}
                             </div>
                         </a>
                     </Tooltip>

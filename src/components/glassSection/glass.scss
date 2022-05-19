@@ -1,0 +1,20 @@
+@import "../../_globalUtilityScss.scss";
+
+.glass {
+    background-color: rgba(241, 246, 250, 0.5);
+    backdrop-filter: blur(0.1vw);
+    @include centerContentVerticallyHorizontally();
+    padding: 1vw;
+    margin: 1vw;
+    box-shadow: 1vw 1vw 1vw rgb(29, 26, 26);
+    font-size: $defaultRegularFontSize;
+    .glassHeading {
+        h1 {
+            font-weight: 500;
+            font-size: $defaultHeadingFontSize - 1vw;
+        }
+    }
+    .glassContent{
+        font-weight: 500;
+    }
+}
