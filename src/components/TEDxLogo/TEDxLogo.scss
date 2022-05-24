@@ -10,6 +10,7 @@
             font-size: 10vw;
         }
         font-size: $defaultHeadingFontSize;
+        font-weight: 900;
     }
     @include centerContentVerticallyHorizontally();
     .x {
@@ -26,6 +27,7 @@
     }
     .nmimsIndore {
         color: black;
+        font-weight: 550;
         font-size: $defaultHeadingFontSize;
         @media only screen and(max-width: 1000px) {
             font-size: 10vw;

@@ -1,4 +1,5 @@
 import MemberProfile from "../TEDTeam/memberProfile/memberProfile";
+import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import data from "../../masterData.json";
 
 const SpeakersComponents = (
@@ -32,7 +33,8 @@ const SpeakersComponents = (
 export default function Speakers() {
     return (
         <div className="TEDTeamBackground membersProfileDiv">
-            <h1>TEDxNMIMSIndore Speakers '19</h1>
+            <TEDxLogo />
+            {/* <h1>TEDxNMIMSIndore Speakers '19</h1> */}
             {SpeakersComponents}
         </div>
     );

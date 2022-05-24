@@ -8,6 +8,7 @@
 .headingDiv{
     background-color: whitesmoke;
     background-image: url("../../../public/images/redWhiteBg.jpg");
+    // background-image: url()
     
     @include fixBackgroundImage();
     height: 100vh;

@@ -8,7 +8,7 @@ export default function TEDxLogo() {
                 <span className="nmimsIndore">NMIMSIndore</span>
             </div>
             <div className="TEDxSecondDiv">
-                <span className="x">x</span><span className="xFullForm">=Independently organized TED event</span>
+                <span className="x">X</span><span className="xFullForm">=Independently organized TED event</span>
             </div>
         </div>
     );
