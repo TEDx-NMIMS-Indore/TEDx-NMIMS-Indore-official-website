@@ -3,12 +3,12 @@
 .tedLogo{
     width: 60%;
     margin: 5%;
-
 }
 
 .headingDiv{
-    background-color: #f7f2f2;
+    background-color: whitesmoke;
     background-image: url("../../../public/images/redWhiteBg.jpg");
+    
     @include fixBackgroundImage();
     height: 100vh;
     display: flex;
@@ -24,16 +24,25 @@
 .TEDName{
     font-size: $defaultHeadingFontSize;
     font-weight: 550;
+    @media only screen and(max-width: 1000px) {
+        font-size: 10vw;
+    }
 }
 
 .Theme{
     font-size: $defaultHeadingFontSize;
     font-weight: 550;
+    @media only screen and(max-width: 1000px) {
+        font-size: 10vw;
+    }
     // border: 2px solid;
 }
 
 .smallText{
     font-size: $defaultRegularFontSize;
+    @media only screen and(max-width: 1000px) {
+        font-size: 5vw;
+    }
     // border: 2px solid;
     // margin-top: 0;
 }
@@ -41,5 +50,9 @@
 .eventDate{
     font-size: $defaultRegularFontSize;
     margin-bottom: 1vw;
+    
     font-weight: 500;
+    @media only screen and(max-width: 1000px) {
+        font-size: 5vw;
+    }
 }

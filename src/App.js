@@ -1,16 +1,20 @@
 import "./App.css";
 import Heading from "./components/homepage/title";
 import MenuItem from "./components/homepage/Menu";
+import TEDxLogo from "./components/TEDxLogo/TEDxLogo";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import ContactPage from "./components/contactPage/contactPage";
+import Speakers from "./components/speakers/speakers";
+import Glass from "./components/glassSection/glass";
 import { BackTop, Tooltip } from "antd";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ThemeComponent from "./components/TEDTheme/TEDTheme";
 import EventsCarousel from "./components/eventsCarousel/eventsCarousel";
 import Team from "./components/TEDTeam/TEDTeam";
+
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -56,11 +60,16 @@ function App() {
                         </div>
                     }
                 ></Route>
-                {/* About NMIMS */}
+                {/* About*/}
                 <Route
                     exact
-                    path="/aboutNMIMS"
-                    element={<AboutNMIMS />}
+                    path="/about"
+                    element={
+                        <>
+                            <AboutNMIMS />
+                            <TedxNMIMS />
+                        </>
+                    }
                 ></Route>
                 {/* About TED */}
                 <Route exact path="/aboutTED" element={<AboutTed />}></Route>
@@ -73,7 +82,30 @@ function App() {
                 {/* Contacts route */}
                 <Route exact path="/contact" element={<ContactPage />}></Route>
                 {/* Team members route */}
-                <Route exact path = "/team" element={<Team />}></Route>
+                <Route exact path="/team" element={<Team />}></Route>
+                {/* Speakers route */}
+                <Route
+                    exact
+                    path="/speakers2019"
+                    element={<Speakers />}
+                ></Route>
+                <Route
+                    exact
+                    path="/speakers2022"
+                    element={<Glass heading="Speakers to be revealed soon!" />}
+                ></Route>
+                {/* Speakers 2022 route */}
+                <Route
+                    exact
+                    path="/speakers2022"
+                    element={<Glass heading="Speakers to be revealed soon!" />}
+                ></Route>
+                {/* TEDxLogo route */}
+                <Route
+                    exact
+                    path="/TEDx"
+                    element={<TEDxLogo />}
+                ></Route>
             </Routes>
         </Router>
     );

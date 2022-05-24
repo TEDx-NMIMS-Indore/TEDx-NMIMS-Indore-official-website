@@ -7,7 +7,7 @@ import { Form, Input, Button, Checkbox } from "antd";
 export default function ContactPage() {
     return (
         <div className="contactBackgroundDiv">
-            <h1>Contact</h1>
+            <h1>Contacts</h1>
             <div className="contactPageGridDiv">
                 <div className="contactPageGridDivLeft">
                     {/* Adding google maps */}

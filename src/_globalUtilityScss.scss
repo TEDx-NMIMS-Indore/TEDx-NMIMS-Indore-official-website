@@ -14,9 +14,17 @@ $defaultBorderRadius: 0.5vw;
 @mixin centerContentVerticallyHorizontally() {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+
+// Mixin for making the website responsive
+@mixin makeResponsive() {
+    @media only screen and (max-width: 380px) {
+        $defaultRegularFontSize: 2vw;
+        $defaultHeadingFontSize: 8vw;
+    }
 }
 
 // Mixin for fixing the background image of a web-page

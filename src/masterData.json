@@ -5,6 +5,9 @@
         "link": "https://www.ted.com/",
         "showMoreButton": true
     },
+    "tedxDescription": {
+        "title": "About TEDx"
+    },
     "nmimsDescription": {
         "title": "About NMIMS, Indore",
         "description": "NMIMS is the all-encompassing educational platform for diverse fields of career such as Engineering, Science and Technology, Management, Commerce, Architecture, Law, Economics, Pharmacy, Aviation, Design, Performing Arts, Liberal Arts, Hospitality Management, Mathematical Science, Branding and Advertising, Agricultural Sciences and much more.",
@@ -38,7 +41,7 @@
     "teamMembers": {
         "Organizer": [
             {
-                "post": "Organizer",
+                "post": "Head",
                 "name": "Swayam Jasoria",
                 "gender": "Male",
                 "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
@@ -63,118 +66,125 @@
         ],
         "Executive producers": [
             {
-                "post": "Executive producer",
+                "post": "Executive Head",
                 "name": "Sara Saxena",
                 "gender": "Female",
                 "introduction": "Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+                "profileImage": "images/TEDTeam/Sara-Saxena.jpg"
             }
         ],
         "Event managers": [
             {
-                "post": "Event manager",
+                "post": "Event Head",
                 "name": "Ashri Neema",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Ashri.jpg"
             },
             {
-                "post": "Event manager",
+                "post": "Event Head",
                 "name": "Sarthak Waliwadekar",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+                "profileImage": "images/TEDTeam/Sarthak-Waliwadekar.jpeg"
             }
         ],
         "Finance heads": [
             {
-                "post": "Finance head",
+                "post": "Finance Head",
                 "name": "Ananya Motwani",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Ananya-Motwani.png"
             },
             {
-                "post": "Finance head",
+                "post": "Finance Head",
                 "name": "Vinayak Agarwal",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+                "profileImage": "images/TEDTeam/Vinayak-Agarwal.JPG"
             }
         ],
         "Digital designs heads": [
             {
-                "post": "Digital designs head",
+                "post": "Design Head (Digital)",
                 "name": "Varnika Singh",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Varnika-Singh.jpg"
+            },
+            {
+                "post": "Design Head (Digital)",
+                "name": "Ishan Khandelwal",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Ishan-Khandelwal.jpg"
             }
         ],
         "Manual designs head": [
             {
-                "post": "Manual designs head",
+                "post": "Designs Head (Manual)",
                 "name": "Soumya Nagar",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Soumya.jpg"
             },
             {
-                "post": "Manual designs head",
+                "post": "Designs Head (Manual)",
                 "name": "Presksha Bhagwani",
                 "gender": "Female",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Presksha-Bhagwani.jpg"
             }
-        ],
-        "Content & marketing head": [
+        ],"Technical team": [
             {
-                "post": "Content & marketing",
-                "name": "Devansh Jain",
-                "gender": "Male",
-                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "images/TEDTeam/Devansh-Jain.jpg"
-            },
-            {
-                "post": "Content & marketing head",
-                "name": "Simran Khanduja",
-                "gender": "Female",
-                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
-            }
-        ],
-        "Technical team": [
-            {
-                "post": "Technical team",
+                "post": "Tech Head",
                 "name": "Sam Varghese",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Sam-Varghese.jpg"
             }
         ],
+        "Content & marketing head": [
+            {
+                "post": "Content & Marketing Head",
+                "name": "Devansh Jain",
+                "gender": "Male",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Devansh-Jain.jpg"
+            },
+            {
+                "post": "Content & Marketing Head",
+                "name": "Simran Khanduja",
+                "gender": "Female",
+                "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
+                "profileImage": "images/TEDTeam/Simran-Khanduja.png"
+            }
+        ],
+        
         "Media head": [
             {
-                "post": "Media head",
+                "post": "Media Head",
                 "name": "Aryaman Batra",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+                "profileImage": "images/TEDTeam/Aryaman-Batra.jpeg"
             }
         ],
         "Logistics head": [
             {
-                "post": "Logistics head",
+                "post": "Logistics Head",
                 "name": "Akshat Khandelwal",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
                 "profileImage": "images/TEDTeam/Akshat-Khandelwal.jpg"
             },
             {
-                "post": "Logistics head",
+                "post": "Logistics Head",
                 "name": "Arsh Parwez",
                 "gender": "Male",
                 "introduction":"Voluptate sint id veniam ad ad nostrud amet. Duis pariatur magna ut Lorem qui dolor occaecat ullamco aliqua minim labore ut consectetur. Sunt consectetur irure esse est fugiat et do nulla.",
-                "profileImage": "//images/TEDTeam/Sam-Varghese.jpg"
+                "profileImage": "images/TEDTeam/Arsh-Parvez.jpeg"
             }
         ]
     },
@@ -182,5 +192,108 @@
         "title": "Unravel to unleash",
         "description": "Exercitation veniam cupidatat nisi culpa incididunt id reprehenderit ipsum reprehenderit cupidatat minim pariatur id. Sint nisi Lorem aute et reprehenderit. Laboris aliqua adipisicing magna non Lorem duis. Aliqua aliquip sit qui dolore esse anim deserunt excepteur minim enim dolor excepteur occaecat aliqua. Lorem veniam Lorem Lorem reprehenderit elit laboris esse.Proident non Lorem consequat aliquip id consectetur labore. Adipisicing fugiat occaecat id non nulla tempor proident velit incididunt amet tempor. Ea sint aliquip velit in deserunt laboris mollit officia mollit aute ea sit. Ex amet esse minim reprehenderit. Enim amet dolore ut adipisicing. Adipisicing et irure laboris aliqua aliquip nostrud do irure et.",
         "link": "https://youtube.com"
+    },
+    "speakers": {
+        "2019": {
+            "theme": "Expect the Unexpected",
+            "speakersList": [
+                "Vani Kabir",
+                "Divya Rathod",
+                "Karan Shah",
+                "Nihad Panju",
+                "Nikita Sharma",
+                "Neha Jain",
+                "Dilip Auti",
+                "Manish Tyagi",
+                "Athar Ali Nagpurwala",
+                "Ankit Aggarwal",
+                "Navrajvir Singh",
+                "Rahul Bhatnagar",
+                "Tarang Chandola"
+            ],
+            "speakersDescription": {
+                "Vani Kabir": {
+                    "introduction": "She is a global TEDX speaker who has floored the audience with her hard hitting talks. An upcoming author for a space opera, high fiction book for which she is working with Stanford University, San Francisco. She has completed NanoWriMo writing, one of the toughest courses (from Stanford continuing studies). She has given a week long lecture at the University of Cape Town tostudents from Norway and New Zealand.",
+                    "post": "The Modern Head",
+                    "gender": "Female",
+                    "profileImage": "images/PastTEDx/Vani-Kabir.png"
+                },
+                "Divya Rathod": {
+                    "introduction":"She is an student of NMIMS and also the founder of Silvery Nanos. \"A creative way to keep bathroom clean.\" Beside being a co-founder of this company she is also the winner of chancellor challenge 2018. She got selected in ICMR under director where only 2 seats were available on an all India basis.",
+                    "post": "The Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Divya-Rathod.png"
+                },
+                "Karan Shah": {
+                    "introduction":"Karan Shah is an Edu-Preneur, TEDx speaker and the Founder & CEO of IIDE - India’s #1 Ed-tech School for Digital Skills. IIDE has trained leading corporations like Mahindra and Mahindra, Volkswagen, Asian Paints, many more. He is a visiting faculty at the IIMs and 14+ Mumbai University colleges. He is a frequent front-page writer for reputed publishings such as Education Times, Forbes, Youth Magazine, Business World etc.",
+                    "post": "Founder Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Karan-Shah.jpeg"
+                },
+                "Nihad Panju": {
+                    "introduction":"Nihad Panju is a record holder marathon runner. At the age of 5 months, he was diagnosed with Tubercular Meningitis which left him with a left-sided Hemiplegia (partial paralysis caused by brain injury). He believes that people must not allow any kind of disability to prevent you from any of your dreams. It is possible with determination and hard work you can do anything you want to - even if you are told achieving something is impossible. If he can do it, anyone can. ",
+                    "post": "Marathon Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Nihad-Panju.jpg"
+                },
+                "Nikita Sharma": {
+                    "introduction":"She participated in Miss India, and finished among the top three finalists in the Karnataka state, and won a slew of sub-titles as well.  But though the glamour world fascinates her, Nikita’s focus is clear today on her cancer activism. Hence she took microbiology degree to research on the same, as well as hold camps, rope in volunteers, conduct workshops and seminars, etc to tell people about the disease. ",
+                    "post": "Motivational Head",
+                    "gender": "Female",
+                    "profileImage": "images/PastTEDx/Nikita-Sharma.jpg"
+                },
+                "Neha Jain": {
+                    "introduction":"Neha started her journey just like any another engineer. Her quest to gain knowledge and to serve people, compelled her to leave a high paying job in software and steer life in another direction. Now a Civil Servant she has no intention to stop. She believes that failures are more important than success as they teach us the most and one should not stop themselves from exploring the inner self and the outside world.",
+                    "post": "Civil Head",
+                    "gender": "Female",
+                    "profileImage": "images/PastTEDx/Neha-Jain.webp"
+                },
+                "Dilip Auti": {
+                    "introduction":"Mr. Dilip Auti is the motivational speaker, Author, Educator, Entrepreneur, Life Coach, Facilitator for coaching and counselling, Group Dynamics, Selling Skills, and Personality Development. He inspires and encourages individuals to realize their true potential. A young and dynamic personality, he excels in his understanding of the human mind and understands the problems of our society. ",
+                    "post": "Life Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Dilip-Auti.webp"
+                },
+                "Manish Tyagi": {
+                    "introduction":"Manish Tyagi or \"The Knotty Commander\" as he is popularly known in the comedy circuit, is one of the best and the busiest stand-up comics, travelling within India and abroad. Till date he has done over 50 solo shows, hosted over 100 shows and many more open mics. Manish used to be a commander in the Indian Navy before he decided to become a Stand up Comic sometime in 2014.",
+                    "post": "Knotty Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Manish-Tyagi.webp"
+                },
+                "Athar Ali Nagpurwala": {
+                    "introduction":"Every foodie of Indore would be well known to the brand “Chai Kaapi”- an initiative from the burning entrepreneurial mind of Athar Ali Nagpurwala. Mr. Athar Ali started his entrepreneurial journey at the age of 19; he has been the brain behind the debut of many successful startups in Central India. Holding an experience of 10 years in the niche industry, this startup wizard has successfully embarked on his journey to being a distinguished personality.",
+                    "post": "Co-Founder Chai Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Athar-Ali.jpg"
+                },
+                "Ankit Aggarwal": {
+                    "introduction":"Ankit Aggarwal, Founder & CEO of Dare2compete is a star entrepreneur from IMT Ghaziabad. He founded Dare2Compete with vision of creating a unified platform where colleges and management students could interact, share and compete. He believes that everyone deserves a chance to display, and assess their skills in the rarified field of B-schools competitions.",
+                    "post": "Founder Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Ankit-Aggarwal.JPG"
+                },
+                "Navrajvir Singh": {
+                    "introduction":"Navrajvir Singh is an entrepreneur, leader, mentor and a motivational speaker. He has a natural entrepreneurial drive. His overpowering need to create something of his own gave birth to his IT company. His company recently won the Madhya Pradesh brand leadership award. His inspirational speeches are loved by all the students from all the premier institutes of India such as IIM (Indore), Symbiosis (Indore) and PIMR to name a few.",
+                    "post": "CEO Raletta Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Navrajvir-Singh.webp"
+                },
+                "Rahul Bhatnagar": {
+                    "introduction":"Rahul Bhatnagar is an Entrepreneur, TEDx, Josh Talks, Professional Speaker and a Mentor. He has conducted 1000+ Seminars (Online & Offline). With over 1.2 Million Digital Followers (online family base) across Social Media Platforms, his mission is to Empower 10 Million people and to create more Entrepreneurs, Leaders & Public Speakers",
+                    "post": "Co-Founder, Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Rahul-Bhatnagar.webp"
+                },
+                "Tarang Chandola": {
+                    "introduction":"Tarang Chandola co-founder of CWAT APPS lives by the words \"If you think it, You can do it\", Tarang Chandola is young, versatile and vibrant. His mantra is \"Don't just dream but execute.\" He's a man with a plan who makes things happen. He has a panache and penchant for problem solving. Tarang is enthused by investing his time learning about and investing in ventures in a wide variety of domains. ",
+                    "post": "Co-Founder CWAT Head",
+                    "gender": "Male",
+                    "profileImage": "images/PastTEDx/Tarang-Chandola.webp"
+                }
+            }
+        }
+    },
+    "contributors": {
+        
     }
 }

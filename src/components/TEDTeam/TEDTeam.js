@@ -16,48 +16,47 @@ const Organizer = (
                 <MemberProfile
                     name={value.name}
                     introduction={value.introduction}
-                    profileImage={value.profileImage} 
-                    post={value.post} 
-                    gender = {value.gender}
+                    profileImage={value.profileImage}
+                    post={value.post}
+                    gender={value.gender}
                 />
             );
         })}
     </div>
 );
 
-const AllMembers = (
-    ["Curators",
-"Executive producers",
-"Event managers",
-"Finance heads",
-"Digital designs heads",
-"Manual designs head",
-"Content & marketing head",
-"Technical team",
-"Media head",
-        "Logistics head"].map((element, index) => {
-            return data.teamMembers[element].map((value, index) => {
-                return (
-                    <MemberProfile
-                        name={value.name}
-                        introduction={value.introduction}
-                        profileImage={value.profileImage}
-                        post={value.post}
-                        gender={value.gender}
-                    />
-                );
-            });
-        })
-)
+const AllMembers = [
+    "Organizer",
+    "Curators",
+    "Executive producers",
+    "Event managers",
+    "Finance heads",
+    "Digital designs heads",
+    "Technical team",
+    "Manual designs head",
+    "Content & marketing head",
+    "Media head",
+    "Logistics head",
+].map((element, index) => {
+    return data.teamMembers[element].map((value, index) => {
+        return (
+            <MemberProfile
+                name={value.name}
+                introduction={value.introduction}
+                profileImage={value.profileImage}
+                post={value.post}
+                gender={value.gender}
+            />
+        );
+    });
+});
 
 export default function Team() {
     return (
         <div className="TEDTeamBackground">
             <h1>TEDxNMIMSIndore Team</h1>
-                {Organizer}
-            <div className="membersProfileDiv">
-                {AllMembers}
-            </div>
+            {/* {Organizer} */}
+            <div className="membersProfileDiv">{AllMembers}</div>
         </div>
     );
 }

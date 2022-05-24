@@ -43,12 +43,13 @@ body {
                 img {
                     width: 3vw;
                     margin-right: 1vw;
-                    margin-bottom: 0.8vw;
+                    // margin-bottom: 0.8vw;
                 }
-                @include centerContentVerticallyHorizontally();
-                flex-direction: row;
-                justify-content: left;
+                display: flex;
+                align-items: center;
                 font-size: $defaultRegularFontSize;
+                font-weight: 500;
+                background-color: rgba(240, 248, 255, 0.5);
                 cursor: pointer;
                 color: black;
                 border-radius: $defaultBorderRadius;

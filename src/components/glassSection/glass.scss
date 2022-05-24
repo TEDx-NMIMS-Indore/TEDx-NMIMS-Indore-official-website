@@ -1,20 +1,39 @@
 @import "../../_globalUtilityScss.scss";
 
 .glass {
-    background-color: rgba(241, 246, 250, 0.5);
-    backdrop-filter: blur(0.1vw);
+    // background-color: rgba(240, 241, 242, 0.7);
+    // backdrop-filter: blur(0.1vw);
+    // border: 0.1vw solid;
+    background-color: white;
+    border-radius: $defaultBorderRadius;
     @include centerContentVerticallyHorizontally();
     padding: 1vw;
+    overflow: auto;
     margin: 1vw;
-    box-shadow: 1vw 1vw 1vw rgb(29, 26, 26);
+    // box-shadow: 1vw 1vw 1vw rgb(29, 26, 26);
     font-size: $defaultRegularFontSize;
+    @media only screen and (max-width: 1000px) and (orientation: portrait) {
+        font-size: 5vw;
+    }
+    @media only screen and (max-width: 1000px) and (orientation: landscape) {
+        font-size: 3vw;
+    }
     .glassHeading {
         h1 {
             font-weight: 500;
             font-size: $defaultHeadingFontSize - 1vw;
+            @media only screen and (max-width: 1000px) and (orientation: portrait) {
+                font-size: 10vw;
+            }
+            @media only screen and (max-width: 1000px) and (orientation: landscape) {
+                font-size: 8vw;
+            }
         }
     }
-    .glassContent{
+    .glassContent {
         font-weight: 500;
+        overflow: auto;
+        font-size: $defaultRegularFontSize;
     }
+    
 }

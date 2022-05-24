@@ -22,60 +22,34 @@ const items = [
         icon: <HomeOutlined />,
     },
     {
-        label: "About",
+        label: <a href="/about">About</a>,
         key: "about",
         icon: <InfoCircleOutlined />,
+    },
+    {
+        label: <a href="team">Team</a>,
+        key: "aboutTEDxTeam",
+        icon: <TeamOutlined />,
+    },
+    {
+        label: "Speakers",
+        key: "speakers",
+        icon: <SoundOutlined />,
         children: [
             {
-                label: <a href="aboutNMIMS">NMIMS, Indore</a>,
-                key: "aboutNMIMS",
-                icon: <BankOutlined />,
-            },
-            {
-                label: <a href="aboutTEDxNMIMS">TEDxNMIMSIndore</a>,
-                key: "aboutTEDxNMIMSIndore",
+                label: <a href="/speakers2022">Speakers 2022</a>,
+                key: "speakers2022",
                 icon: <SoundOutlined />,
             },
             {
-                label: <a href="team">Our team</a>,
-                key: "aboutTEDxTeam",
-                icon: <TeamOutlined />,
-            },
-            {
-                label: "Past events",
-                key: "aboutTEDxEvents",
-                icon: <FileImageOutlined />,
+                label: <a href="/speakers2019">Speakers 2019</a>,
+                key: "speakers2019",
+                icon: <SoundOutlined />,
             },
         ],
     },
     {
-        label: "Sponsors",
-        key: "sponsors",
-        icon: <DollarCircleOutlined />,
-        children: [
-            {
-                label: <a href="/sponsors">Sponsors 2019</a>,
-                icon: <DollarCircleOutlined />,
-            },
-            {
-                label: <a href="/sponsors">Sponsors 2020</a>,
-                key: "sponsor2020",
-                icon: <DollarCircleOutlined />,
-            },
-            {
-                label: <a href="/sponsors">Sponsors 2021</a>,
-                key: "sponsor2021",
-                icon: <DollarCircleOutlined />,
-            },
-            {
-                label: <a href="/sponsors">Sponsors 2022</a>,
-                key: "sponsor2022",
-                icon: <DollarCircleOutlined />,
-            },
-        ],
-    },
-    {
-        label: <a href="contact">Contact</a>,
+        label: <a href="contact">Contacts</a>,
         key: "contact",
         icon: <ContactsOutlined />,
     },
@@ -85,7 +59,6 @@ export default function MenuItem() {
     const [current, setCurrent] = React.useState("mail");
 
     const onClick = (e) => {
-        console.log("click ", e.key);
         setCurrent(e.key);
     };
 

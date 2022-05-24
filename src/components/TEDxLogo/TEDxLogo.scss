@@ -1,0 +1,60 @@
+@import "../../_globalUtilityScss.scss";
+
+.TEDx {
+    color: red;
+    // border: 2px solid gold;
+    width: fit-content;
+    margin-bottom: 0;
+    h1 {
+        @media only screen and(max-width: 1000px) {
+            font-size: 10vw;
+        }
+        font-size: $defaultHeadingFontSize;
+    }
+    @include centerContentVerticallyHorizontally();
+    .x {
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        margin-top: 0.5vw;
+        // border: 2px solid red;
+        font-size: 2.5vw;
+        font-weight: 900;
+        @media only screen and(max-width: 1000px) {
+            margin-top: 1vw;
+            font-size: 5vw;
+        }
+    }
+    .nmimsIndore {
+        color: black;
+        font-size: $defaultHeadingFontSize;
+        @media only screen and(max-width: 1000px) {
+            font-size: 10vw;
+        }
+    }
+
+    .xFullForm {
+        color: black;
+        margin: 0.5vw;
+        margin-top: 1.8vw;
+        
+        // border: 2px solid white;
+    }
+}
+.TEDxDiv {
+    @include centerContentVerticallyHorizontally();
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+    .TEDxSecondDiv {
+        font-weight: 500;
+        font-size: $defaultRegularFontSize;
+        @media only screen and(max-width: 1000px) {
+            font-size: 5vw;
+        }
+        color: black;
+        // border: 2px solid white;
+        margin-top: 0;
+        .x {
+            color: red;
+        }
+    }
+}

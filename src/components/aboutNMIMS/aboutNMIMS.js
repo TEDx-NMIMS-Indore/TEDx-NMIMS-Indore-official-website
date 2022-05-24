@@ -19,7 +19,9 @@ const showMoreButtonComponent = () => {
 export default function AboutNMIMS() {
     return (
         <div className="NMIMSBackground">
-            <Glass heading={data.nmimsDescription.title} content = {data.nmimsDescription.description} />
+            <img src="images/nmimsCampus.webp" className="nmimsPic" />
+            <h1>About NMIMS</h1>
+            <Glass showHeading={true} heading={data.nmimsDescription.title} content = {data.nmimsDescription.description} />
         </div>
     );
 }

@@ -1,15 +1,36 @@
 @import "../../_globalUtilityScss.scss";
 
 .NMIMSBackground {
-    background-image: url("../../../public/images/nmimsCampus.webp");
-    height: 120vh;
-    background-color: white;
-    @include fixBackgroundImage(false);
+    // background-image: url("../../../public/images/redWhiteBg.png");
+
     @include centerContentVerticallyHorizontally();
+    height: 120vh;
+    @media only screen and (max-width: 1000px) and (orientation: portrait) {
+        height: 150vh;
+        align-items: stretch;
+    }
+    @media only screen and (orientation: landscape) and (max-width: 1000px) {
+        height: 300vh;
+    }
+    background-color: whitesmoke;
+
+    @include fixBackgroundImage(false);
+    h1{
+        font-weight: 500;
+    }
+}
+
+.nmimsPic {
+    width: 100%;
+    // border: 2px solid;
+    top: 0;
 }
 
 .descSection {
-    background: linear-gradient(rgba(127, 185, 193, 0.5), rgba(169, 179, 128, 0.5)) !important;
+    background: linear-gradient(
+        rgba(127, 185, 193, 0.5),
+        rgba(169, 179, 128, 0.5)
+    ) !important;
     margin: 1vw;
     border: 0.2vw solid white;
     backdrop-filter: blur(0.1vw);
@@ -20,6 +41,6 @@
         font-size: $defaultRegularFontSize;
         padding: 1vw;
         color: black !important;
-    font-weight: 600;
+        font-weight: 600;
     }
 }

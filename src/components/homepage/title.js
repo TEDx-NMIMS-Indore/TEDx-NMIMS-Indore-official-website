@@ -1,4 +1,5 @@
 import "./title.scss";
+import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import { Button } from "antd";
 import "antd/dist/antd.css";
 import GradientHeading from "../gradientHeading/gradientHeading";
@@ -12,17 +13,7 @@ export default function Heading() {
                 alt="TEDxNMIMS, Indore logo"
             />
             ; */}
-            <h1 className="TEDName">
-                <span className="tedStyle">
-                    TED<sup>x</sup>
-                </span>
-                NMIMSIndore
-                <br />
-                <div className="smallText">
-                    <span className="tedStyle">x</span> = independently
-                    organized TED event
-                </div>
-            </h1>
+            <TEDxLogo />
             <h1 className="Theme">Unravel To Unleash</h1>
             <div className="eventDate">This 27th August, be the change you want to be.</div>
             
