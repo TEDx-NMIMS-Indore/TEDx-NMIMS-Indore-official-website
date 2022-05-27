@@ -36,7 +36,13 @@
             "link": "https://github.com",
             "username": "@tedex-NMIMS-indore"
         },
-        "mail": { "link": "tedxNMIMSIndore@gmail.com" }
+        "mail": { "link": "tedxNMIMSIndore@gmail.com" },
+        "facebook": {
+            "link": "https://www.facebook.com/tedx.nmimsindore.1"
+        },
+        "youtube": {
+            "link": "https://www.youtube.com/user/TEDxTalks"
+        }
     },
     "teamMembers": {
         "Organizer": [

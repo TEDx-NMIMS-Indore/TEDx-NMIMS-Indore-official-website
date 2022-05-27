@@ -4,17 +4,31 @@
     // background-image: url("../../../public/images/redWhiteBg.png");
 
     @include centerContentVerticallyHorizontally();
-    height: 120vh;
+    align-items: center;
+        // border: 2px solid red;
+    justify-content: center;
+    .headingContentSection{
+        @include centerContentVerticallyHorizontally();
+        h1{
+            font-size: $defaultHeadingFontSize;
+        }
+        p{
+            font-size: $defaultRegularFontSize;
+        }
+    }
+    h1, p{
+        // border: 2px solid red;
+    }
+    height: 60vh;
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
         height: 150vh;
-        align-items: stretch;
+        // align-items: stretch;
     }
     @media only screen and (orientation: landscape) and (max-width: 1000px) {
         height: 300vh;
     }
-    background-color: whitesmoke;
 
-    @include fixBackgroundImage(false);
+    // @include fixBackgroundImage(false);
     h1{
         font-weight: 500;
     }

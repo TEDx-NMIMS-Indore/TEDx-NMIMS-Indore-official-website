@@ -3,7 +3,7 @@ import data from "../../masterData.json";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import { Button } from "antd";
-import Glass from "../glassSection/glass";
+import BlackGlass from "../glassSection/glass";
 
 const showMoreButtonComponent = () => {
     if (data.tedxNMIMSDescription.showMoreButton) {
@@ -20,7 +20,7 @@ const showMoreButtonComponent = () => {
 export default function TedxNMIMS() {
     return (
         <div className="aboutTedxNMIMS">
-            <Glass
+            <BlackGlass
                 heading={data.tedxNMIMSDescription.title}
                 content={data.tedxNMIMSDescription.description}
             />

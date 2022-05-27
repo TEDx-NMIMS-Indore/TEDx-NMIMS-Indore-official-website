@@ -9,4 +9,5 @@ export default function Glass(props) {
             <div className="glassContent">{props.content}</div>
         </div>
     );
-}
+};
+

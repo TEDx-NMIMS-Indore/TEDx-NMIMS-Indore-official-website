@@ -1,0 +1,18 @@
+@import "../../_globalUtilityScss.scss";
+
+.BlackTEDTeamBackground {
+    @include centerContentVerticallyHorizontally();
+    h1 {
+        color: white;
+    }
+    // background-image: url("../../../public/images/redWhiteBg.jpg");
+    @include fixBackgroundImage();
+    background-image: url("../../../public/images/trialBg1.jpeg");
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+
+    .membersProfileDiv {
+        @include centerContentVerticallyHorizontally();
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

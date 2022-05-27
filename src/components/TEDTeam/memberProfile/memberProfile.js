@@ -1,4 +1,6 @@
 import "./memberProfile.scss";
+import Avatar from "antd/lib/avatar";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function MemberProfile(props) {
     // Function to put up the fallback image
@@ -10,20 +12,60 @@ export default function MemberProfile(props) {
             ev.target.src = "images/maleIcon.webp";
         }
     }
-    return (
-        <div className="profileDiv">
-            <div className="profileImageDiv">
-                <img
+    if (props.theme != "dark") {
+        return (
+            <div className="profileDiv">
+                <div className="profileImageDiv">
+                    {/* <img
                     src={props.profileImage}
                     className="profileImage"
                     onError={addDefaultSrc}
                     alt={"Profile picture of " + props.name}
                     decoding="async"
-                />
+                /> */}
+                    <ScrollAnimation
+                        animateIn="bounceInLeft"
+                        animateOut="bounceOutRight"
+                    >
+                        <Avatar
+                            src={props.profileImage}
+                            shape="circle"
+                            size={200}
+                        />
+                    </ScrollAnimation>
+                </div>
+                <div className="name">{props.name}</div>
+                <div className="post">{props.post}</div>
+                <div className="introduction">{props.introduction}</div>
             </div>
-            <div className="name">{props.name}</div>
-            <div className="post">{props.post}</div>
-            <div className="introduction">{props.introduction}</div>
-        </div>
-    );
+        );
+    } else {
+        return (
+            <div className="blackProfileDiv">
+                <div className="profileImageDiv">
+                    {/* <img
+                    src={props.profileImage}
+                    className="profileImage"
+                    onError={addDefaultSrc}
+                    alt={"Profile picture of " + props.name}
+                    decoding="async"
+                /> */}
+                    <ScrollAnimation
+                        animateIn="bounceInRight"
+                        animateOut="bounceOutLeft"
+                    >
+                        <Avatar
+                            src={props.profileImage}
+                            shape="circle"
+                            size={200}
+                        />
+                    </ScrollAnimation>
+                </div>
+
+                <div className="name">{props.name}</div>
+                <div className="post">{props.post}</div>
+                <div className="introduction">{props.introduction}</div>
+            </div>
+        );
+    }
 }

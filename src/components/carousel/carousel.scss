@@ -1,0 +1,21 @@
+@import "../../_globalUtilityScss.scss";
+
+.carouselImage {
+    border: 2px solid red;
+    
+}
+.carouselDiv {
+    background-color: white;
+    max-height: 100vh;
+}
+
+.carousel {
+    height: 50vh;
+    background-color: gold;
+}
+.center {
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: row;
+}

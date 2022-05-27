@@ -1,28 +1,27 @@
 @import "../../_globalUtilityScss.scss";
 
-.tedLogo{
+.tedLogo {
     width: 60%;
     margin: 5%;
 }
 
-.headingDiv{
-    background-color: whitesmoke;
-    background-image: url("../../../public/images/redWhiteBg.jpg");
-    // background-image: url()
-    
-    @include fixBackgroundImage();
+.headingDiv {
+    background-color: black;
+    // background-image: url("../../../public/images/trialBg1.jpeg");
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @include fixBackgroundImage();
 }
-.tedStyle{
+.tedStyle {
     color: red;
     font-weight: 900;
 }
 
-.TEDName{
+.TEDName {
     font-size: $defaultHeadingFontSize;
     font-weight: 550;
     @media only screen and(max-width: 1000px) {
@@ -30,16 +29,19 @@
     }
 }
 
-.Theme{
+.Theme {
     font-size: $defaultHeadingFontSize;
     font-weight: 550;
+    color: white;
     @media only screen and(max-width: 1000px) {
         font-size: 10vw;
     }
     // border: 2px solid;
 }
-
-.smallText{
+.redText {
+    color: red;
+}
+.smallText {
     font-size: $defaultRegularFontSize;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
@@ -48,10 +50,10 @@
     // margin-top: 0;
 }
 
-.eventDate{
+.eventDate {
     font-size: $defaultRegularFontSize;
     margin-bottom: 1vw;
-    
+    color: white;
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;

@@ -1,5 +1,7 @@
 import "./App.css";
 import Heading from "./components/homepage/title";
+import Menu from "./components/menu/menu";
+import DarkTEDxLogo from "./components/TEDxLogo/darkTEDxLogo";
 import MenuItem from "./components/homepage/Menu";
 import TEDxLogo from "./components/TEDxLogo/TEDxLogo";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
@@ -9,12 +11,12 @@ import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
 import Glass from "./components/glassSection/glass";
 import { BackTop, Tooltip } from "antd";
-import PageNotFound from "./components/pageNotFound/pageNotFound";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ThemeComponent from "./components/TEDTheme/TEDTheme";
-import EventsCarousel from "./components/eventsCarousel/eventsCarousel";
 import Team from "./components/TEDTeam/TEDTeam";
 
+// import { ResponsiveNavbar } from "react-hamburger-menus";
+// import "react-hamburger-menus/dist/style.css";
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -28,87 +30,24 @@ console.log(
     "color: yellow; background-color: black; padding: 1vw;"
 );
 
-const HomePageComponents = () => {
+const App = () => {
     return (
         <div className="headingPage">
-            <Tooltip placement="topLeft" title="Back to top" color="blue">
-                <BackTop className="backToTop" />
+            <Tooltip placement="topLeft" title="Back to top" color="grey">
+                <BackTop />
             </Tooltip>
+            <Menu />
             <Heading />
+            <AboutNMIMS id="about" name="about" />
+            <TedxNMIMS />
+            <Team />
+            <Speakers />
+            <ContactPage />
             {/* <AboutNMIMS /> */}
             {/* <TedxNMIMS /> */}
             {/* <ContactPage /> */}
         </div>
     );
 };
-
-function App() {
-    return (
-        <Router>
-            {/* MenuItem component will by default appear in all the web pages */}
-            <MenuItem />
-            <Routes>
-                {/* Homepage route */}
-                <Route exact path="/" element={HomePageComponents()}></Route>
-                {/* 404 Page */}
-                <Route
-                    path="*"
-                    exact={true}
-                    element={
-                        <div>
-                            <PageNotFound />
-                        </div>
-                    }
-                ></Route>
-                {/* About*/}
-                <Route
-                    exact
-                    path="/about"
-                    element={
-                        <>
-                            <AboutNMIMS />
-                            <TedxNMIMS />
-                        </>
-                    }
-                ></Route>
-                {/* About TED */}
-                <Route exact path="/aboutTED" element={<AboutTed />}></Route>
-                {/* About TEDxNMIMS */}
-                <Route
-                    exact
-                    path="/aboutTEDxNMIMS"
-                    element={<TedxNMIMS />}
-                ></Route>
-                {/* Contacts route */}
-                <Route exact path="/contact" element={<ContactPage />}></Route>
-                {/* Team members route */}
-                <Route exact path="/team" element={<Team />}></Route>
-                {/* Speakers route */}
-                <Route
-                    exact
-                    path="/speakers2019"
-                    element={<Speakers />}
-                ></Route>
-                <Route
-                    exact
-                    path="/speakers2022"
-                    element={<Glass heading="Speakers to be revealed soon!" />}
-                ></Route>
-                {/* Speakers 2022 route */}
-                <Route
-                    exact
-                    path="/speakers2022"
-                    element={<Glass heading="Speakers to be revealed soon!" />}
-                ></Route>
-                {/* TEDxLogo route */}
-                <Route
-                    exact
-                    path="/TEDx"
-                    element={<TEDxLogo />}
-                ></Route>
-            </Routes>
-        </Router>
-    );
-}
 
 export default App;

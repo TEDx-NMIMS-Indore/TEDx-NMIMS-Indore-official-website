@@ -1,9 +1,13 @@
 @import "../../_globalUtilityScss.scss";
 
 .aboutTedxNMIMS {
-    .centerContent{
+    .centerContent {
         height: 100vh;
-        background-color: whitesmoke;
+        // background-color: black;
+        background-image: url("../../../public/images/trialBg1.jpeg");
+        background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+        @include fixBackgroundImage();
+
         display: flex;
         align-items: center;
         justify-content: center;

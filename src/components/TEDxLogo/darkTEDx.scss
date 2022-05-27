@@ -1,11 +1,11 @@
 @import "../../_globalUtilityScss.scss";
 
-.LightTEDx {
+.TEDx {
+    color: red;
     // border: 2px solid gold;
     width: fit-content;
     margin-bottom: 0;
     h1 {
-        color: red;
         @media only screen and(max-width: 1000px) {
             font-size: 10vw;
         }
@@ -13,21 +13,20 @@
         font-weight: 900;
     }
     @include centerContentVerticallyHorizontally();
-    .Lightx {
-        color: red;
+    .x {
         padding-top: 0vw;
         padding-bottom: 0vw;
         margin-top: 0.5vw;
         // border: 2px solid red;
-        font-weight: 900;
         font-size: 2.5vw;
+        font-weight: 900;
         @media only screen and(max-width: 1000px) {
             margin-top: 1vw;
             font-size: 5vw;
         }
     }
-    .LightnmimsIndore {
-        color: white;
+    .nmimsIndore {
+        color: black;
         font-weight: 550;
         font-size: $defaultHeadingFontSize;
         @media only screen and(max-width: 1000px) {
@@ -35,31 +34,33 @@
         }
     }
 
-    .LightxFullForm {
-        color: white;
+    .xFullForm {
+        color: black;
         margin: 0.5vw;
         margin-top: 1.8vw;
-
-        // border: 2px solid white;
+        
+        // border: 2px solid black;
     }
 }
-.LightTEDxDiv {
+.TEDxDiv {
     @include centerContentVerticallyHorizontally();
     background-color: rgba(255, 255, 255, 0);
     flex-direction: column;
-    .LightTEDxSecondDiv {
+    .TEDxSecondDiv {
         font-weight: 500;
         // border: 2px solid yellow;
         font-size: $defaultRegularFontSize;
         @media only screen and(max-width: 1000px) {
             font-size: 5vw;
         }
-        color: white;
-        // border: 2px solid white;
+        color: black;
+        // border: 2px solid black;
         margin-top: -2vw;
-        .Lightx {
+        .x {
             color: red;
-            font-weight: 900;
         }
     }
+}
+*{
+    // border: 2px solid red;
 }

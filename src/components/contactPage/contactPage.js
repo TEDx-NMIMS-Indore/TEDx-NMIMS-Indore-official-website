@@ -28,32 +28,28 @@ export default function ContactPage() {
                         arrowPointAtCenter
                     >
                         <a
-                            href={data.tedexNMIMSContactDetails.instagram.link}
                             target="_blank"
+                            href={data.tedexNMIMSContactDetails.instagram.link}
                         >
                             <div className="socialMedia">
                                 <img
                                     src="images/icons/instagram.png"
                                     alt="Instagram logo"
                                 />
-                                {
-                                    data.tedexNMIMSContactDetails.instagram
-                                        .username
-                                }
                             </div>
                         </a>
                     </Tooltip>
 
                     {/* EMail ID */}
                     <Tooltip
-                        color="#FFCD14"
+                        color="#000000"
                         position="topLeft"
                         title="EMail"
                         arrowPointAtCenter
                     >
                         <a
                             href={
-                                "mailto" +
+                                "mailto:" +
                                 data.tedexNMIMSContactDetails.mail.link
                             }
                             target="_blank"
@@ -63,7 +59,6 @@ export default function ContactPage() {
                                     src="images/icons/email.png"
                                     alt="EMail logo"
                                 />
-                                {data.tedexNMIMSContactDetails.mail.link}
                             </div>
                         </a>
                     </Tooltip>
@@ -75,21 +70,45 @@ export default function ContactPage() {
                         arrowPointAtCenter
                     >
                         <a
-                            href={
-                                "mailto" +
-                                data.tedexNMIMSContactDetails.mail.link
-                            }
+                            href={data.tedexNMIMSContactDetails.facebook.link}
                             target="_blank"
                         >
                             <div className="socialMedia">
                                 <img
                                     src="images/icons/facebook.png"
-                                    alt="EMail logo"
+                                    alt="Facebook logo"
                                 />
-                                {data.tedexNMIMSContactDetails.mail.link}
                             </div>
                         </a>
                     </Tooltip>
+                    {/* YouTube */}
+                    <Tooltip
+                        color="#FF0000"
+                        position="topLeft"
+                        title="YouTube"
+                        arrowPointAtCenter
+                    >
+                        <a
+                            href={data.tedexNMIMSContactDetails.youtube.link}
+                            target="_blank"
+                        >
+                            <div className="socialMedia">
+                                <img
+                                    src="images/icons/youtube.png"
+                                    alt="Facebook logo"
+                                />
+                            </div>
+                        </a>
+                    </Tooltip>
+                </div>
+                <div className="credits">
+                    Website made by:
+                    <a
+                        href="https://www.linkedin.com/in/sam-varghese-1a7701209/"
+                        target="_blank"
+                    >
+                        Sam Varghese
+                    </a>
                 </div>
             </div>
         </div>

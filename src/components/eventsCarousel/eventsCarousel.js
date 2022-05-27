@@ -1,4 +1,6 @@
 import { Carousel } from "antd";
+import "antd/dist/antd.css";
+
 import "./eventsCarousel.scss";
 
 const contentStyle = {
@@ -8,34 +10,35 @@ const contentStyle = {
     background: "#364d79",
 };
 
+const CampusCarousel = (
+    <>
+        {Array.from({ length: 7 }, (_, index) => index + 1).map(
+            (element, index) => {
+                return (
+                    <div
+                        className="carouselDiv"
+                        style={{
+                            backgroundImage:
+                                "url(images/NMIMS"+element+".jpeg)",
+                            height: "60vh",
+                            backgroundSize: "contain",
+                            backgroundRepeat: "no-repeat",
+                            backgroundPosition: "center",
+                        }}
+                    ></div>
+                );
+            }
+        )}
+    </>
+);
+
 export default function EventsCarousel() {
     return (
         <div className="carouselBackground">
             <Carousel autoplay>
                 {/* <div> */}
                 <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1576.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
-                </div>
-                <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1584.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
-                </div>
-                <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1594.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
-                </div>
-                <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1601.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
-                </div>
-                <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1612.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
-                </div>
-                <div>
-                    <div className="carouselDiv" style={{backgroundImage: 'url(images/PastTEDx/IMG_1638.JPG)', height: "60vh", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-                    </div>
+                    {CampusCarousel}
                 </div>
             </Carousel>
         </div>

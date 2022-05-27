@@ -22,7 +22,7 @@ const items = [
         icon: <HomeOutlined />,
     },
     {
-        label: <a href="/about">About</a>,
+        label: <a href="">About</a>,
         key: "about",
         icon: <InfoCircleOutlined />,
     },
@@ -60,14 +60,17 @@ export default function MenuItem() {
 
     const onClick = (e) => {
         setCurrent(e.key);
+        alert(e.key)
     };
 
     return (
-        <Menu
-            onClick={onClick}
-            selectedKeys={[current]}
-            mode="horizontal"
-            items={items}
-        />
+        <div className="logoAdj">
+            <Menu
+                onClick={onClick}
+                selectedKeys={[current]}
+                mode="horizontal"
+                items={items} 
+            />
+        </div>
     );
 }

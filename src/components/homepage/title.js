@@ -14,10 +14,14 @@ export default function Heading() {
             />
             ; */}
             <TEDxLogo />
-            <h1 className="Theme">Unravel To Unleash</h1>
-            <div className="eventDate">This 27th August, be the change you want to be.</div>
-            
-            <Button type="primary" className="button" size="large">
+            <h1 className="Theme">
+                Unravel <span className="redText">To</span> Unleash
+            </h1>
+            <div className="eventDate">
+                This 27th August, Be The Change You Want To Be.
+            </div>
+
+            <Button type="default" className="button" size="large">
                 Join today
             </Button>
         </div>

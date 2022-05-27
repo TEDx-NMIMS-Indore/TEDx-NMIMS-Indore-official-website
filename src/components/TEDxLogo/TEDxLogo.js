@@ -1,14 +1,14 @@
 import "./TEDxLogo.scss";
 export default function TEDxLogo() {
     return (
-        <div className="TEDxDiv">
-            <div className="TEDx">
+        <div className="LightTEDxDiv">
+            <div className="LightTEDx">
                 <h1>TED</h1>
-                <span className="x">x</span>
-                <span className="nmimsIndore">NMIMSIndore</span>
+                <span className="Lightx">x</span>
+                <span className="LightnmimsIndore">NMIMSIndore</span>
             </div>
-            <div className="TEDxSecondDiv">
-                <span className="x">X</span><span className="xFullForm">=Independently organized TED event</span>
+            <div className="LightTEDxSecondDiv">
+                <span className="Lightx">x</span><span className="LightxFullForm">=independently organized TED event</span>
             </div>
         </div>
     );

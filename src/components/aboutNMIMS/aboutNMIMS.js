@@ -2,7 +2,9 @@ import "./aboutNMIMS.scss";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import data from "../../masterData.json";
 import { Button } from "antd";
+import ImagesCarousel from "../carousel/carousel";
 import Glass from "../glassSection/glass";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const showMoreButtonComponent = () => {
     if (data.nmimsDescription.showMoreButton) {
@@ -18,10 +20,16 @@ const showMoreButtonComponent = () => {
 
 export default function AboutNMIMS() {
     return (
-        <div className="NMIMSBackground">
-            <img src="images/nmimsCampus.webp" className="nmimsPic" />
-            <h1>About NMIMS</h1>
-            <Glass showHeading={true} heading={data.nmimsDescription.title} content = {data.nmimsDescription.description} />
-        </div>
+        <>
+            <ImagesCarousel />
+            <div className="NMIMSBackground">
+                {/* <img src="images/nmimsCampus.webp" className="nmimsPic" /> */}
+                <div className="headingContentSection">
+                    
+                        <h1 style={{ color: "black" }}>About NMIMS</h1>
+                    <p>{data.nmimsDescription.description}</p>
+                </div>
+            </div>
+        </>
     );
 }

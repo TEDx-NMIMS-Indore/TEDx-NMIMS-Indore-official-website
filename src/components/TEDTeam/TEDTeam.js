@@ -1,6 +1,8 @@
 //* Component for showing up the profile of all the team members in the /team page
 
 import MemberProfile from "./memberProfile/memberProfile";
+import TEDxLogo from "../TEDxLogo/TEDxLogo";
+import DarkTEDxLogo from "../TEDxLogo/darkTEDxLogo";
 import GradientHeading from "../gradientHeading/gradientHeading";
 import "./TEDTeam.scss";
 import data from "../../masterData.json";
@@ -9,21 +11,6 @@ import data from "../../masterData.json";
 
 // Creating the list of components for all the members of all sub-committees one by one
 
-const Organizer = (
-    <div className="membersProfileDiv">
-        {data.teamMembers.Organizer.map((value, index) => {
-            return (
-                <MemberProfile
-                    name={value.name}
-                    introduction={value.introduction}
-                    profileImage={value.profileImage}
-                    post={value.post}
-                    gender={value.gender}
-                />
-            );
-        })}
-    </div>
-);
 
 const AllMembers = [
     "Organizer",
@@ -46,6 +33,7 @@ const AllMembers = [
                 profileImage={value.profileImage}
                 post={value.post}
                 gender={value.gender}
+                key={index}
             />
         );
     });
@@ -54,7 +42,9 @@ const AllMembers = [
 export default function Team() {
     return (
         <div className="TEDTeamBackground">
-            <h1>TEDxNMIMSIndore Team</h1>
+            <h1>Meet The Team</h1>
+            {/* <DarkTEDxLogo /> */}
+
             {/* {Organizer} */}
             <div className="membersProfileDiv">{AllMembers}</div>
         </div>

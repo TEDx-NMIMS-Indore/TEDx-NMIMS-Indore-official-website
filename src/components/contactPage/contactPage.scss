@@ -5,16 +5,17 @@
 }
 
 body {
-    background-color: black !important;
+    background-color: whitesmoke !important;
 }
 
 .contactBackgroundDiv {
     height: 100vh;
-    background-color: white;
-    background-image: url("../../../public/images/redWhiteBg.jpg");
+    background-color: whitesmoke;
 
     @include fixBackgroundImage(true);
-    flex-direction: column;
+    @include centerContentVerticallyHorizontally();
+    flex-direction: row;
+    align-items: center;
     h1{
         font-weight: 500;
             font-size: $defaultHeadingFontSize - 1vw;
@@ -23,36 +24,47 @@ body {
     .contactPageGridDiv {
         display: flex;
         iframe {
-            height: 55vh; // Fibonacci numbers :)
-            width: 34vw;
-            border-radius: $defaultBorderRadius;
+            height: 60vh; // Fibonacci numbers :)
+            width: 80vw;
+            // border-radius: $defaultBorderRadius;
+            border: 0px solid red;
         }
         @include centerContentVerticallyHorizontally();
         div {
             padding: 1vw;
             margin: 1vw;
         }
-        flex-direction: row;
+        flex-direction: column;
         .contactPageGridDivLeft {
-            justify-content: left;
+            justify-content: center;
+            width: 100%;
         }
         .contactPageGridDivRight {
-            justify-content: right;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
             color: black;
+            margin: 0.1vw;
+            margin-bottom: 0;
+            padding: 0.1vw;
+            padding-bottom: 0;
             .socialMedia {
+                width: fit-content;
                 img {
                     width: 3vw;
-                    margin-right: 1vw;
+                    // margin-right: 1vw;
                     // margin-bottom: 0.8vw;
                 }
                 display: flex;
                 align-items: center;
                 font-size: $defaultRegularFontSize;
                 font-weight: 500;
-                background-color: rgba(240, 248, 255, 0.5);
                 cursor: pointer;
                 color: black;
                 border-radius: $defaultBorderRadius;
+                margin: 0.1vw;
             }
             .socialMedia:hover {
                 background-color: rgba(245, 236, 236, 0.5);
@@ -60,5 +72,16 @@ body {
                 box-shadow: 0.2vw 0.2vw 0.2vw black;
             }
         }
+    }
+}
+*{
+    // border: 2px solid red;
+}
+.credits{
+    @include centerContentVerticallyHorizontally();
+    width: 100%;
+    padding: 0;
+    div{
+        margin: 0;
     }
 }

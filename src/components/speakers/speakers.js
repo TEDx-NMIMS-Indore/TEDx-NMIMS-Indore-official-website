@@ -1,4 +1,5 @@
 import MemberProfile from "../TEDTeam/memberProfile/memberProfile";
+import "./speakers.scss"
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import data from "../../masterData.json";
 
@@ -7,7 +8,8 @@ const SpeakersComponents = (
         {data.speakers["2019"].speakersList.map((speakerName, index) => {
             return (
                 <MemberProfile
-                    name={speakerName}
+                    name={speakerName} 
+                    theme="dark"
                     gender={
                         data.speakers["2019"].speakersDescription[speakerName]
                             .gender
@@ -32,9 +34,9 @@ const SpeakersComponents = (
 
 export default function Speakers() {
     return (
-        <div className="TEDTeamBackground membersProfileDiv">
-            <TEDxLogo />
-            {/* <h1>TEDxNMIMSIndore Speakers '19</h1> */}
+        <div className="BlackTEDTeamBackground membersProfileDiv">
+            {/* <TEDxLogo /> */}
+            <h1>Speakers '19</h1>
             {SpeakersComponents}
         </div>
     );

@@ -1,10 +1,12 @@
 @import "../../_globalUtilityScss.scss";
 
-.glass{
+.blackGlass{
     // background-color: rgba(240, 241, 242, 0.7);
     // backdrop-filter: blur(0.1vw);
     // border: 0.1vw solid;
-    // background-color: white;
+    color: white;
+    background-color: black;
+        background-color: rgba(0,0,0,0);
     border-radius: $defaultBorderRadius;
     @include centerContentVerticallyHorizontally();
     padding: 1vw;
@@ -15,14 +17,13 @@
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
         font-size: 5vw;
     }
-        margin-top: -3vw;
-
     @media only screen and (max-width: 1000px) and (orientation: landscape) {
         font-size: 3vw;
     }
-    .glassHeading {
+    .blackGlassHeading {
         h1 {
             font-weight: 500;
+            color: white;
             font-size: $defaultHeadingFontSize - 1vw;
             @media only screen and (max-width: 1000px) and (orientation: portrait) {
                 font-size: 10vw;
@@ -32,13 +33,11 @@
             }
         }
     }
-    .glassContent {
+    .blackGlassContent {
+        background-color: rgba(0,0,0,0);
         font-weight: 500;
         overflow: auto;
         font-size: $defaultRegularFontSize;
     }
     
-}
-*{
-    // border: 2px solid red;
 }
