@@ -1,13 +1,14 @@
 @import "../../_globalUtilityScss.scss";
 
 .aboutTedxNMIMS {
+    height: 100vh;
+    margin-top: 20vh;
     .centerContent {
-        height: 100vh;
         // background-color: black;
         background-image: url("../../../public/images/trialBg1.jpeg");
         background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
         @include fixBackgroundImage();
-
+        height: 130vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -36,4 +37,7 @@
         color: white;
         padding: 1vw;
     }
+}
+*{
+    // border: 2px solid red;
 }

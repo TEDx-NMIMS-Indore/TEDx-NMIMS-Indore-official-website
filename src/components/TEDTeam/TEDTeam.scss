@@ -7,6 +7,8 @@ h1 {
 
 .TEDTeamBackground {
     @include centerContentVerticallyHorizontally();
+    overflow: scroll;
+    margin-top: 35vh;
     // background-image: url("../../../public/images/redWhiteBg.jpg");
     @include fixBackgroundImage();
     @media only screen and (max-width: 1000px) {

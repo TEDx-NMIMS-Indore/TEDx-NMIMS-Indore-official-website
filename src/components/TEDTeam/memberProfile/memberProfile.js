@@ -23,10 +23,7 @@ export default function MemberProfile(props) {
                     alt={"Profile picture of " + props.name}
                     decoding="async"
                 /> */}
-                    <ScrollAnimation
-                        animateIn="bounceInLeft"
-                        animateOut="bounceOutRight"
-                    >
+                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                         <Avatar
                             src={props.profileImage}
                             shape="circle"
@@ -58,10 +55,7 @@ export default function MemberProfile(props) {
                     alt={"Profile picture of " + props.name}
                     decoding="async"
                 /> */}
-                    <ScrollAnimation
-                        animateIn="bounceInRight"
-                        animateOut="bounceOutLeft"
-                    >
+                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                         <Avatar
                             src={props.profileImage}
                             shape="circle"

@@ -7,6 +7,7 @@ import TEDxLogo from "./components/TEDxLogo/TEDxLogo";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
+import ImagesCarousel from "./components/carousel/carousel";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
 import Glass from "./components/glassSection/glass";

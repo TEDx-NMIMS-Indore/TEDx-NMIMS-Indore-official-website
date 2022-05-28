@@ -21,12 +21,12 @@ const showMoreButtonComponent = () => {
 export default function AboutNMIMS() {
     return (
         <>
-            <ImagesCarousel />
+            <ImagesCarousel forPage = "NMIMS"/>
             <div className="NMIMSBackground">
                 {/* <img src="images/nmimsCampus.webp" className="nmimsPic" /> */}
                 <div className="headingContentSection">
                     
-                        <h1 style={{ color: "black" }}>About NMIMS</h1>
+                        <h1 style={{ color: "black" }}>About NMIMS Indore</h1>
                     <p>{data.nmimsDescription.description}</p>
                 </div>
             </div>

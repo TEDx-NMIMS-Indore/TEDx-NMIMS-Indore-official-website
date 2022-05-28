@@ -52,10 +52,14 @@
 
 .eventDate {
     font-size: $defaultRegularFontSize;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
     color: white;
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
     }
+}
+*{
+    // border: 2px solid red;
 }

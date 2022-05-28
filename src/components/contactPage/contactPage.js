@@ -105,7 +105,7 @@ export default function ContactPage() {
                     Website made by:
                     <a
                         href="https://www.linkedin.com/in/sam-varghese-1a7701209/"
-                        target="_blank"
+                        target="_blank" className="spaceClass"
                     >
                         Sam Varghese
                     </a>

@@ -2,6 +2,7 @@ import "./tedxNMIMS.scss";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import data from "../../masterData.json";
 import GradientHeading from "../gradientHeading/gradientHeading";
+import ImagesCarousel from "../carousel/carousel";
 import { Button } from "antd";
 import BlackGlass from "../glassSection/blackGlass";
 
@@ -19,16 +20,18 @@ const showMoreButtonComponent = () => {
 
 export default function TedxNMIMS() {
     return (
-        <div className="aboutTedxNMIMS">
-            {" "}
-            <div className="centerContent">
-                <TEDxLogo />
-                <BlackGlass
-                    heading={data.tedxNMIMSDescription.title}
-                    content={data.tedxNMIMSDescription.description}
-                    showHeading={false}
-                />
+        <>
+            <ImagesCarousel forPage="TEDxNMIMS" />
+            <div className="aboutTedxNMIMS">
+                <div className="centerContent">
+                    <TEDxLogo />
+                    <BlackGlass
+                        heading={data.tedxNMIMSDescription.title}
+                        content={data.tedxNMIMSDescription.description}
+                        showHeading={false}
+                    />
+                </div>
             </div>
-        </div>
+        </>
     );
 }
