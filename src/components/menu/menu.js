@@ -7,7 +7,7 @@ export default function Menu() {
     return (
         <div className="menuDiv">
             <a href="/">
-                <img src="images/TEDxLogo.jpeg" />
+                <img src="images/TedxLogo.jpeg" alt="TEDxNMIMSIndore Logo" />
             </a>
             <div className="menuItem" onClick={(e) => scroll(0)}>
                 Home
