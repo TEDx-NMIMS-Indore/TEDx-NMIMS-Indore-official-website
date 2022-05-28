@@ -1,16 +1,14 @@
-//* Component for showing up the profile of all the team members in the /team page
+// Component for showing up the profile of all the team members in the /team page
 
 import MemberProfile from "./memberProfile/memberProfile";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import DarkTEDxLogo from "../TEDxLogo/darkTEDxLogo";
-import GradientHeading from "../gradientHeading/gradientHeading";
 import "./TEDTeam.scss";
 import data from "../../masterData.json";
 
 // Member details are read from src/masterData.json
 
 // Creating the list of components for all the members of all sub-committees one by one
-
 
 const AllMembers = [
     "Organizer",
@@ -27,6 +25,7 @@ const AllMembers = [
 ].map((element, index) => {
     return data.teamMembers[element].map((value, index) => {
         return (
+            // All the members data get into the MemberProfile component for display
             <MemberProfile
                 name={value.name}
                 introduction={value.introduction}

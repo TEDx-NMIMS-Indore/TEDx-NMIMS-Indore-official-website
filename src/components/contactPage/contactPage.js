@@ -1,5 +1,4 @@
 import "./contactPage.scss";
-import GradientHeading from "../gradientHeading/gradientHeading";
 import { Tooltip } from "antd";
 import data from "../../masterData.json";
 import { Form, Input, Button, Checkbox } from "antd";

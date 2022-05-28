@@ -1,10 +1,7 @@
 import "./aboutNMIMS.scss";
-import GradientHeading from "../gradientHeading/gradientHeading";
 import data from "../../masterData.json";
 import { Button } from "antd";
 import ImagesCarousel from "../carousel/carousel";
-import Glass from "../glassSection/glass";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const showMoreButtonComponent = () => {
     if (data.nmimsDescription.showMoreButton) {

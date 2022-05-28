@@ -3,7 +3,7 @@
 .menuDiv {
     @include centerContentVerticallyHorizontally();
     background-color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
     backdrop-filter: blur(0.1vw);
     
     // box-shadow: 0.5vw 0.5vw 0.5vw white;
@@ -38,8 +38,8 @@
         padding-left: 1vw;
     }
     .menuItem:hover {
-        background-color: #111111;
-        color: white;
+        background-color: white;
+        color: black;
         transition: all;
         transition-duration: 0.5s;
     }

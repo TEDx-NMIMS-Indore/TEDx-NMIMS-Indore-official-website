@@ -2,22 +2,16 @@ import "./App.css";
 import Heading from "./components/homepage/title";
 import Menu from "./components/menu/menu";
 import DarkTEDxLogo from "./components/TEDxLogo/darkTEDxLogo";
-import MenuItem from "./components/homepage/Menu";
 import TEDxLogo from "./components/TEDxLogo/TEDxLogo";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
-import AboutTed from "./components/aboutTed/aboutTedPage1";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import ImagesCarousel from "./components/carousel/carousel";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
-import Glass from "./components/glassSection/glass";
 import { BackTop, Tooltip } from "antd";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ThemeComponent from "./components/TEDTheme/TEDTheme";
 import Team from "./components/TEDTeam/TEDTeam";
-
-// import { ResponsiveNavbar } from "react-hamburger-menus";
-// import "react-hamburger-menus/dist/style.css";
 
 // Some secret console text to showcase the name of contributors :)
 
@@ -44,9 +38,6 @@ const App = () => {
             <Team />
             <Speakers />
             <ContactPage />
-            {/* <AboutNMIMS /> */}
-            {/* <TedxNMIMS /> */}
-            {/* <ContactPage /> */}
         </div>
     );
 };

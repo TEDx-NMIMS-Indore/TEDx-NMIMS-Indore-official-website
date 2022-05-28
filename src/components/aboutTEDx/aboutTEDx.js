@@ -1,7 +1,6 @@
 import "./tedxNMIMS.scss";
 import data from "../../masterData.json";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
-import GradientHeading from "../gradientHeading/gradientHeading";
 import { Button } from "antd";
 import BlackGlass from "../glassSection/glass";
 

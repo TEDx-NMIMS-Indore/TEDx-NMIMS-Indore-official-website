@@ -1,3 +1,5 @@
+// Responsible for the members card in the TEDTeam, and speakers 
+
 import "./memberProfile.scss";
 import Avatar from "antd/lib/avatar";
 import ScrollAnimation from "react-animate-on-scroll";

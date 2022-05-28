@@ -1,6 +1,10 @@
+// Responsible for the appearance of the carousel in the about NMIMS, and about TEDxNMIMSIndore page
+
 import React from "react";
 import "./carousel.scss";
 import { Carousel } from "antd";
+
+// Carousel for the about NMIMS page
 
 const NMIMSCarousel = () => {
     return (
@@ -31,6 +35,8 @@ const NMIMSCarousel = () => {
         </div>
     );
 };
+
+// Carousel for the TEDxNMIMSIndore page
 
 const TEDxNMIMSCarousel = () => {
     return (
@@ -67,6 +73,9 @@ const TEDxNMIMSCarousel = () => {
 };
 
 export default function ImagesCarousel(props) {
+    
+    // The exact carousel to export is determined by the prop it receives, if its NMIMS, then NMIMSCarousel, else TEDxNMIMSCarousel is exported
+
     if (props.forPage == "NMIMS") {
         return NMIMSCarousel();
     } else if (props.forPage == "TEDxNMIMS") {
