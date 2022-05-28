@@ -19,7 +19,7 @@ export default function Menu() {
                 Team
             </div>
             <div className="menuItem" onClick={(e) => scroll(8.3)}>
-                Speakers 2019
+                Speakers '19
             </div>
             <div className="menuItem" onClick={(e) => scroll(12.3)}>
                 Contact
