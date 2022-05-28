@@ -27,7 +27,8 @@
         }
     }
 
-    height: 100vh;
+    height: 80vh;
+    margin-top: 20vh;
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
         height: 100vh;
         p {

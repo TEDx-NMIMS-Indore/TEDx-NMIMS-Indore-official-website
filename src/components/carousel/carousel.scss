@@ -4,14 +4,14 @@
     border: 2px solid red;
 }
 .carouselDiv {
-    background-color: rgba(0,0,0,0.5);
-    
+    background-color: rgba(0, 0, 0, 0.5);
+
     max-height: 50vh;
 }
 
 .carousel {
     height: 20vh;
-    background-color: rgba(255, 255, 255,0);
+    background-color: rgba(255, 255, 255, 0);
     @media only screen and (max-width: 1000px) {
         height: 30%;
     }
@@ -30,8 +30,18 @@
     // justify-content: center;
     // flex-direction: row;
 }
-.centerDivImage{
+.centerDivImage,
+.centerWhiteDivImage {
     background-color: black;
+    @media screen and (max-width: 1000px) {
+        img {
+            width: 100%;
+        }
+    }
     display: flex;
     justify-content: center;
+}
+
+.centerWhiteDivImage {
+    background-color: white;
 }

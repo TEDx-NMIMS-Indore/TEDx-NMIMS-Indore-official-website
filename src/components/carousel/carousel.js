@@ -29,15 +29,19 @@ const NMIMSCarousel = () => {
                                     decoding: "async"
                                 }}
                             ></div> */}
-                            <img src = {imagePath} style={{
-                                    backgroundImage: `url(${imagePath})`,
-                                height: "50vh",
-                                    width: "100vw",
-                                    backgroundSize: "cover",
-                                    backgroundRepeat: "no-repeat",
-                                    backgroundPosition: "center",
-                                    decoding: "async"
-                                }} />
+                            <div className="centerWhiteDivImage">
+                                <img
+                                    src={imagePath}
+                                    style={{
+                                        backgroundImage: `url(${imagePath})`,
+                                        height: "60vh",
+                                        backgroundSize: "cover",
+                                        backgroundRepeat: "no-repeat",
+                                        backgroundPosition: "center",
+                                        decoding: "async",
+                                    }}
+                                />
+                            </div>
                         </div>
                     );
                 })}
@@ -80,7 +84,7 @@ const TEDxNMIMSCarousel = () => {
                                     src={imagePath}
                                     style={{
                                         backgroundImage: `url(${imagePath})`,
-                                        // height: "50vh",
+                                        height: "60vh",
                                         backgroundSize: "cover",
                                         backgroundRepeat: "no-repeat",
                                         backgroundPosition: "center",
