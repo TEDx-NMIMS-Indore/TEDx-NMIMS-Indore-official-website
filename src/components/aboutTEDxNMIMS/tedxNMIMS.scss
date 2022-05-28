@@ -14,7 +14,7 @@
         flex-direction: column;
     }
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
-        height: 150vh;
+        height: 100vh;
     }
     @media only screen and (orientation: landscape) and (max-width: 1000px) {
         height: 200vh;

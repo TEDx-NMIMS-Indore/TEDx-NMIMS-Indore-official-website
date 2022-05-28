@@ -9,10 +9,19 @@ h1 {
     @include centerContentVerticallyHorizontally();
     // background-image: url("../../../public/images/redWhiteBg.jpg");
     @include fixBackgroundImage();
+    @media only screen and (max-width: 1000px) {
+        h1{
+            font-size: 10vw;
+        }
+    }
     background-color: whitesmoke;
+    // background-color: yellow;
     .membersProfileDiv {
         @include centerContentVerticallyHorizontally();
         flex-direction: row;
         align-items: flex-start;
     }
+}
+*{
+    // border: 2px solid red;
 }

@@ -5,7 +5,7 @@ import { Carousel } from "antd";
 const NMIMSCarousel = () => {
     return (
         <div className="carousel">
-            <Carousel style={{ height: "50vh" }} autoplay>
+            <Carousel className="realCarousel" autoplay>
                 {[1, 2, 3, 4, 5, 6, 7].map((element, index) => {
                     const imagePath = "images/NMIMS/" + element + ".jpeg";
                     return (
@@ -14,7 +14,7 @@ const NMIMSCarousel = () => {
                                 className="carouselDiv"
                                 style={{
                                     backgroundImage: `url(${imagePath})`,
-                                    height: "60vh",
+                                    height: "40vh",
                                     backgroundSize: "cover",
                                     backgroundRepeat: "no-repeat",
                                     backgroundPosition: "center",

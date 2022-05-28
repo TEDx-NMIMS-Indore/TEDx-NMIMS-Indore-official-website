@@ -30,7 +30,15 @@ export default function MemberProfile(props) {
                         <Avatar
                             src={props.profileImage}
                             shape="circle"
-                            size={200}
+                            // size={200}
+                            size={{
+                                xs: 100,
+                                sm: 100,
+                                md: 100,
+                                lg: 200,
+                                xl: 200,
+                                xxl: 200,
+                            }}
                         />
                     </ScrollAnimation>
                 </div>
@@ -57,8 +65,16 @@ export default function MemberProfile(props) {
                         <Avatar
                             src={props.profileImage}
                             shape="circle"
-                            size={200} 
-                            alt = {props.name}
+                            // size={200}
+                            size={{
+                                xs: 100,
+                                sm: 100,
+                                md: 100,
+                                lg: 200,
+                                xl: 200,
+                                xxl: 200,
+                            }}
+                            alt={props.name}
                         />
                     </ScrollAnimation>
                 </div>

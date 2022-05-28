@@ -5,31 +5,36 @@
 
     @include centerContentVerticallyHorizontally();
     align-items: center;
-        // border: 2px solid red;
+    // border: 2px solid red;
     justify-content: center;
-    .headingContentSection{
+    .headingContentSection {
         @include centerContentVerticallyHorizontally();
-        h1{
+        h1 {
             font-size: $defaultHeadingFontSize;
         }
-        p{
+        p {
             font-size: $defaultRegularFontSize;
         }
-    }
-    h1, p{
-        // border: 2px solid red;
-    }
-    height: 60vh;
-    @media only screen and (max-width: 1000px) and (orientation: portrait) {
-        height: 150vh;
+        @media only screen and (max-width: 1000px) and (orientation: portrait) {
+        height: 60vh;
+        p{
+
+            font-size: 5vw;
+        }
         // align-items: stretch;
     }
-    @media only screen and (orientation: landscape) and (max-width: 1000px) {
-        height: 300vh;
     }
 
-    // @include fixBackgroundImage(false);
-    h1{
+    height: 60vh;
+    @media only screen and (max-width: 1000px) and (orientation: portrait) {
+        height: 100vh;
+        p{
+
+            font-size: 15vw;
+        }
+        // align-items: stretch;
+    }
+    h1 {
         font-weight: 500;
     }
 }
@@ -57,4 +62,7 @@
         color: black !important;
         font-weight: 600;
     }
+}
+*{
+    // border: 2px solid red;
 }

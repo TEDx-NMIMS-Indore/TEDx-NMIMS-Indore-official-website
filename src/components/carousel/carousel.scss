@@ -6,12 +6,24 @@
 }
 .carouselDiv {
     background-color: white;
-    max-height: 100vh;
+    max-height: 50vh;
+    
 }
 
 .carousel {
-    height: 50vh;
-    background-color: gold;
+    height: 20vh;
+    background-color: white;
+    @media only screen and (max-width: 1000px) {
+        height: 25%;
+    }
+    .realCarousel{
+        height: 25vh;
+    background-color: white;
+        
+        img{
+        height: 25vh;
+        }
+    }
 }
 .center {
     display: flex;

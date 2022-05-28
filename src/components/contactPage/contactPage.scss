@@ -11,15 +11,21 @@ body {
 .contactBackgroundDiv {
     height: 100vh;
     background-color: whitesmoke;
-
     @include fixBackgroundImage(true);
     @include centerContentVerticallyHorizontally();
     flex-direction: row;
     align-items: center;
-    h1{
+    h1 {
         font-weight: 500;
-            font-size: $defaultHeadingFontSize - 1vw;
-            text-align: center;
+        font-size: $defaultHeadingFontSize - 1vw;
+        text-align: center;
+    }
+    @media only screen and (max-width: 1000px) {
+        height: 80vh;
+
+        h1 {
+            font-size: 10vw;
+        }
     }
     .contactPageGridDiv {
         display: flex;
@@ -28,6 +34,9 @@ body {
             width: 80vw;
             // border-radius: $defaultBorderRadius;
             border: 0px solid red;
+            @media only screen and (max-width: 1000px) {
+                height: 50vh;
+            }
         }
         @include centerContentVerticallyHorizontally();
         div {
@@ -37,7 +46,7 @@ body {
         flex-direction: column;
         .contactPageGridDivLeft {
             justify-content: center;
-            width: 100%;
+            // width: 100%;
         }
         .contactPageGridDivRight {
             display: flex;
@@ -65,6 +74,12 @@ body {
                 color: black;
                 border-radius: $defaultBorderRadius;
                 margin: 0.1vw;
+                @media only screen and (max-width: 1000px) {
+                    img {
+                        width: 10vw;
+                        margin: 0.5vw;
+                    }
+                }
             }
             .socialMedia:hover {
                 background-color: rgba(245, 236, 236, 0.5);
@@ -74,14 +89,17 @@ body {
         }
     }
 }
-*{
+* {
     // border: 2px solid red;
 }
-.credits{
+.credits {
     @include centerContentVerticallyHorizontally();
     width: 100%;
     padding: 0;
-    div{
+    div {
         margin: 0;
+    }
+    @media only screen and (max-width: 1000px) {
+        font-size: 5vw;
     }
 }
