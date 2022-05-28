@@ -14,7 +14,7 @@ const NMIMSCarousel = () => {
                                 className="carouselDiv"
                                 style={{
                                     backgroundImage: `url(${imagePath})`,
-                                    height: "40vh",
+                                    height: "50vh",
                                     backgroundSize: "cover",
                                     backgroundRepeat: "no-repeat",
                                     backgroundPosition: "center",

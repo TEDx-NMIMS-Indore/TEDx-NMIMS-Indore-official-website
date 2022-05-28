@@ -2,26 +2,24 @@
 
 .carouselImage {
     border: 2px solid red;
-    
 }
 .carouselDiv {
     background-color: white;
     max-height: 50vh;
-    
 }
 
 .carousel {
     height: 20vh;
     background-color: white;
     @media only screen and (max-width: 1000px) {
-        height: 25%;
+        height: 30%;
     }
-    .realCarousel{
-        height: 25vh;
-    background-color: white;
-        
-        img{
-        height: 25vh;
+    .realCarousel {
+        height: 30vh;
+        background-color: white;
+
+        img {
+            height: 30vh;
         }
     }
 }
