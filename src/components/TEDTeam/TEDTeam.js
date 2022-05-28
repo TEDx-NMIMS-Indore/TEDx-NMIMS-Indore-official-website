@@ -1,8 +1,6 @@
 // Component for showing up the profile of all the team members in the /team page
 
 import MemberProfile from "./memberProfile/memberProfile";
-import TEDxLogo from "../TEDxLogo/TEDxLogo";
-import DarkTEDxLogo from "../TEDxLogo/darkTEDxLogo";
 import "./TEDTeam.scss";
 import data from "../../masterData.json";
 

@@ -7,8 +7,7 @@
 
 .headingDiv {
     background-color: black;
-    // background-image: url("../../../public/images/trialBg1.jpeg");
-    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+    background-image: url("../../../public/images/backgroundImage.png");
     height: 100vh;
     display: flex;
     align-items: center;
@@ -59,7 +58,4 @@
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
     }
-}
-*{
-    // border: 2px solid red;
 }

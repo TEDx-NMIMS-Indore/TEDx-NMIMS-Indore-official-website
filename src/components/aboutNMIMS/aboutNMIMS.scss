@@ -1,8 +1,6 @@
 @import "../../_globalUtilityScss.scss";
 
 .NMIMSBackground {
-    // background-image: url("../../../public/images/redWhiteBg.png");
-
     @include centerContentVerticallyHorizontally();
     align-items: center;
     // border: 2px solid red;

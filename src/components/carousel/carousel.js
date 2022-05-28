@@ -26,6 +26,7 @@ const NMIMSCarousel = () => {
                                     backgroundSize: "cover",
                                     backgroundRepeat: "no-repeat",
                                     backgroundPosition: "center",
+                                    decoding: "async"
                                 }}
                             ></div>
                         </div>
@@ -62,6 +63,7 @@ const TEDxNMIMSCarousel = () => {
                                     backgroundSize: "contain",
                                     backgroundRepeat: "no-repeat",
                                     backgroundPosition: "center",
+                                    decoding: "async"
                                 }}
                             ></div>
                         </div>

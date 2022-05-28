@@ -1,7 +1,6 @@
 import "./contactPage.scss";
 import { Tooltip } from "antd";
 import data from "../../masterData.json";
-import { Form, Input, Button, Checkbox } from "antd";
 
 export default function ContactPage() {
     return (

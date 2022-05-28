@@ -3,13 +3,6 @@ import "antd/dist/antd.css";
 
 import "./eventsCarousel.scss";
 
-const contentStyle = {
-    color: "#fff",
-    lineHeight: "160px",
-    textAlign: "center",
-    background: "#364d79",
-};
-
 const CampusCarousel = (
     <>
         {Array.from({ length: 7 }, (_, index) => index + 1).map(

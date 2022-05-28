@@ -1,16 +1,11 @@
 import "./App.css";
 import Heading from "./components/homepage/title";
 import Menu from "./components/menu/menu";
-import DarkTEDxLogo from "./components/TEDxLogo/darkTEDxLogo";
-import TEDxLogo from "./components/TEDxLogo/TEDxLogo";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
-import ImagesCarousel from "./components/carousel/carousel";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
 import { BackTop, Tooltip } from "antd";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import ThemeComponent from "./components/TEDTheme/TEDTheme";
 import Team from "./components/TEDTeam/TEDTeam";
 
 // Some secret console text to showcase the name of contributors :)

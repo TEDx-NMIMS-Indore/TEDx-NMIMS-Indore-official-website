@@ -1,6 +1,5 @@
 import MemberProfile from "../TEDTeam/memberProfile/memberProfile";
 import "./speakers.scss"
-import TEDxLogo from "../TEDxLogo/TEDxLogo";
 import data from "../../masterData.json";
 
 const SpeakersComponents = (
