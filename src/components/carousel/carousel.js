@@ -18,7 +18,7 @@ const NMIMSCarousel = () => {
                     const imagePath = "images/NMIMS/" + element + ".jpeg";
                     return (
                         <div key={3}>
-                            <div
+                            {/* <div
                                 className="carouselDiv"
                                 style={{
                                     backgroundImage: `url(${imagePath})`,
@@ -28,7 +28,16 @@ const NMIMSCarousel = () => {
                                     backgroundPosition: "center",
                                     decoding: "async"
                                 }}
-                            ></div>
+                            ></div> */}
+                            <img src = {imagePath} style={{
+                                    backgroundImage: `url(${imagePath})`,
+                                height: "50vh",
+                                    width: "100vw",
+                                    backgroundSize: "cover",
+                                    backgroundRepeat: "no-repeat",
+                                    backgroundPosition: "center",
+                                    decoding: "async"
+                                }} />
                         </div>
                     );
                 })}
@@ -55,7 +64,7 @@ const TEDxNMIMSCarousel = () => {
                     const imagePath = element;
                     return (
                         <div key={3}>
-                            <div
+                            {/* <div
                                 className="carouselDiv"
                                 style={{
                                     backgroundImage: `url(${imagePath})`,
@@ -65,7 +74,20 @@ const TEDxNMIMSCarousel = () => {
                                     backgroundPosition: "center",
                                     decoding: "async"
                                 }}
-                            ></div>
+                            ></div> */}
+                            <div className="centerDivImage">
+                                <img
+                                    src={imagePath}
+                                    style={{
+                                        backgroundImage: `url(${imagePath})`,
+                                        // height: "50vh",
+                                        backgroundSize: "cover",
+                                        backgroundRepeat: "no-repeat",
+                                        backgroundPosition: "center",
+                                        decoding: "async",
+                                    }}
+                                />
+                            </div>
                         </div>
                     );
                 })}
