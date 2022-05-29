@@ -67,7 +67,10 @@ export default function Menu() {
             </div>
             <div
                 className="menuItem"
-                onClick={(e) => scroll(1)}
+                onClick={(e) => {
+                    scroll(1);
+                    setAboutState(!getAboutState);
+                }}
                 onMouseEnter={() => {
                     setAboutState(true);
                 }}
@@ -77,7 +80,9 @@ export default function Menu() {
             </div>
             <div
                 className="menuItem"
-                onClick={(e) => scroll(3.1)}
+                onClick={(e) => {
+                    scroll(3.1);
+                }}
                 onMouseEnter={() => {
                     setAboutState(false);
                     setSpeakerState(false);
@@ -87,7 +92,10 @@ export default function Menu() {
             </div>
             <div
                 className="menuItem"
-                onClick={(e) => scroll(8.3)}
+                onClick={(e) => {
+                    scroll(8.3);
+                    setSpeakerState(!getSpeakerState);
+                }}
                 onMouseEnter={() => {
                     setSpeakerState(true);
                 }}
