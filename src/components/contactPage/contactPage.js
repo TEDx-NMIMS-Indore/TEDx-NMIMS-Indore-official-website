@@ -38,28 +38,6 @@ export default function ContactPage() {
                         </a>
                     </Tooltip>
 
-                    {/* EMail ID */}
-                    <Tooltip
-                        color="#000000"
-                        position="topLeft"
-                        title="EMail"
-                        arrowPointAtCenter
-                    >
-                        <a
-                            href={
-                                "mailto:" +
-                                data.tedexNMIMSContactDetails.mail.link
-                            }
-                            target="_blank"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/email.png"
-                                    alt="EMail logo"
-                                />
-                            </div>
-                        </a>
-                    </Tooltip>
                     {/* Facebook */}
                     <Tooltip
                         color="#1877F2"
@@ -75,6 +53,29 @@ export default function ContactPage() {
                                 <img
                                     src="images/icons/facebook.png"
                                     alt="Facebook logo"
+                                />
+                            </div>
+                        </a>
+                    </Tooltip>
+
+                    {/* EMail ID */}
+                    <Tooltip
+                        color="#000000"
+                        position="topLeft"
+                        title="Mail"
+                        arrowPointAtCenter
+                    >
+                        <a
+                            href={
+                                "mailto:" +
+                                data.tedexNMIMSContactDetails.mail.link
+                            }
+                            target="_blank"
+                        >
+                            <div className="socialMedia">
+                                <img
+                                    src="images/icons/email.png"
+                                    alt="EMail logo"
                                 />
                             </div>
                         </a>
@@ -103,7 +104,8 @@ export default function ContactPage() {
                     Website made by:
                     <a
                         href="https://www.linkedin.com/in/sam-varghese-1a7701209/"
-                        target="_blank" className="spaceClass"
+                        target="_blank"
+                        className="spaceClass"
                     >
                         Sam Varghese
                     </a>

@@ -20,6 +20,12 @@ console.log(
     "color: yellow; background-color: black; padding: 1vw;"
 );
 
+// Decode it if you can :)
+
+console.log(
+    `%c- .- .-.. . -. -     .... .. - ...     .-     - .- .-. --. . -     -. ---     --- -. .     . .-.. ... .     -.-. .- -.     .... .. - -·-·-·     --. . -. .. ..- ...     .... .. - ...     .-     - .- .-. --. . -     -. ---     --- -. .     . .-.. ... .     -.-. .- -.     ... . . ·-·-·- -.-. --- -. --. .-. .- - ..- .-.. .- - .. --- -. ...     --- -.     -.. . -.-. --- -.. .. -. --.     - .... .     ... . -.-. .-. . -     -.-. --- -.. . ·-·-·-     -.-- --- ..- ·----· .-. .     .- .-- . ... --- -- . -·-·--`,"color: cyan; background-color: black"
+);
+
 const App = () => {
     return (
         <div className="headingPage">
@@ -38,3 +44,5 @@ const App = () => {
 };
 
 export default App;
+
+//$ Morse
