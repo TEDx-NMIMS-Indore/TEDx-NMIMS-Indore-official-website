@@ -28,6 +28,8 @@ Some information regarding the website and its production:
 - Code editor used: [VSCode](https://code.visualstudio.com/)
 - All images of this repository should be compressed in order to get them loaded as soon as possible.
 - Animations library: [react-animate-on-scroll](https://dbramwell.github.io/react-animate-on-scroll/#home)
+- Deployment: [Amazon Web Services](https://aws.amazon.com/)
+- Service used: [AWS Amplify](https://aws.amazon.com/amplify/?did=ap_card&trk=ap_card)
 
 ---
 

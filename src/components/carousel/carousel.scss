@@ -5,13 +5,13 @@
 }
 .carouselDiv {
     background-color: rgba(0, 0, 0, 0.5);
-
     max-height: 50vh;
 }
 
 .carousel {
     height: 20vh;
     background-color: rgba(255, 255, 255, 0);
+    
     @media only screen and (max-width: 1000px) {
         height: 30%;
     }
@@ -32,7 +32,8 @@
 }
 .centerDivImage,
 .centerWhiteDivImage {
-    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("../../../public/images/backgroundImage.png");
     @media screen and (max-width: 1000px) {
         img {
             width: 100%;
@@ -43,5 +44,8 @@
 }
 
 .centerWhiteDivImage {
-    background-color: white;
+    background-color: whitesmoke;
+}
+*{
+    // border: 2px solid red;
 }
