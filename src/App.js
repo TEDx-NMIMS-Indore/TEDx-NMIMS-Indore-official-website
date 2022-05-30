@@ -7,6 +7,7 @@ import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
 import { BackTop, Tooltip } from "antd";
 import Team from "./components/TEDTeam/TEDTeam";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Some secret console text to showcase the name of contributors :)
 

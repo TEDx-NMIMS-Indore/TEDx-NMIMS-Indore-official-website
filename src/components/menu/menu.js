@@ -25,8 +25,18 @@ export default function Menu() {
                         setAboutState(false);
                     }}
                 >
-                    <div className="subMenuItem">NMIMS Indore</div>
-                    <div className="subMenuItem" onClick={(e) => scroll(3)}>
+                    <div className="subMenuItem" onClick={(e) => {
+                    scroll(1);
+                    }}>
+                        NMIMS Indore
+                    </div>
+                    <div
+                        className="subMenuItem"
+                        onClick={(e) => {
+                            scroll(2);
+                            // setAboutState(!getAboutState);
+                        }}
+                    >
                         TEDxNMIMSIndore
                     </div>
                 </div>
@@ -51,9 +61,9 @@ export default function Menu() {
             window.scrollTo(0, window.innerHeight * pages);
         } else {
             if (window.innerWidth < 1000) {
-            window.scrollTo(0, window.innerHeight * responsivePages);
+                window.scrollTo(0, window.innerHeight * responsivePages);
             } else {
-            window.scrollTo(0, window.innerHeight * pages);
+                window.scrollTo(0, window.innerHeight * pages);
             }
         }
     }
@@ -78,10 +88,10 @@ export default function Menu() {
 
             <div
                 className="menuItem"
-                onClick={(e) => {
-                    scroll(1);
-                    setAboutState(!getAboutState);
-                }}
+                // onClick={(e) => {
+                //     scroll(1);
+                //     setAboutState(!getAboutState);
+                // }}
                 onMouseEnter={() => {
                     setAboutState(true);
                 }}
@@ -125,17 +135,7 @@ export default function Menu() {
             >
                 Sponsors
             </div>
-            <div
-                className="menuItem"
-                onMouseEnter={() => {
-                    setSpeakerState(false);
-                }}
-                onClick={(e) => {
-                    scroll(13.7);
-                }}
-            >
-                Talks
-            </div>
+
             <div
                 className="menuItem"
                 onMouseEnter={() => {
