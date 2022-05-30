@@ -8,7 +8,7 @@ import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
 import { BackTop, Tooltip } from "antd";
 import Team from "./components/TEDTeam/TEDTeam";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Some secret console text to showcase the name of contributors :)
 
 console.log(
@@ -30,18 +30,6 @@ console.log(
 
 const App = () => {
     return (
-        // <div className="headingPage">
-        //     <Tooltip placement="topLeft" title="Back to top" color="grey">
-        //         <BackTop />
-        //     </Tooltip>
-        //     <Menu />
-        //     <Heading />
-        //     <AboutNMIMS id="about" name="about" />
-        //     <TedxNMIMS />
-        //     <Team />
-        //     <Speakers />
-        //     <ContactPage />
-        // </div>
         <Router>
             {/* <Menu /> */}
             <Routes>

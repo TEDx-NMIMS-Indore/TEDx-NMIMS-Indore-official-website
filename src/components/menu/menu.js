@@ -1,21 +1,11 @@
 import "./menu.scss";
 import { useState } from "react";
 
-// const SubmenuDivElements = (
-//     <div>
-//         {const [getAboutState, setAboutState] = useState(true); const element = (
-//         <div className="subMenuItemDiv">
-//             <div className="subMenuItem">NMIMS Indore</div>
-//             <div className="subMenuItem">TEDxNMIMSIndore</div>
-//         </div>
-//         ); return getAboutState ? element : null;}
-//     </div>
-// );
-
 export default function Menu() {
     const [getAboutState, setAboutState] = useState(false);
     const [getSpeakerState, setSpeakerState] = useState(false);
 
+    // Function responsible for returning the element inside sub-menu, and for hiding/ making it appear
     function HideSubMenuDiv(forComponent) {
         if (forComponent == "About") {
             return getAboutState ? (
@@ -25,16 +15,20 @@ export default function Menu() {
                         setAboutState(false);
                     }}
                 >
-                    <div className="subMenuItem" onClick={(e) => {
-                    scroll(1);
-                    }}>
+                    <div
+                        className="subMenuItem"
+                        onClick={(e) => {
+                            scroll(1);
+                            setAboutState(!getAboutState);
+                        }}
+                    >
                         NMIMS Indore
                     </div>
                     <div
                         className="subMenuItem"
                         onClick={(e) => {
                             scroll(2);
-                            // setAboutState(!getAboutState);
+                            setAboutState(!getAboutState);
                         }}
                     >
                         TEDxNMIMSIndore
@@ -56,6 +50,7 @@ export default function Menu() {
         }
     }
 
+    // Function to scroll a page pages*pageHeight times
     function scroll(pages, MakeResponsive = false, responsivePages = 0) {
         if (!MakeResponsive) {
             window.scrollTo(0, window.innerHeight * pages);
@@ -67,6 +62,7 @@ export default function Menu() {
             }
         }
     }
+
     return (
         <div className="menuDiv">
             <a href="/">
@@ -76,22 +72,8 @@ export default function Menu() {
                     decoding="async"
                 />
             </a>
-            {/* <div
-                className="menuItem"
-                onClick={(e) => scroll(0)}
-                onMouseEnter={() => {
-                    setAboutState(false);
-                }}
-            >
-                Home
-            </div> */}
-
             <div
                 className="menuItem"
-                // onClick={(e) => {
-                //     scroll(1);
-                //     setAboutState(!getAboutState);
-                // }}
                 onMouseEnter={() => {
                     setAboutState(true);
                 }}
