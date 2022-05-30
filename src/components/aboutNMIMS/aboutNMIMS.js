@@ -20,7 +20,6 @@ export default function AboutNMIMS() {
         <>
             <ImagesCarousel forPage = "NMIMS"/>
             <div className="NMIMSBackground">
-                {/* <img src="images/nmimsCampus.webp" className="nmimsPic" /> */}
                 <div className="headingContentSection">
                     
                         <h1 style={{ color: "black" }}>About NMIMS Indore</h1>

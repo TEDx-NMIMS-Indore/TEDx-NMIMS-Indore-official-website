@@ -1,12 +1,6 @@
 @import "../../_globalUtilityScss.scss";
 
-.tedLogo {
-    width: 60%;
-    margin: 5%;
-}
-
 .headingDiv {
-    background-color: black;
     background-image: url("../../../public/images/backgroundImage.png");
     height: 100vh;
     display: flex;
@@ -14,18 +8,6 @@
     justify-content: center;
     flex-direction: column;
     @include fixBackgroundImage();
-}
-.tedStyle {
-    color: red;
-    font-weight: 900;
-}
-
-.TEDName {
-    font-size: $defaultHeadingFontSize;
-    font-weight: 550;
-    @media only screen and(max-width: 1000px) {
-        font-size: 10vw;
-    }
 }
 
 .Theme {
@@ -40,14 +22,6 @@
 .redText {
     color: red;
 }
-.smallText {
-    font-size: $defaultRegularFontSize;
-    @media only screen and(max-width: 1000px) {
-        font-size: 5vw;
-    }
-    // border: 2px solid;
-    // margin-top: 0;
-}
 
 .eventDate {
     font-size: $defaultRegularFontSize;
@@ -58,7 +32,4 @@
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
     }
-}
-*{
-    // border: 2px solid red;
 }
