@@ -76,7 +76,7 @@ body {
                 margin: 0.1vw;
                 @media only screen and (max-width: 1000px) {
                     img {
-                        width: 10vw;
+                        width: 5vw;
                         margin: 0.5vw;
                     }
                 }
@@ -100,9 +100,9 @@ body {
         margin: 0;
     }
     @media only screen and (max-width: 1000px) {
-        font-size: 5vw;
+        font-size: 3vw;
     }
-    .spaceClass{
+    .spaceClass {
         margin-left: 0.3vw;
     }
 }

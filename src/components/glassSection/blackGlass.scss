@@ -15,7 +15,7 @@
     // box-shadow: 1vw 1vw 1vw rgb(29, 26, 26);
     font-size: $defaultRegularFontSize;
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
-        font-size: 5vw;
+        font-size: 3vw;
     }
     @media only screen and (max-width: 1000px) and (orientation: landscape) {
         font-size: 3vw;
@@ -39,7 +39,7 @@
         overflow: auto;
         font-size: $defaultRegularFontSize;
         @media only screen and (max-width: 1000px) {
-            font-size: 5vw;
+            font-size: 3vw;
         }
     }
 }

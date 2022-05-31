@@ -6,7 +6,7 @@
     // border: 2px solid red;
     // justify-content: center;
     height: 20vh;
-    div{
+    div {
         border: 2px solid blue;
     }
     margin-top: 5vh;
@@ -26,13 +26,12 @@
         @media only screen and (max-width: 1000px) and (orientation: portrait) {
             height: 60vh;
             p {
-                font-size: 5vw;
+                font-size: 3vw;
             }
             // align-items: stretch;
         }
     }
 
-    
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
         height: 100vh;
         p {

@@ -1,6 +1,6 @@
 @import "../../_globalUtilityScss.scss";
 
-.glass{
+.glass {
     // background-color: rgba(240, 241, 242, 0.7);
     // backdrop-filter: blur(0.1vw);
     // border: 0.1vw solid;
@@ -13,9 +13,9 @@
     // box-shadow: 1vw 1vw 1vw rgb(29, 26, 26);
     font-size: $defaultRegularFontSize;
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
-        font-size: 5vw;
+        font-size: 3vw;
     }
-        margin-top: -3vw;
+    margin-top: -3vw;
 
     @media only screen and (max-width: 1000px) and (orientation: landscape) {
         font-size: 3vw;
@@ -37,8 +37,7 @@
         overflow: auto;
         font-size: $defaultRegularFontSize;
     }
-    
 }
-*{
+* {
     // border: 2px solid red;
 }
