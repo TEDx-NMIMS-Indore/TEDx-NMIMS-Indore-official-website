@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px) {
+    .TEDxNMIMScarousel {
+        // border: 2px solid red;
+        display: flex;
+        // background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .imageDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // flex-direction: column;
+            flex-wrap: wrap !important;
+            img{
+                max-width: 50% !important;
+            }
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+}

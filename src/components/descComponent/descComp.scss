@@ -1,0 +1,29 @@
+@import "../../_globalUtilityScss.scss";
+
+.lightThemeMasterDiv,
+.darkThemeMasterDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: $defaultRegularFontSize;
+    align-items: center;
+    text-align: center;
+    // margin: 1vw;
+    .heading {
+        font-size: $defaultHeadingFontSize;
+        @media screen and (max-width: 1000px) {
+            font-size: 10vw;
+        }
+    }
+    .content {
+        padding: 1vw;
+        @media screen and (max-width: 1000px) {
+            font-size: 5vw;
+        }
+    }
+}
+
+.darkThemeMasterDiv {
+    background-image: url("../../../public/images/backgroundImage.png");
+    color: white;
+}

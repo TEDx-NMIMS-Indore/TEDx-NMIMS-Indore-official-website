@@ -3,6 +3,8 @@ import Heading from "./components/homepage/title";
 import Menu from "./components/menu/menu";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
+import TEDxNMIMSCarousel from "./components/carousel/rough/TEDxNMIMSCarousel";
+import NMIMSCarousel from "./components/carousel/rough/NMIMSCarousel";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
@@ -47,7 +49,9 @@ const App = () => {
                             </Tooltip>
                             <Menu />
                             <Heading />
-                            <AboutNMIMS id="about" name="about" />
+                            <NMIMSCarousel />
+                            <AboutNMIMS />
+                            <TEDxNMIMSCarousel />
                             <TedxNMIMS />
                             <Team />
                             <Speakers />

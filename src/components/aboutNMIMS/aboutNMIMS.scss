@@ -2,9 +2,14 @@
 
 .NMIMSBackground {
     @include centerContentVerticallyHorizontally();
-    align-items: center;
+    // align-items: center;
     // border: 2px solid red;
-    justify-content: center;
+    // justify-content: center;
+    height: 20vh;
+    div{
+        border: 2px solid blue;
+    }
+    margin-top: 5vh;
     .headingContentSection {
         @include centerContentVerticallyHorizontally();
         h1 {
@@ -27,8 +32,7 @@
         }
     }
 
-    height: 80vh;
-    margin-top: 20vh;
+    
     @media only screen and (max-width: 1000px) and (orientation: portrait) {
         height: 100vh;
         p {

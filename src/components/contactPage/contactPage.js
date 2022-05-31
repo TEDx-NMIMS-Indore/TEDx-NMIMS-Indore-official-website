@@ -27,6 +27,7 @@ export default function ContactPage() {
                     >
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             href={data.tedexNMIMSContactDetails.instagram.link}
                         >
                             <div className="socialMedia">
@@ -48,6 +49,7 @@ export default function ContactPage() {
                         <a
                             href={data.tedexNMIMSContactDetails.facebook.link}
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <div className="socialMedia">
                                 <img
@@ -71,6 +73,7 @@ export default function ContactPage() {
                                 data.tedexNMIMSContactDetails.mail.link
                             }
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <div className="socialMedia">
                                 <img
@@ -90,6 +93,7 @@ export default function ContactPage() {
                         <a
                             href={data.tedexNMIMSContactDetails.youtube.link}
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <div className="socialMedia">
                                 <img
@@ -105,6 +109,7 @@ export default function ContactPage() {
                     <a
                         href="https://www.linkedin.com/in/sam-varghese-1a7701209/"
                         target="_blank"
+                        rel="noreferrer"
                         className="spaceClass"
                     >
                         Sam Varghese

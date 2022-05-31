@@ -1,9 +1,7 @@
 @import "../../_globalUtilityScss.scss";
 
 .LightTEDx {
-    // border: 2px solid gold;
     width: fit-content;
-    margin-bottom: 0;
     h1 {
         color: red;
         @media only screen and(max-width: 1000px) {

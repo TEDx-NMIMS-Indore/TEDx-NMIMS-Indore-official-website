@@ -1,16 +1,16 @@
 @import "../../_globalUtilityScss.scss";
 
 .aboutTedxNMIMS {
-    height: 50vh;
+    // height: 50vh;
     text-align: center;
-    margin-bottom: 60vh;
-    background-color: black;
+    // margin-bottom: 60vh;
+    background-color: yellow;
     .centerContent {
         // background-color: black;
         background-image: url("../../../public/images/backgroundImage.png");
         @include fixBackgroundImage();
-        height: 60vh;
-        margin-top: 50vh;
+        // height: 60vh;
+        // margin-top: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -31,7 +31,6 @@
 
 .descSection {
     margin: 1vw;
-    border: 0.2vw solid white;
     border-radius: $defaultBorderRadius;
     @include centerContentVerticallyHorizontally();
 
