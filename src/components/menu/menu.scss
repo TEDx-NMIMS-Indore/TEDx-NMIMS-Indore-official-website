@@ -5,14 +5,14 @@
     margin-top: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    align-items: flex-start;
+    // align-items: flex-start;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(0.1vw);
     border-radius: $defaultBorderRadius;
     flex-wrap: wrap;
     width: 80%;
     padding-right: 1%;
-    padding-left: 1%;
+    // padding-left: 1%;
     margin-right: 10%;
     margin-left: 10%;
     position: fixed;
@@ -22,6 +22,7 @@
         width: $defaultHeadingFontSize + 15;
         // border: 2px solid red;
         padding: 0;
+        margin-left: 0 !important;
     }
     div {
         // margin: 1vw;
@@ -37,7 +38,7 @@
         text-align: center;
         padding-left: 1vw;
         // width: 10vw;
-        margin-left: 0.5vw;
+        // margin-left: 0.5vw;
         margin-right: 0.5vw;
     }
     .menuItem:hover {
