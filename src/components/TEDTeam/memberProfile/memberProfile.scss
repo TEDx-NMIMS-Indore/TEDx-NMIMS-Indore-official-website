@@ -64,6 +64,7 @@
         align-items: center;
         @media only screen and (max-width: 1000px) and (orientation: portrait) {
             font-size: 3vw;
+            height: 40vh;
         }
     }
     margin-bottom: 2vw;
