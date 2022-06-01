@@ -14,6 +14,7 @@ export default function ContactPage() {
                         allowFullScreen=""
                         loading="lazy"
                         alt="Google maps showing NMIMS, Indore's location"
+                    title="NMIMS, Indore location"
                     ></iframe>
                 </div>
                 <div className="contactPageGridDivRight">
