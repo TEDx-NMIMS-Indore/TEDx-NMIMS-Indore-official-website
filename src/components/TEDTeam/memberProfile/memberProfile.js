@@ -11,7 +11,7 @@ export default function MemberProfile(props) {
             <div className="profileDiv">
                 <div className="profileImageDiv">
                     <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                        <Avatar
+                        {/* <Avatar
                             src={props.profileImage}
                             shape="circle"
                             // size={200}
@@ -23,7 +23,8 @@ export default function MemberProfile(props) {
                                 xl: 200,
                                 xxl: 200,
                             }}
-                        />
+                        /> */}
+                        <img src = {props.profileImage} className="avatar" decoding="async"/>
                     </ScrollAnimation>
                 </div>
                 <div className="name">{props.name}</div>
@@ -42,8 +43,8 @@ export default function MemberProfile(props) {
                     alt={"Profile picture of " + props.name}
                     decoding="async"
                 /> */}
-                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                        <Avatar
+                    {/* <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut"> */}
+                    {/* <Avatar
                             src={props.profileImage}
                             shape="circle"
                             // size={200}
@@ -56,8 +57,10 @@ export default function MemberProfile(props) {
                                 xxl: 200,
                             }}
                             alt={props.name}
-                        />
-                    </ScrollAnimation>
+                        /> */}
+                    <img src={props.profileImage} className="avatar" decoding="async"/>
+
+                    {/* </ScrollAnimation> */}
                 </div>
 
                 <div className="name">{props.name}</div>
