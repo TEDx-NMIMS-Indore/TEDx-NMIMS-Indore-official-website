@@ -13,7 +13,7 @@ export default function Heading() {
                 Unravel <span className="redText">To</span> Unleash
             </h1>
             <div className="eventDate">
-                This 27th August, Be The Change You Want To Be.
+                This 27th August, Be The Change You Want To See.
             </div>
             <Button type="default" className="button" size="large">
                 Join today

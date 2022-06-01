@@ -2,6 +2,7 @@
 
 .headingDiv {
     background-image: url("../../../public/images/backgroundImage.webp");
+    background-image: url("../../../public/images/rough/rgh1.jpg");
     height: 100vh;
     display: flex;
     align-items: center;
@@ -30,6 +31,6 @@
     color: white;
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 }

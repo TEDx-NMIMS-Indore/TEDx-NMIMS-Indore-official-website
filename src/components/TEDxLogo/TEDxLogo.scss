@@ -21,7 +21,7 @@
         font-size: 2.5vw;
         @media only screen and(max-width: 1000px) {
             margin-top: 1vw;
-            font-size: 3vw;
+            font-size: 5vw;
         }
     }
     .LightnmimsIndore {
@@ -51,6 +51,7 @@
         font-size: $defaultRegularFontSize;
         @media only screen and(max-width: 1000px) {
             font-size: 3vw;
+            
         }
         color: white;
         // border: 2px solid white;
