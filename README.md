@@ -2,7 +2,7 @@
 
 ---
 
-![TEDx logo](%PUBLIC%/../public/images/tedNMIMSBg.jpg)
+![TEDx logo](%PUBLIC%/../public/images/tedNMIMSBg.webp)
 
 ---
 
@@ -20,24 +20,24 @@ TEDx is a grassroots initiative, created in the spirit of TED’s overall missio
 
 Some information regarding the website and its production:
 
-- Framework used: [React.js](https://reactjs.org)
-- UI library: [Ant-design](https://ant.design/)
-- Background images site: [Pixabay](https://pixabay.com/)
-- Programming language: JavaScript
-- Markup language: [Sass](https://sass-lang.com/)
-- Code editor used: [VSCode](https://code.visualstudio.com/)
-- All images of this repository should be compressed in order to get them loaded as soon as possible.
-- Animations library: [react-animate-on-scroll](https://dbramwell.github.io/react-animate-on-scroll/#home)
-- Deployment: [Amazon Web Services](https://aws.amazon.com/)
-- Service used: [AWS Amplify](https://aws.amazon.com/amplify/?did=ap_card&trk=ap_card)
+-   Framework used: [React.js](https://reactjs.org)
+-   UI library: [Ant-design](https://ant.design/)
+-   Background images site: [Pixabay](https://pixabay.com/)
+-   Programming language: JavaScript
+-   Markup language: [Sass](https://sass-lang.com/)
+-   Code editor used: [VSCode](https://code.visualstudio.com/)
+-   All images of this repository should be compressed in order to get them loaded as soon as possible.
+-   Animations library: [react-animate-on-scroll](https://dbramwell.github.io/react-animate-on-scroll/#home)
+-   Deployment: [Amazon Web Services](https://aws.amazon.com/)
+-   Service used: [AWS Amplify](https://aws.amazon.com/amplify/?did=ap_card&trk=ap_card)
 
 ---
 
 System requirements:
 
-- [Node.js](https://nodejs.org/en/)
-- [VSCode](https://code.visualstudio.com/) (or any code editor)
-- [Git](https://git-scm.com/)
+-   [Node.js](https://nodejs.org/en/)
+-   [VSCode](https://code.visualstudio.com/) (or any code editor)
+-   [Git](https://git-scm.com/)
 
 ---
 
@@ -77,4 +77,4 @@ Here are procedure to make contributions to this project:
 
 ---
 
-We follow *Contributor Covenant Code Of Conduct*. You may read that [here](./CODE_OF_CONDUCT.md). Everybody is requested to adhere to these code of conducts.
+We follow _Contributor Covenant Code Of Conduct_. You may read that [here](./CODE_OF_CONDUCT.md). Everybody is requested to adhere to these code of conducts.

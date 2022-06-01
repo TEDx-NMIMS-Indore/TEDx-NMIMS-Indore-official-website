@@ -4,24 +4,43 @@ import "./NMIMSCarousel.scss";
 
 export default function NMIMSCarousel() {
     return (
-        <Carousel autoPlay = {true} infiniteLoop={true} className="NMIMSCarousel">
+        <Carousel autoPlay={true} infiniteLoop={true} className="NMIMSCarousel">
             <div>
-                <img alt="NMIMS, Indore campus images" decoding="async" src="images/NMIMS/1.jpeg" />
+                <img
+                    alt="NMIMS, Indore campus images"
+                    decoding="async"
+                    src="images/NMIMS/1.webp"
+                />
             </div>
             <div>
-                <img alt="NMIMS, Indore campus images" decoding="async" src="images/NMIMS/2.jpeg" />
+                <img
+                    alt="NMIMS, Indore campus images"
+                    decoding="async"
+                    src="images/NMIMS/2.webp"
+                />
             </div>
             <div>
-                <img alt="NMIMS, Indore campus images" decoding="async" src="images/NMIMS/3.jpeg" />
+                <img
+                    alt="NMIMS, Indore campus images"
+                    decoding="async"
+                    src="images/NMIMS/3.webp"
+                />
             </div>
             <div>
-                <img alt="NMIMS, Indore campus images" decoding="async" src="images/NMIMS/4.jpeg" />
-            </div>
-            
-            <div>
-                <img alt="NMIMS, Indore campus images" decoding="async" src="images/NMIMS/6.jpeg" />
+                <img
+                    alt="NMIMS, Indore campus images"
+                    decoding="async"
+                    src="images/NMIMS/4.webp"
+                />
             </div>
 
+            <div>
+                <img
+                    alt="NMIMS, Indore campus images"
+                    decoding="async"
+                    src="images/NMIMS/6.webp"
+                />
+            </div>
         </Carousel>
     );
 }

@@ -32,7 +32,7 @@ export default function ContactPage() {
                         >
                             <div className="socialMedia">
                                 <img
-                                    src="images/icons/instagram.png"
+                                    src="images/icons/instagram.webp"
                                     alt="Instagram logo"
                                 />
                             </div>
@@ -53,7 +53,7 @@ export default function ContactPage() {
                         >
                             <div className="socialMedia">
                                 <img
-                                    src="images/icons/facebook.png"
+                                    src="images/icons/facebook.webp"
                                     alt="Facebook logo"
                                 />
                             </div>
@@ -77,7 +77,7 @@ export default function ContactPage() {
                         >
                             <div className="socialMedia">
                                 <img
-                                    src="images/icons/email.png"
+                                    src="images/icons/email.webp"
                                     alt="EMail logo"
                                 />
                             </div>
@@ -97,7 +97,7 @@ export default function ContactPage() {
                         >
                             <div className="socialMedia">
                                 <img
-                                    src="images/icons/youtube.png"
+                                    src="images/icons/youtube.webp"
                                     alt="Facebook logo"
                                 />
                             </div>

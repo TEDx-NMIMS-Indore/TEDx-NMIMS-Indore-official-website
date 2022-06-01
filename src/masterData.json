@@ -86,7 +86,7 @@
                 "gender": "Female",
                 "introduction": "Ashri Neema, she is smart and optimistic. In addition to her graceful dance movements, holds the ideal attributes to assure that TEDxNMIMSIndore will be an impressively successful event. She has prior expertise in managing people. With her outstanding leadership abilities, you can make sure that everything is planned and nothing can possibly go wrong. This year she will unlock her potential and think out of the box ideas to make the event better and bigger!",
                 "profileImage": "images/TEDTeam/Ashri.webp"
-},
+            },
             {
                 "post": "Event Head",
                 "name": "Sarthak Waliwadekar",
@@ -134,7 +134,7 @@
                 "gender": "Female",
                 "introduction": "Soumya Nagar, artist by passion doesn't leave a page unturned when it comes to designing and creating something. Her belief of working together and letting the ideas pop out ensures that the task given is completed efficiently. Her managing skills to do work smoothly for every opportunity that comes her way will help us to reach our goals.",
                 "profileImage": "images/TEDTeam/Soumya.webp"
-},
+            },
             {
                 "post": "Design Head (Manual)",
                 "name": "Presksha Bhagwani",
@@ -222,31 +222,31 @@
                     "introduction": "She is a global TEDX speaker who has floored the audience with her hard hitting talks. An upcoming author for a space opera, high fiction book for which she is working with Stanford University, San Francisco. She has completed NanoWriMo writing, one of the toughest courses (from Stanford continuing studies). She has given a week long lecture at the University of Cape Town tostudents from Norway and New Zealand.",
                     "post": "The Modern Head",
                     "gender": "Female",
-                    "profileImage": "images/PastTEDx/Vani-Kabir.png"
+                    "profileImage": "images/PastTEDx/Vani-Kabir.webp"
                 },
                 "Divya Rathod": {
                     "introduction": "She is an student of NMIMS and also the founder of Silvery Nanos. \"A creative way to keep bathroom clean.\" Beside being a co-founder of this company she is also the winner of chancellor challenge 2018. She got selected in ICMR under director where only 2 seats were available on an all India basis.",
                     "post": "The Head",
                     "gender": "Male",
-                    "profileImage": "images/PastTEDx/Divya-Rathod.png"
+                    "profileImage": "images/PastTEDx/Divya-Rathod.webp"
                 },
                 "Karan Shah": {
                     "introduction": "Karan Shah is an Edu-Preneur, TEDx speaker and the Founder & CEO of IIDE - India’s #1 Ed-tech School for Digital Skills. IIDE has trained leading corporations like Mahindra and Mahindra, Volkswagen, Asian Paints, many more. He is a visiting faculty at the IIMs and 14+ Mumbai University colleges. He is a frequent front-page writer for reputed publishings such as Education Times, Forbes, Youth Magazine, Business World etc.",
                     "post": "Founder Head",
                     "gender": "Male",
-                    "profileImage": "images/PastTEDx/Karan-Shah.jpeg"
+                    "profileImage": "images/PastTEDx/Karan-Shah.webp"
                 },
                 "Nihad Panju": {
                     "introduction": "Nihad Panju is a record holder marathon runner. At the age of 5 months, he was diagnosed with Tubercular Meningitis which left him with a left-sided Hemiplegia (partial paralysis caused by brain injury). He believes that people must not allow any kind of disability to prevent you from any of your dreams. It is possible with determination and hard work you can do anything you want to - even if you are told achieving something is impossible. If he can do it, anyone can. ",
                     "post": "Marathon Head",
                     "gender": "Male",
-                    "profileImage": "images/PastTEDx/Nihad-Panju.jpg"
+                    "profileImage": "images/PastTEDx/Nihad-Panju.webp"
                 },
                 "Nikita Sharma": {
                     "introduction": "She participated in Miss India, and finished among the top three finalists in the Karnataka state, and won a slew of sub-titles as well.  But though the glamour world fascinates her, Nikita’s focus is clear today on her cancer activism. Hence she took microbiology degree to research on the same, as well as hold camps, rope in volunteers, conduct workshops and seminars, etc to tell people about the disease. ",
                     "post": "Motivational Head",
                     "gender": "Female",
-                    "profileImage": "images/PastTEDx/Nikita-Sharma.jpg"
+                    "profileImage": "images/PastTEDx/Nikita-Sharma.webp"
                 },
                 "Neha Jain": {
                     "introduction": "Neha started her journey just like any another engineer. Her quest to gain knowledge and to serve people, compelled her to leave a high paying job in software and steer life in another direction. Now a Civil Servant she has no intention to stop. She believes that failures are more important than success as they teach us the most and one should not stop themselves from exploring the inner self and the outside world.",
@@ -270,13 +270,13 @@
                     "introduction": "Every foodie of Indore would be well known to the brand “Chai Kaapi”- an initiative from the burning entrepreneurial mind of Athar Ali Nagpurwala. Mr. Athar Ali started his entrepreneurial journey at the age of 19; he has been the brain behind the debut of many successful startups in Central India. Holding an experience of 10 years in the niche industry, this startup wizard has successfully embarked on his journey to being a distinguished personality.",
                     "post": "Co-Founder Chai Head",
                     "gender": "Male",
-                    "profileImage": "images/PastTEDx/Athar-Ali.jpg"
+                    "profileImage": "images/PastTEDx/Athar-Ali.webp"
                 },
                 "Ankit Aggarwal": {
                     "introduction": "Ankit Aggarwal, Founder & CEO of Dare2compete is a star entrepreneur from IMT Ghaziabad. He founded Dare2Compete with vision of creating a unified platform where colleges and management students could interact, share and compete. He believes that everyone deserves a chance to display, and assess their skills in the rarified field of B-schools competitions.",
                     "post": "Founder Head",
                     "gender": "Male",
-                    "profileImage": "images/PastTEDx/Ankit-Aggarwal.JPG"
+                    "profileImage": "images/PastTEDx/Ankit-Aggarwal.webp"
                 },
                 "Navrajvir Singh": {
                     "introduction": "Navrajvir Singh is an entrepreneur, leader, mentor and a motivational speaker. He has a natural entrepreneurial drive. His overpowering need to create something of his own gave birth to his IT company. His company recently won the Madhya Pradesh brand leadership award. His inspirational speeches are loved by all the students from all the premier institutes of India such as IIM (Indore), Symbiosis (Indore) and PIMR to name a few.",
@@ -303,7 +303,7 @@
     "sponsors": {
         "2019": {
             "Lotus": {
-                "path": "images/sponsors2019/lotus.png"
+                "path": "images/sponsors2019/lotus.webp"
             }
         }
     }

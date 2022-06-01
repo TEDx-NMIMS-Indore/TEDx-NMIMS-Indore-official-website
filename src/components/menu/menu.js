@@ -67,7 +67,7 @@ export default function Menu() {
         <div className="menuDiv">
             <a href="/">
                 <img
-                    src="images/tedxLogo.png"
+                    src="images/tedxLogo.webp"
                     alt="TEDxNMIMSIndore Logo"
                     decoding="async"
                 />
