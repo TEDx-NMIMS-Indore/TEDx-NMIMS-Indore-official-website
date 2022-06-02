@@ -26,10 +26,17 @@
 .eventDate {
     font-size: $defaultRegularFontSize;
     margin-bottom: 2vw;
-    margin-top: -2vw;
+    margin-top: 0vw;
     color: white;
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
     }
+}
+.buttonStyle {
+    padding: 0.5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-weight: 550;
+    border-radius: $defaultBorderRadius;
 }

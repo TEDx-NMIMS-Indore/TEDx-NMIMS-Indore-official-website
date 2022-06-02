@@ -19,14 +19,6 @@ $defaultBorderRadius: 0.5vw;
     flex-wrap: wrap;
 }
 
-// Mixin for making the website responsive
-@mixin makeResponsive() {
-    @media only screen and (max-width: 380px) {
-        $defaultRegularFontSize: 2vw;
-        $defaultHeadingFontSize: 8vw;
-    }
-}
-
 // Mixin for fixing the background image of a web-page
 @mixin fixBackgroundImage($coverImage: true) {
     background-repeat: no-repeat;

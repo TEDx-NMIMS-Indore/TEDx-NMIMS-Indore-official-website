@@ -1,5 +1,4 @@
 import "./contactPage.scss";
-import { Tooltip } from "antd";
 import data from "../../masterData.json";
 
 export default function ContactPage() {
@@ -20,12 +19,7 @@ export default function ContactPage() {
                 <div className="contactPageGridDivRight">
                     {/* Adding usernames, and logos of social media, and mail id */}
                     {/* Instagram */}
-                    <Tooltip
-                        color="#F63285"
-                        position="topLeft"
-                        title="Instagram"
-                        arrowPointAtCenter
-                    >
+                    
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -38,15 +32,9 @@ export default function ContactPage() {
                                 />
                             </div>
                         </a>
-                    </Tooltip>
 
                     {/* Facebook */}
-                    <Tooltip
-                        color="#1877F2"
-                        position="topLeft"
-                        title="Facebook"
-                        arrowPointAtCenter
-                    >
+                    
                         <a
                             href={data.tedexNMIMSContactDetails.facebook.link}
                             target="_blank"
@@ -59,15 +47,9 @@ export default function ContactPage() {
                                 />
                             </div>
                         </a>
-                    </Tooltip>
 
                     {/* EMail ID */}
-                    <Tooltip
-                        color="#000000"
-                        position="topLeft"
-                        title="Mail"
-                        arrowPointAtCenter
-                    >
+                    
                         <a
                             href={
                                 "mailto:" +
@@ -83,14 +65,8 @@ export default function ContactPage() {
                                 />
                             </div>
                         </a>
-                    </Tooltip>
                     {/* YouTube */}
-                    <Tooltip
-                        color="#FF0000"
-                        position="topLeft"
-                        title="YouTube"
-                        arrowPointAtCenter
-                    >
+                    
                         <a
                             href={data.tedexNMIMSContactDetails.youtube.link}
                             target="_blank"
@@ -103,7 +79,7 @@ export default function ContactPage() {
                                 />
                             </div>
                         </a>
-                    </Tooltip>
+                    {/* // </Tooltip> */}
                 </div>
                 <div className="credits">
                     Website made by:

@@ -8,7 +8,7 @@ import NMIMSCarousel from "./components/carousel/rough/NMIMSCarousel";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
-import { BackTop, Tooltip } from "antd";
+
 import Team from "./components/TEDTeam/TEDTeam";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Some secret console text to showcase the name of contributors :)
@@ -40,13 +40,13 @@ const App = () => {
                     path="/"
                     element={
                         <div className="headingPage">
-                            <Tooltip
+                            {/* <Tooltip
                                 placement="topLeft"
                                 title="Back to top"
                                 color="grey"
                             >
                                 <BackTop />
-                            </Tooltip>
+                            </Tooltip> */}
                             <Menu />
                             <Heading />
                             <NMIMSCarousel />

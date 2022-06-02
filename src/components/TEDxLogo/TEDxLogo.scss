@@ -2,6 +2,7 @@
 
 .LightTEDx {
     width: fit-content;
+    height: fit-content;
     h1 {
         color: red;
         @media only screen and(max-width: 1000px) {
@@ -36,7 +37,7 @@
     .LightxFullForm {
         color: white;
         margin: 0.5vw;
-        margin-top: 1.8vw;
+        // margin-top: 1.8vw;
 
         // border: 2px solid white;
     }
@@ -51,11 +52,10 @@
         font-size: $defaultRegularFontSize;
         @media only screen and(max-width: 1000px) {
             font-size: 3vw;
-            
         }
         color: white;
         // border: 2px solid white;
-        margin-top: -2vw;
+        margin-top: 0vw;
         .Lightx {
             color: red;
             font-weight: 900;

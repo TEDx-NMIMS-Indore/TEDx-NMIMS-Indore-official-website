@@ -2,8 +2,6 @@
 
 import "./title.scss";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
-import { Button } from "antd";
-import "antd/dist/antd.css";
 
 export default function Heading() {
     return (
@@ -15,9 +13,9 @@ export default function Heading() {
             <div className="eventDate">
                 This 27th August, Be The Change You Want To See.
             </div>
-            <Button type="default" className="button" size="large">
+            <button className="buttonStyle">
                 Join today
-            </Button>
+            </button>
         </div>
     );
 }
