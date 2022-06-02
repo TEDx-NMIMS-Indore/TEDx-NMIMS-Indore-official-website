@@ -65,69 +65,76 @@ export default function Menu() {
 
     return (
         <div className="menuDiv">
-            <a href="/">
-                <img
-                    src="images/tedxLogo.webp"
-                    alt="TEDxNMIMSIndore Logo"
-                    decoding="async"
-                />
-            </a>
-            <div
-                className="menuItem"
-                onMouseEnter={() => {
-                    setAboutState(true);
-                }}
-            >
-                About
-                {HideSubMenuDiv("About")}
+            <div>
+                <a href="/">
+                    <img
+                        src="images/tedxLogo.webp"
+                        alt="TEDxNMIMSIndore Logo"
+                        decoding="async"
+                    />
+                </a>
             </div>
-            <div
-                className="menuItem"
-                onClick={(e) => {
-                    scroll(3.4, true, 2);
-                }}
-                onMouseEnter={() => {
-                    setAboutState(false);
-                    setSpeakerState(false);
-                }}
-            >
-                Team
-            </div>
-            <div
-                className="menuItem"
-                onClick={(e) => {
-                    scroll(9, true, 7.7);
-                    setSpeakerState(!getSpeakerState);
-                }}
-                onMouseEnter={() => {
-                    setSpeakerState(true);
-                }}
-            >
-                Speakers
-                {HideSubMenuDiv("Speakers")}
-            </div>
-            <div
-                className="menuItem"
-                onMouseEnter={() => {
-                    setSpeakerState(false);
-                }}
-                onClick={(e) => {
-                    scroll(13.7);
-                }}
-            >
-                Sponsors
-            </div>
+            <div className="rtMenu">
+                <div
+                    className="menuItem"
+                    onMouseEnter={() => {
+                        setAboutState(true);
+                    }}
+                    onClick={() => {
+                        setAboutState(!getAboutState);
+                    }}
+                >
+                    About
+                    {HideSubMenuDiv("About")}
+                </div>
+                <div
+                    className="menuItem"
+                    onClick={(e) => {
+                        scroll(3.4, true, 2);
+                    }}
+                    onMouseEnter={() => {
+                        setAboutState(false);
+                        setSpeakerState(false);
+                    }}
+                >
+                    Team
+                </div>
+                <div
+                    className="menuItem"
+                    onClick={(e) => {
+                        scroll(9, true, 7.7);
+                        setSpeakerState(!getSpeakerState);
+                    }}
+                    onMouseEnter={() => {
+                        setSpeakerState(true);
+                    }}
+                >
+                    Speakers
+                    {HideSubMenuDiv("Speakers")}
+                </div>
+                <div
+                    className="menuItem"
+                    onMouseEnter={() => {
+                        setSpeakerState(false);
+                    }}
+                    onClick={(e) => {
+                        scroll(13.7);
+                    }}
+                >
+                    Sponsors
+                </div>
 
-            <div
-                className="menuItem"
-                onMouseEnter={() => {
-                    setSpeakerState(false);
-                }}
-                onClick={(e) => {
-                    scroll(40, true, 40);
-                }}
-            >
-                Contact
+                <div
+                    className="menuItem"
+                    onMouseEnter={() => {
+                        setSpeakerState(false);
+                    }}
+                    onClick={(e) => {
+                        scroll(40, true, 40);
+                    }}
+                >
+                    Contact
+                </div>
             </div>
         </div>
     );
