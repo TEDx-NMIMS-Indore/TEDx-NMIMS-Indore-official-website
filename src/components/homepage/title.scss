@@ -37,6 +37,20 @@
     padding: 0.5vw;
     padding-right: 1vw;
     padding-left: 1vw;
-    font-weight: 550;
+    border: 0.1vw solid black;
+    color: black;
+    font-weight: 500;
     border-radius: $defaultBorderRadius;
+    font-size: $defaultRegularFontSize;
+    @media screen and (max-width: 1000px) {
+        font-size: 4vw;
+        padding: 1.5vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+}
+.buttonStyle:hover{
+    border: 0.1vw solid blue;
+    box-sizing: border-box;
+    color: blue;
 }
