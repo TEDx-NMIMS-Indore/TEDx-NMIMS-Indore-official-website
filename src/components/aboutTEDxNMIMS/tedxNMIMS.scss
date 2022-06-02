@@ -1,16 +1,11 @@
 @import "../../_globalUtilityScss.scss";
 
 .aboutTedxNMIMS {
-    // height: 50vh;
     text-align: center;
-    // margin-bottom: 60vh;
     background-color: yellow;
     .centerContent {
-        // background-color: black;
         background-image: url("../../../public/images/backgroundImage.webp");
         @include fixBackgroundImage();
-        // height: 60vh;
-        // margin-top: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;

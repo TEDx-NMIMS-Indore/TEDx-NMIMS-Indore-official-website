@@ -2,9 +2,6 @@
 
 .NMIMSBackground {
     @include centerContentVerticallyHorizontally();
-    // align-items: center;
-    // border: 2px solid red;
-    // justify-content: center;
     height: 20vh;
     div {
         border: 2px solid blue;
@@ -20,7 +17,6 @@
             margin-left: 4vw;
             text-align: center;
             margin-right: 2vw;
-            // border: 2px solid red;
             padding: 0 !important;
         }
         @media only screen and (max-width: 1000px) and (orientation: portrait) {
@@ -28,7 +24,6 @@
             p {
                 font-size: 3vw;
             }
-            // align-items: stretch;
         }
     }
 
@@ -37,7 +32,6 @@
         p {
             font-size: 15vw;
         }
-        // align-items: stretch;
     }
     h1 {
         font-weight: 700;
@@ -46,7 +40,6 @@
 
 .nmimsPic {
     width: 100%;
-    // border: 2px solid;
     top: 0;
 }
 
@@ -55,7 +48,6 @@
         rgba(127, 185, 193, 0.5),
         rgba(169, 179, 128, 0.5)
     ) !important;
-    // margin: 1vw;
     border: 0.2vw solid white;
     backdrop-filter: blur(0.1vw);
     border-radius: $defaultBorderRadius;
@@ -63,11 +55,7 @@
 
     .descContent {
         font-size: $defaultRegularFontSize;
-        // padding: 1vw;
         color: black !important;
         font-weight: 600;
     }
-}
-* {
-    // border: 2px solid red;
 }

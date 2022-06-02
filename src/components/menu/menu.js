@@ -27,7 +27,7 @@ export default function Menu() {
                     <div
                         className="subMenuItem"
                         onClick={(e) => {
-                            scroll(2);
+                            scroll(3, true, 1.3);
                             setAboutState(!getAboutState);
                         }}
                     >
@@ -84,7 +84,7 @@ export default function Menu() {
             <div
                 className="menuItem"
                 onClick={(e) => {
-                    scroll(3.4, true, 4.4);
+                    scroll(3.4, true, 2);
                 }}
                 onMouseEnter={() => {
                     setAboutState(false);
@@ -96,7 +96,7 @@ export default function Menu() {
             <div
                 className="menuItem"
                 onClick={(e) => {
-                    scroll(9, true, 9.5);
+                    scroll(9, true, 7.7);
                     setSpeakerState(!getSpeakerState);
                 }}
                 onMouseEnter={() => {
@@ -124,7 +124,7 @@ export default function Menu() {
                     setSpeakerState(false);
                 }}
                 onClick={(e) => {
-                    scroll(13.7, true, 14);
+                    scroll(40, true, 40);
                 }}
             >
                 Contact

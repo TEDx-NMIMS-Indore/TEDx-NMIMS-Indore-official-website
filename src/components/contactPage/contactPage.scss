@@ -30,9 +30,8 @@ body {
     .contactPageGridDiv {
         display: flex;
         iframe {
-            height: 60vh; // Fibonacci numbers :)
+            height: 60vh;
             width: 80vw;
-            // border-radius: $defaultBorderRadius;
             border: 0px solid red;
             @media only screen and (max-width: 1000px) {
                 height: 50vh;
@@ -46,7 +45,6 @@ body {
         flex-direction: column;
         .contactPageGridDivLeft {
             justify-content: center;
-            // width: 100%;
         }
         .contactPageGridDivRight {
             display: flex;
@@ -63,8 +61,6 @@ body {
                 width: fit-content;
                 img {
                     width: 3vw;
-                    // margin-right: 1vw;
-                    // margin-bottom: 0.8vw;
                 }
                 display: flex;
                 align-items: center;
@@ -89,9 +85,7 @@ body {
         }
     }
 }
-* {
-    // border: 2px solid red;
-}
+
 .credits {
     @include centerContentVerticallyHorizontally();
     width: 100%;

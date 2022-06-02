@@ -2,7 +2,7 @@
 
 import MemberProfile from "./memberProfile/memberProfile";
 import "./TEDTeam.scss";
-import data from "../../masterData.json";
+import data from "../../membersProfile.json";
 
 // Member details are read from src/masterData.json
 
