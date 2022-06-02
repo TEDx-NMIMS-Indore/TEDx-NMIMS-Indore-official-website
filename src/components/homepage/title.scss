@@ -1,7 +1,6 @@
 @import "../../_globalUtilityScss.scss";
 
 .headingDiv {
-    background-image: url("../../../public/images/backgroundImage.webp");
     background-image: url("../../../public/images/rough/rgh1.jpg");
     height: 100vh;
     display: flex;
@@ -27,10 +26,14 @@
     font-size: $defaultRegularFontSize;
     margin-bottom: 2vw;
     margin-top: 0vw;
+    // border: 2px solid red;
     color: white;
+    
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
+        margin-left: 2vw;
+    margin-right: 2vw;
     }
 }
 .buttonStyle {

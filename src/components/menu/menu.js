@@ -90,7 +90,7 @@ export default function Menu() {
                 <div
                     className="menuItem"
                     onClick={(e) => {
-                        scroll(3.4, true, 2);
+                        scroll(3.4, true, 2.3);
                     }}
                     onMouseEnter={() => {
                         setAboutState(false);
