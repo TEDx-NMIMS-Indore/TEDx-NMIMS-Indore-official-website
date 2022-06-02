@@ -27,7 +27,7 @@ export default function Menu() {
                     <div
                         className="subMenuItem"
                         onClick={(e) => {
-                            scroll(3, true, 1.3);
+                            scroll(3, true, 1.5);
                             setAboutState(!getAboutState);
                         }}
                     >
