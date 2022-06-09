@@ -6,7 +6,7 @@
         color: white;
     }
     @include fixBackgroundImage();
-    background-image: url("../../../public/images/backgroundImage.webp");
+    background-image: url("../../../public/images/backgroundImage1.webp");
 
     .membersProfileDiv {
         @include centerContentVerticallyHorizontally();
