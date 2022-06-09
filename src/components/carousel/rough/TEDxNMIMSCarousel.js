@@ -10,42 +10,42 @@ export default function TEDxNMIMSCarousel() {
         >
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1576.webp"
+                    src="images/PastTEDx/1.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
             </div>
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1584.webp"
+                    src="images/PastTEDx/2.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
             </div>
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1594.webp"
+                    src="images/PastTEDx/3.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
             </div>
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1601.webp"
+                    src="images/PastTEDx/4.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
             </div>
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1612.webp"
+                    src="images/PastTEDx/5.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
             </div>
             <div className="imageDiv">
                 <img
-                    src="images/PastTEDx/IMG_1638.webp"
+                    src="images/PastTEDx/6.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
                 />
