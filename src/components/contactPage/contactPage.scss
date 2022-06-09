@@ -78,9 +78,9 @@ body {
                 }
             }
             .socialMedia:hover {
-                background-color: rgba(245, 236, 236, 0.5);
-                backdrop-filter: blur(0.2vw);
-                box-shadow: 0.2vw 0.2vw 0.2vw black;
+                transform: scale(1.3);
+                transition: all;
+                transition-duration: 0.2s;
             }
         }
     }
@@ -98,5 +98,11 @@ body {
     }
     .spaceClass {
         margin-left: 0.3vw;
+    }
+    a{
+        color: blueviolet;
+    }
+    a:hover{
+        color: red;
     }
 }
