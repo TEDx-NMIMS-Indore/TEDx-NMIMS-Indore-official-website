@@ -64,7 +64,7 @@
             padding: 0.5vw;
             margin-top: 0.5vw;
             text-align: left;
-            border: 0.2vw solid white;
+            border: 0.2vw solid black;
         }
         .subMenuItem:hover {
             border: 0.2vw solid red;
@@ -92,9 +92,7 @@
     transition: all;
     transition-duration: 0.5s;
 }
-*{
-    // border: 2px solid red;
-}
+
 .rtMenu{
     display: flex;
     flex-direction: row;
