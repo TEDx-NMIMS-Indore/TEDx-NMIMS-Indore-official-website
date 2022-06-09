@@ -29,5 +29,7 @@ $defaultBorderRadius: 0.5vw;
         background-size: contain;
     }
     background-position: center;
-    background-attachment: fixed;
+    @media screen and (min-width: 1000px) {
+        background-attachment: fixed;
+    }
 }
