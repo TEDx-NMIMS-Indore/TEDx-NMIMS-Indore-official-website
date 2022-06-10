@@ -2,6 +2,7 @@ import "./App.css";
 import Heading from "./components/homepage/title";
 import Menu from "./components/menu/menu";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
+import Sponsors2019 from "./components/sponsors/sponsors2019/sponsors2019";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import TEDxNMIMSCarousel from "./components/carousel/rough/TEDxNMIMSCarousel";
 import NMIMSCarousel from "./components/carousel/rough/NMIMSCarousel";
@@ -33,7 +34,7 @@ console.log(
 const App = () => {
     return (
         <Router>
-            {/* <Menu /> */}
+            <Menu />
             <Routes>
                 <Route
                     exact
@@ -47,7 +48,7 @@ const App = () => {
                             >
                                 <BackTop />
                             </Tooltip> */}
-                            <Menu />
+                            {/* <Menu /> */}
                             <Heading />
                             <NMIMSCarousel />
                             <AboutNMIMS />
@@ -66,6 +67,15 @@ const App = () => {
                     element={
                         <div>
                             <PageNotFound />
+                        </div>
+                    }></Route>
+                {/* Sponsors page */}
+                <Route
+                    path="/sponsors"
+                    exact={true}
+                    element={
+                        <div>
+                            <Sponsors2019 />
                         </div>
                     }
                 ></Route>

@@ -112,18 +112,16 @@ export default function Menu() {
                     Speakers
                     {HideSubMenuDiv("Speakers")}
                 </div>
-                <div
-                    className="menuItem"
-                    onMouseEnter={() => {
-                        setSpeakerState(false);
-                    }}
-                    onClick={(e) => {
-                        scroll(13.7);
-                    }}
-                >
-                    Sponsors
-                </div>
-
+                <a href="/sponsors">
+                    <div
+                        className="menuItem"
+                        onMouseEnter={() => {
+                            setSpeakerState(false);
+                        }}
+                    >
+                        Sponsors
+                    </div>
+                </a>
                 <div
                     className="menuItem"
                     onMouseEnter={() => {
