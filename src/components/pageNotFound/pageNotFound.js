@@ -43,7 +43,11 @@ export default function PageNotFound() {
                         <article>
                             <p>
                                 Uh oh! Looks like you got lost. <br />
-                                Go back to the homepage if you dare!
+                                Please report to{" "}
+                                <a href="mailto:sam.varg.2003@gmail.com">
+                                    sam.varg.2003@gmail.com
+                                </a>{" "}
+                                how you landed at this page.
                             </p>
                             <a href="/">
                                 <button>i dare!</button>
