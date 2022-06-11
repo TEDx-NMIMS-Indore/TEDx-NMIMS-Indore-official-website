@@ -12,11 +12,13 @@ export default function Sponsors2019() {
                             loading="lazy"
                             decoding="async"
                             src="/images/sponsors2019/panasonic.webp"
+                            alt="Panasonic logo"
                         />
                         <img
                             loading="lazy"
                             decoding="async"
                             src="/images/sponsors2019/lotus.webp"
+                            alt="Lotus electronics logo"
                         />
                     </div>
                 </div>
@@ -26,7 +28,8 @@ export default function Sponsors2019() {
                         <img
                             loading="lazy"
                             decoding="async"
-                            src="/images/sponsors2019/banton.webp"
+                            src="/images/sponsors2019/banton.webp" 
+                            alt="Banton logo"
                         />
                     </div>
                 </div>
@@ -36,12 +39,14 @@ export default function Sponsors2019() {
                         <img
                             loading="lazy"
                             decoding="async"
-                            src="/images/sponsors2019/careerLauncher.webp"
+                            src="/images/sponsors2019/careerLauncher.webp" 
+                            alt="Career Launcher logo"
                         />
                         <img
                             loading="lazy"
                             decoding="async"
-                            src="/images/sponsors2019/Qikme.webp"
+                            src="/images/sponsors2019/Qikme.webp" 
+                            alt="Qikme logo"
                         />
                     </div>
                 </div>
@@ -52,11 +57,13 @@ export default function Sponsors2019() {
                             loading="lazy"
                             decoding="async"
                             src="/images/sponsors2019/STA.webp"
+                            alt="Seize The Ads logo"
                         />
                         <img
                             loading="lazy"
                             decoding="async"
                             src="/images/sponsors2019/daya.webp"
+                            alt="Daya jewellers logo"
                         />
                     </div>
                 </div>
