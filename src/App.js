@@ -34,7 +34,7 @@ console.log(
 const App = () => {
     return (
         <Router>
-            <Menu />
+            {/* <Menu /> */}
             <Routes>
                 <Route
                     exact
@@ -48,7 +48,7 @@ const App = () => {
                             >
                                 <BackTop />
                             </Tooltip> */}
-                            {/* <Menu /> */}
+                            <Menu />
                             <Heading />
                             <NMIMSCarousel />
                             <AboutNMIMS />
@@ -68,13 +68,15 @@ const App = () => {
                         <div>
                             <PageNotFound />
                         </div>
-                    }></Route>
+                    }
+                ></Route>
                 {/* Sponsors page */}
                 <Route
                     path="/sponsors"
                     exact={true}
                     element={
                         <div>
+                            <Menu forPage="newPage"/>
                             <Sponsors2019 />
                         </div>
                     }

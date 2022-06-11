@@ -1,7 +1,7 @@
 import "./menu.scss";
 import { useState } from "react";
 
-export default function Menu() {
+export default function Menu(props) {
     const [getAboutState, setAboutState] = useState(false);
     const [getSpeakerState, setSpeakerState] = useState(false);
 
@@ -62,7 +62,27 @@ export default function Menu() {
             }
         }
     }
-
+    if (props.forPage == "newPage") {
+        return (
+            <div className="menuDiv">
+                <div>
+                    <a href="/">
+                        <img
+                            loading="lazy"
+                            src="images/tedxLogo.webp"
+                            alt="TEDxNMIMSIndore Logo"
+                            decoding="async"
+                        />
+                    </a>
+                </div>
+                <div className="rtMenu">
+                    <a href="/">
+                        <div className="menuItem">Home</div>
+                    </a>
+                </div>
+            </div>
+        );
+    } else {
     return (
         <div className="menuDiv">
             <div>
@@ -136,5 +156,5 @@ export default function Menu() {
                 </div>
             </div>
         </div>
-    );
+    );}
 }
