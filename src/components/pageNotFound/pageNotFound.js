@@ -1,5 +1,6 @@
 import "./pageNotFound.scss";
 export default function PageNotFound() {
+    alert("Oops! this page does not exists. I wonder how you got landed to this page 🤔🤷")
     return (
         <div>
             <section className="wrapper">
@@ -50,7 +51,7 @@ export default function PageNotFound() {
                                 how you landed at this page.
                             </p>
                             <a href="/">
-                                <button>i dare!</button>
+                                <button>Home</button>
                             </a>
                         </article>
                     </div>

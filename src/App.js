@@ -66,6 +66,7 @@ const App = () => {
                     exact={true}
                     element={
                         <div>
+                            <Menu />
                             <PageNotFound />
                         </div>
                     }
@@ -76,7 +77,7 @@ const App = () => {
                     exact={true}
                     element={
                         <div>
-                            <Menu forPage="newPage"/>
+                            <Menu forPage="newPage" />
                             <Sponsors2019 />
                         </div>
                     }
