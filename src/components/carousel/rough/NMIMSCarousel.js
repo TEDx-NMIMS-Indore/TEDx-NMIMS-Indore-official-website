@@ -7,6 +7,7 @@ export default function NMIMSCarousel() {
         <Carousel autoPlay={true} infiniteLoop={true} className="NMIMSCarousel">
             <div>
                 <img
+                    loading="lazy"
                     alt="NMIMS, Indore campus images"
                     decoding="async"
                     src="images/NMIMS/1.webp"
@@ -14,6 +15,7 @@ export default function NMIMSCarousel() {
             </div>
             <div>
                 <img
+                    loading="lazy"
                     alt="NMIMS, Indore campus images"
                     decoding="async"
                     src="images/NMIMS/2.webp"
@@ -21,6 +23,7 @@ export default function NMIMSCarousel() {
             </div>
             <div>
                 <img
+                    loading="lazy"
                     alt="NMIMS, Indore campus images"
                     decoding="async"
                     src="images/NMIMS/3.webp"
@@ -28,6 +31,7 @@ export default function NMIMSCarousel() {
             </div>
             <div>
                 <img
+                    loading="lazy"
                     alt="NMIMS, Indore campus images"
                     decoding="async"
                     src="images/NMIMS/4.webp"
@@ -36,6 +40,7 @@ export default function NMIMSCarousel() {
 
             <div>
                 <img
+                    loading="lazy"
                     alt="NMIMS, Indore campus images"
                     decoding="async"
                     src="images/NMIMS/6.webp"

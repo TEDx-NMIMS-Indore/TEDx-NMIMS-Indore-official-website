@@ -1,21 +1,24 @@
-// Responsible for the members card in the TEDTeam, and speakers 
+// Responsible for the members card in the TEDTeam, and speakers
 
 import "./memberProfile.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 export default function MemberProfile(props) {
-    
     if (props.theme != "dark") {
         return (
             <div className="profileDiv">
                 <div className="profileImageDiv">
-
-                <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                        <img src = {props.profileImage} className="avatar" decoding="async"/>
-                </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                        <img
+                            loading="lazy"
+                            src={props.profileImage}
+                            className="avatar"
+                            decoding="async"
+                        />
+                    </ScrollAnimation>
                 </div>
                 <div className="name">{props.name}</div>
                 <div className="post">{props.post}</div>
-                                
+
                 <div className="introduction">{props.introduction}</div>
             </div>
         );
@@ -23,7 +26,7 @@ export default function MemberProfile(props) {
         return (
             <div className="blackProfileDiv">
                 <div className="profileImageDiv">
-                    {/* <img
+                    {/* <img loading="lazy" 
                     src={props.profileImage}
                     className="profileImage"
                     onError={addDefaultSrc}
@@ -31,7 +34,7 @@ export default function MemberProfile(props) {
                     decoding="async"
                 /> */}
                     <ScrollAnimation animateIn="fadeIn">
-                    {/* <Avatar
+                        {/* <Avatar
                             src={props.profileImage}
                             shape="circle"
                             // size={200}
@@ -45,8 +48,12 @@ export default function MemberProfile(props) {
                             }}
                             alt={props.name}
                         /> */}
-                    <img src={props.profileImage} className="avatar" decoding="async"/>
-
+                        <img
+                            loading="lazy"
+                            src={props.profileImage}
+                            className="avatar"
+                            decoding="async"
+                        />
                     </ScrollAnimation>
                 </div>
 

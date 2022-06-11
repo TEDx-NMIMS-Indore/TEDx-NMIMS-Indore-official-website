@@ -13,72 +13,75 @@ export default function ContactPage() {
                         allowFullScreen=""
                         loading="lazy"
                         alt="Google maps showing NMIMS, Indore's location"
-                    title="NMIMS, Indore location"
+                        title="NMIMS, Indore location"
                     ></iframe>
                 </div>
                 <div className="contactPageGridDivRight">
                     {/* Adding usernames, and logos of social media, and mail id */}
                     {/* Instagram */}
-                    
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={data.tedexNMIMSContactDetails.instagram.link}
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/instagram.webp"
-                                    alt="Instagram logo"
-                                />
-                            </div>
-                        </a>
+
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href={data.tedexNMIMSContactDetails.instagram.link}
+                    >
+                        <div className="socialMedia">
+                            <img
+                                loading="lazy"
+                                src="images/icons/instagram.webp"
+                                alt="Instagram logo"
+                            />
+                        </div>
+                    </a>
 
                     {/* Facebook */}
-                    
-                        <a
-                            href={data.tedexNMIMSContactDetails.facebook.link}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/facebook.webp"
-                                    alt="Facebook logo"
-                                />
-                            </div>
-                        </a>
+
+                    <a
+                        href={data.tedexNMIMSContactDetails.facebook.link}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <div className="socialMedia">
+                            <img
+                                loading="lazy"
+                                src="images/icons/facebook.webp"
+                                alt="Facebook logo"
+                            />
+                        </div>
+                    </a>
 
                     {/* EMail ID */}
-                    
-                        <a
-                            href={
-                                "mailto:" +
-                                data.tedexNMIMSContactDetails.mail.link
-                            }
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/email.webp"
-                                    alt="EMail logo"
-                                />
-                            </div>
-                        </a>
+
+                    <a
+                        href={
+                            "mailto:" + data.tedexNMIMSContactDetails.mail.link
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <div className="socialMedia">
+                            <img
+                                loading="lazy"
+                                src="images/icons/email.webp"
+                                alt="EMail logo"
+                            />
+                        </div>
+                    </a>
                     {/* YouTube */}
-                    
-                        <a
-                            href={data.tedexNMIMSContactDetails.youtube.link}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className="socialMedia">
-                                <img
-                                    src="images/icons/youtube.webp"
-                                    alt="Facebook logo"
-                                />
-                            </div>
-                        </a>
+
+                    <a
+                        href={data.tedexNMIMSContactDetails.youtube.link}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <div className="socialMedia">
+                            <img
+                                loading="lazy"
+                                src="images/icons/youtube.webp"
+                                alt="Facebook logo"
+                            />
+                        </div>
+                    </a>
                     {/* // </Tooltip> */}
                 </div>
                 <div className="credits">

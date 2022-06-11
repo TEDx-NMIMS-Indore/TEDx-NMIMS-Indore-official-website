@@ -68,6 +68,7 @@ export default function Menu() {
             <div>
                 <a href="/">
                     <img
+                        loading="lazy"
                         src="images/tedxLogo.webp"
                         alt="TEDxNMIMSIndore Logo"
                         decoding="async"

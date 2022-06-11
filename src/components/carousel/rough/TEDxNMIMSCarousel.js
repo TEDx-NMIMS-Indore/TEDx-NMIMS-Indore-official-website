@@ -10,6 +10,7 @@ export default function TEDxNMIMSCarousel() {
         >
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/1.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
@@ -17,6 +18,7 @@ export default function TEDxNMIMSCarousel() {
             </div>
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/2.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
@@ -24,6 +26,7 @@ export default function TEDxNMIMSCarousel() {
             </div>
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/3.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
@@ -31,6 +34,7 @@ export default function TEDxNMIMSCarousel() {
             </div>
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/4.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
@@ -38,6 +42,7 @@ export default function TEDxNMIMSCarousel() {
             </div>
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/5.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
@@ -45,6 +50,7 @@ export default function TEDxNMIMSCarousel() {
             </div>
             <div className="imageDiv">
                 <img
+                    loading="lazy"
                     src="images/PastTEDx/6.webp"
                     decoding="async"
                     alt="Previous TEDx pics"
