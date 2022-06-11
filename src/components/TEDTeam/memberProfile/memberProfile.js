@@ -12,7 +12,8 @@ export default function MemberProfile(props) {
                             loading="lazy"
                             src={props.profileImage}
                             className="avatar"
-                            decoding="async"
+                            decoding="async" 
+                            alt={props.name}
                         />
                     </ScrollAnimation>
                 </div>
