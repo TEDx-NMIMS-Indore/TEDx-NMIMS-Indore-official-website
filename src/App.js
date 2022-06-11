@@ -82,6 +82,58 @@ const App = () => {
                         </div>
                     }
                 ></Route>
+                {/* Speakers page */}
+                <Route
+                    path="/speakers"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <Speakers />
+                            </div>
+                        </div>
+                    }
+                ></Route>
+                {/* Team page */}
+                <Route
+                    path="/team"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <Team />
+                            </div>
+                        </div>
+                    }
+                ></Route>
+                {/* Contact page */}
+                <Route
+                    path="/contact"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <ContactPage />
+                            </div>
+                        </div>
+                    }
+                ></Route>
+                {/* Sponsors page */}
+                <Route
+                    path="/sponsors"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <Sponsors2019 />
+                            </div>
+                        </div>
+                    }
+                ></Route>
             </Routes>
         </Router>
     );

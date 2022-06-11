@@ -79,6 +79,18 @@ export default function Menu(props) {
                     <a href="/">
                         <div className="menuItem">Home</div>
                     </a>
+                    <a href="/speakers">
+                        <div className="menuItem">Speakers</div>
+                    </a>
+                    <a href="/team">
+                        <div className="menuItem">Team</div>
+                    </a>
+                    <a href="/sponsors">
+                        <div className="menuItem">Sponsors</div>
+                    </a>
+                    <a href="/contact">
+                        <div className="menuItem">Contact</div>
+                    </a>
                 </div>
             </div>
         );
