@@ -3,7 +3,7 @@ import "../sponsors.scss";
 export default function Sponsors2019() {
     return (
         <div className="masterDiv">
-            <h1>Our Sponsors</h1>
+            <h1>Our Sponsors '19</h1>
             <div className="sponsorsMainDiv">
                 <div className="sponsorCategory">
                     <h2>Title Sponsors</h2>
