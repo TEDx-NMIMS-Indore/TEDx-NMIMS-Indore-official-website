@@ -3,6 +3,13 @@
 import "./title.scss";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 
+const NewLine = () => {
+    if (window.innerWidth < 1000) {
+        return <br />;
+    } else {
+    }
+};
+
 export default function Heading() {
     return (
         <div className="headingDiv">
@@ -11,11 +18,15 @@ export default function Heading() {
                 Unravel <span className="redText">To</span> Unleash
             </h1>
             <div className="eventDate">
-                This 27th August, Be The Change You Want To See.
+                This 27th August
+                <NewLine /> Be The Change You Want To See.
             </div>
-            <button className="buttonStyle">
-                Join today
-            </button>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe-zXQ7wGJCm1z4SiXx8FFElp1ZF-cU3VVWL3bOT2JlGQVanA/viewform?usp=sf_link"
+                target="_blank"
+            >
+                <button className="buttonStyle">Join today</button>
+            </a>
         </div>
     );
 }

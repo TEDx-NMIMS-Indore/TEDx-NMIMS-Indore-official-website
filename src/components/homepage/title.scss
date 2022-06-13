@@ -27,14 +27,16 @@
     font-size: $defaultRegularFontSize;
     margin-bottom: 2vw;
     margin-top: 0vw;
-    // border: 2px solid red;
     color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     @media only screen and(max-width: 1000px) {
         font-size: 5vw;
-        margin-left: 2vw;
-    margin-right: 2vw;
+        text-align: center;
+        // margin-left: 3.5vw;
+        // margin-right: 3.5vw;
     }
 }
 .buttonStyle {
@@ -53,8 +55,9 @@
         padding-left: 2vw;
     }
 }
-.buttonStyle:hover{
+.buttonStyle:hover {
     border: 0.1vw solid blue;
     box-sizing: border-box;
     color: blue;
+    cursor: pointer;
 }
