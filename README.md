@@ -1,12 +1,8 @@
-# TEDxNMIMS, Indore official website
+![TEDx logo](%PUBLIC%/../public/images/tedxLogo.webp)
 
 ---
 
-![TEDx logo](%PUBLIC%/../public/images/tedNMIMSBg.webp)
-
----
-
-This is the official website of TEDxNMIMS, Indore. The source code is available to everyone under the standard [MIT License](https://github.com/TEDx-NMIMS-Indore/TEDx-NMIMS-Indore-official-website/blob/main/LICENSE)
+This is the official website of TEDxNMIMSIndore (tedxnmimsindore.com). The source code is available to everyone under the standard [MIT License](https://github.com/TEDx-NMIMS-Indore/TEDx-NMIMS-Indore-official-website/blob/main/LICENSE)
 
 ---
 
@@ -21,15 +17,16 @@ TEDx is a grassroots initiative, created in the spirit of TED’s overall missio
 Some information regarding the website and its production:
 
 -   Framework used: [React.js](https://reactjs.org)
--   UI library: [Ant-design](https://ant.design/)
--   Background images site: [Pixabay](https://pixabay.com/)
 -   Programming language: JavaScript
 -   Markup language: [Sass](https://sass-lang.com/)
 -   Code editor used: [VSCode](https://code.visualstudio.com/)
--   All images of this repository should be compressed in order to get them loaded as soon as possible.
+-   All images of this repository should be compressed, and converted to webp in order to get them loaded as soon as possible.
 -   Animations library: [react-animate-on-scroll](https://dbramwell.github.io/react-animate-on-scroll/#home)
 -   Deployment: [Amazon Web Services](https://aws.amazon.com/)
+-   Domain: [Amazon Route 53](https://aws.amazon.com/route53/)
+-   Routing: [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 -   Service used: [AWS Amplify](https://aws.amazon.com/amplify/?did=ap_card&trk=ap_card)
+-   Testing: [Jest](https://jestjs.io/) (Use `npm run test` to start tests)
 
 ---
 
@@ -78,3 +75,15 @@ Here are procedure to make contributions to this project:
 ---
 
 We follow _Contributor Covenant Code Of Conduct_. You may read that [here](./CODE_OF_CONDUCT.md). Everybody is requested to adhere to these code of conducts.
+
+---
+
+## Socials
+
+---
+
+- Website (tedxnmimsindore.com)
+- [Instagram](https://www.instagram.com/tedxnmimsindore/)
+- [Facebook](https://www.facebook.com/tedx.nmimsindore.1)
+- [GitHub](https://github.com/TEDx-NMIMS-Indore)
+- [Mail](mailto:tedxnmimsindore19@gmail.com)
