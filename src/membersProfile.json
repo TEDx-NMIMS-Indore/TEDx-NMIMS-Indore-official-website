@@ -1,4 +1,5 @@
-{"teamMembers": {
+{
+    "teamMembers": {
         "Organizer": [
             {
                 "post": "Licensee",
@@ -129,4 +130,5 @@
                 "profileImage": "images/TEDTeam/Arsh-Parvez.webp"
             }
         ]
-    }}
+    }
+}

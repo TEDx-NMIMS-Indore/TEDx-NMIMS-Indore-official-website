@@ -4,7 +4,6 @@ test(`Checking names of speakers`, () => {
     let speakersNames = [
         "Vani Kabir",
         "Divya Rathod",
-        "Karan Shah",
         "Nihad Panju",
         "Nikita Sharma",
         "Neha Jain",
@@ -24,18 +23,21 @@ test(`Checking names of speakers`, () => {
 
 test(`Checking posts of speakers`, () => {
     let speakersNames = {
-        "Vani Kabir": "The Modern Head",
-        "Divya Rathod": "The Modern Head",
-        "Karan Shah": "The Modern Head",
-        "Nihad Panju": "The Modern Head",
-        "Nikita Sharma": "The Modern Head",
-        "Neha Jain": "The Modern Head",
-        "Dilip Auti": "The Modern Head",
-        "Manish Tyagi": "The Modern Head",
-        "Athar Ali Nagpurwala": "The Modern Head",
-        "Ankit Aggarwal": "The Modern Head",
-        "Navrajvir Singh": "The Modern Head",
-        "Rahul Bhatnagar": "The Modern Head",
-        "Tarang Chandola": "The Modern Head",
+        "Vani Kabir": "The Modern Sufi",
+        "Divya Rathod": "The ResearchPreneur",
+        "Nihad Panju": "Marathon Runner",
+        "Nikita Sharma": "Motivational Speaker",
+        "Neha Jain": "Civil Servant",
+        "Dilip Auti": "Life Mentor",
+        "Manish Tyagi": "Knotty Commander",
+        "Athar Ali Nagpurwala": "Co-Founder Chai-Kapi",
+        "Ankit Aggarwal": "Founder Dare2Compete",
+        "Navrajvir Singh": "CEO Raletta Technology",
+        "Rahul Bhatnagar": "Co-Founder, USP",
+        "Tarang Chandola": "Co-Founder CWAT Apps"
     };
+    for (let key in speakersNames) {
+        expect(data.speakers[2019].speakersDescription[key].post).toBe(speakersNames[key])
+        
+    }
 });
