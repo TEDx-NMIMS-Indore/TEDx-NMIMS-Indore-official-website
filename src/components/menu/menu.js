@@ -85,8 +85,8 @@ export default function Menu(props) {
                     <a href="/team">
                         <div className="menuItem">Team</div>
                     </a>
-                    <a href="/sponsors">
-                        <div className="menuItem">Sponsors</div>
+                    <a href="/sponsors2019">
+                        <div className="menuItem">Sponsors '19</div>
                     </a>
                     <a href="/contact">
                         <div className="menuItem">Contact</div>
@@ -145,7 +145,7 @@ export default function Menu(props) {
                     Speakers
                     {HideSubMenuDiv("Speakers")}
                 </div>
-                <a href="/sponsors">
+                <a href="/sponsors2022">
                     <div
                         className="menuItem"
                         onMouseEnter={() => {

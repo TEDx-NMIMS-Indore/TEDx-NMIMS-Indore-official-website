@@ -3,6 +3,7 @@ import Heading from "./components/homepage/title";
 import Menu from "./components/menu/menu";
 import AboutNMIMS from "./components/aboutNMIMS/aboutNMIMS";
 import Sponsors2019 from "./components/sponsors/sponsors2019/sponsors2019";
+import Sponsors2022 from "./components/sponsors/sponsors2022/sponsors2022";
 import TedxNMIMS from "./components/aboutTEDxNMIMS/tedxNMIMS";
 import TEDxNMIMSCarousel from "./components/carousel/rough/TEDxNMIMSCarousel";
 import NMIMSCarousel from "./components/carousel/rough/NMIMSCarousel";
@@ -71,17 +72,6 @@ const App = () => {
                         </div>
                     }
                 ></Route>
-                {/* Sponsors page */}
-                <Route
-                    path="/sponsors"
-                    exact={true}
-                    element={
-                        <div>
-                            <Menu forPage="newPage" />
-                            <Sponsors2019 />
-                        </div>
-                    }
-                ></Route>
                 {/* Speakers page */}
                 <Route
                     path="/speakers"
@@ -123,13 +113,25 @@ const App = () => {
                 ></Route>
                 {/* Sponsors page */}
                 <Route
-                    path="/sponsors"
+                    path="/sponsors2019"
                     exact={true}
                     element={
                         <div>
                             <Menu forPage="newPage" />
                             <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
                                 <Sponsors2019 />
+                            </div>
+                        </div>
+                    }
+                ></Route>
+                <Route
+                    path="/sponsors2022"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <Sponsors2022 />
                             </div>
                         </div>
                     }

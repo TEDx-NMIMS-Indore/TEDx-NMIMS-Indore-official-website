@@ -3,8 +3,9 @@
 .menuDiv {
     @include centerContentVerticallyHorizontally();
     margin-top: 1vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    align-items: center;
+    // padding-top: 1vw;
+    // padding-bottom: 1vw;
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: space-between;
     backdrop-filter: blur(0.1vw);
