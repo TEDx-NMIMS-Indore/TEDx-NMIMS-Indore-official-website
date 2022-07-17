@@ -56,7 +56,7 @@ const App = () => {
                             <TEDxNMIMSCarousel />
                             <TedxNMIMS />
                             <Team />
-                            <Speakers />
+                            <Speakers2022 />
                             <ContactPage />
                         </div>
                     }
@@ -74,7 +74,7 @@ const App = () => {
                 ></Route>
                 {/* Speakers page */}
                 <Route
-                    path="/speakers"
+                    path="/speakers2019"
                     exact={true}
                     element={
                         <div>

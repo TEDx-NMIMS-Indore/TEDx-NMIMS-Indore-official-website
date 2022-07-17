@@ -43,8 +43,12 @@ export default function Menu(props) {
                         setSpeakerState(false);
                     }}
                 >
-                    <div className="subMenuItem">Speakers '19</div>
-                    <div className="subMenuItem">Speakers '22</div>
+                    <a href="/speakers2019">
+                        <div className="subMenuItem">Speakers '19</div>
+                    </a>
+                    <a href="/speakers2022">
+                        <div className="subMenuItem">Speakers '22</div>
+                    </a>
                 </div>
             ) : null;
         }
@@ -95,78 +99,79 @@ export default function Menu(props) {
             </div>
         );
     } else {
-    return (
-        <div className="menuDiv">
-            <div>
-                <a href="/">
-                    <img
-                        loading="lazy"
-                        src="images/tedxLogo.webp"
-                        alt="TEDxNMIMSIndore Logo"
-                        decoding="async"
-                    />
-                </a>
-            </div>
-            <div className="rtMenu">
-                <div
-                    className="menuItem"
-                    onMouseEnter={() => {
-                        setAboutState(true);
-                    }}
-                    onClick={() => {
-                        setAboutState(!getAboutState);
-                    }}
-                >
-                    About
-                    {HideSubMenuDiv("About")}
+        return (
+            <div className="menuDiv">
+                <div>
+                    <a href="/">
+                        <img
+                            loading="lazy"
+                            src="images/tedxLogo.webp"
+                            alt="TEDxNMIMSIndore Logo"
+                            decoding="async"
+                        />
+                    </a>
                 </div>
-                <div
-                    className="menuItem"
-                    onClick={(e) => {
-                        scroll(3.2, true, 2.3);
-                    }}
-                    onMouseEnter={() => {
-                        setAboutState(false);
-                        setSpeakerState(false);
-                    }}
-                >
-                    Team
-                </div>
-                <div
-                    className="menuItem"
-                    onClick={(e) => {
-                        scroll(8.7, true, 7.7);
-                        setSpeakerState(!getSpeakerState);
-                    }}
-                    onMouseEnter={() => {
-                        setSpeakerState(true);
-                    }}
-                >
-                    Speakers
-                    {HideSubMenuDiv("Speakers")}
-                </div>
-                <a href="/sponsors2022">
+                <div className="rtMenu">
+                    <div
+                        className="menuItem"
+                        onMouseEnter={() => {
+                            setAboutState(true);
+                        }}
+                        onClick={() => {
+                            setAboutState(!getAboutState);
+                        }}
+                    >
+                        About
+                        {HideSubMenuDiv("About")}
+                    </div>
+                    <div
+                        className="menuItem"
+                        onClick={(e) => {
+                            scroll(3.2, true, 2.3);
+                        }}
+                        onMouseEnter={() => {
+                            setAboutState(false);
+                            setSpeakerState(false);
+                        }}
+                    >
+                        Team
+                    </div>
+                    <div
+                        className="menuItem"
+                        onClick={(e) => {
+                            scroll(8.7, true, 7.7);
+                            setSpeakerState(!getSpeakerState);
+                        }}
+                        onMouseEnter={() => {
+                            setSpeakerState(true);
+                        }}
+                    >
+                        Speakers
+                        {HideSubMenuDiv("Speakers")}
+                    </div>
+                    <a href="/sponsors2022">
+                        <div
+                            className="menuItem"
+                            onMouseEnter={() => {
+                                setSpeakerState(false);
+                            }}
+                        >
+                            Sponsors
+                        </div>
+                    </a>
                     <div
                         className="menuItem"
                         onMouseEnter={() => {
                             setSpeakerState(false);
                         }}
+                        onClick={(e) => {
+                            scroll(13.2, true, 40);
+                        }}
                     >
-                        Sponsors
+                        Contact
                     </div>
-                </a>
-                <div
-                    className="menuItem"
-                    onMouseEnter={() => {
-                        setSpeakerState(false);
-                    }}
-                    onClick={(e) => {
-                        scroll(13.2, true, 40);
-                    }}
-                >
-                    Contact
                 </div>
             </div>
-        </div>
-    );}
+        );
+    }
 }
