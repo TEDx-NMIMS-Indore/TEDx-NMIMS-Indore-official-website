@@ -10,7 +10,7 @@ import NMIMSCarousel from "./components/carousel/rough/NMIMSCarousel";
 import PageNotFound from "./components/pageNotFound/pageNotFound";
 import ContactPage from "./components/contactPage/contactPage";
 import Speakers from "./components/speakers/speakers";
-
+import Speakers2022 from "./components/speakers/speakers2022";
 import Team from "./components/TEDTeam/TEDTeam";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Some secret console text to showcase the name of contributors :)
@@ -81,6 +81,18 @@ const App = () => {
                             <Menu forPage="newPage" />
                             <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
                                 <Speakers />
+                            </div>
+                        </div>
+                    }
+                ></Route>
+                <Route
+                    path="/speakers2022"
+                    exact={true}
+                    element={
+                        <div>
+                            <Menu forPage="newPage" />
+                            <div style={{paddingTop: "13vh", backgroundColor: "white"}}>
+                                <Speakers2022 />
                             </div>
                         </div>
                     }

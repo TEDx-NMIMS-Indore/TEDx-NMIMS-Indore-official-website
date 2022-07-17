@@ -128,6 +128,49 @@
                     "profileImage": "images/PastTEDx/Tarang-Chandola.webp"
                 }
             }
+        },
+        "2022": {
+            "theme": "",
+            "speakersList": [
+                "Dr Urvashi Sahni",
+                "Avi Sharma",
+                "Major DP Singh",
+                "Shikher Chaudhary",
+                "Tejas K Jain",
+                "Akshay Y.Khobragade"
+            ],
+            "speakersDescription": {
+                "Dr Urvashi Sahni": {
+                    "introduction": "Dr Urvashi Sahni is a social entrepreneur, women’s rights activist, and educationist, who has been active in the field for more than three decades. She is a leading expert in school governance, curriculum reform, and teacher training with a special focus on girls’ education and gender equality. She founded Suraksha (a women’s rights organisation), DiDi’s (a social enterprise for sustainable livelihoods for women), and the Study Hall Educational Foundation (SHEF). Over the last 3 decades, Dr. Sahni’s work, through SHEF and its schools and outreach initiatives, has impacted more than 100,000 teachers and 5 million children, most of whom are girls from disadvantaged communities.",
+                    "post": "Social Entrepreneur",
+                    "profileImage": "images/Speakers2022/Urvashi_Sahni.webp"
+                },
+                "Avi Sharma": {
+                    "introduction": "The Pradhan Mantri Rashtriya Bal Puraskar awardee, child prodigy from Indore, Avi Sharma with young age of 12, is a World book of Record, London & India Book of Record holder. Avi is a child having IQ 161, more than Albert Einstein & famous as wonder boy. He is an author, motivational speaker, youngest mentor of Vedic maths, actor & young coder. He has bagged 20 gold and 1 silver medal in different Olympiads till date.",
+                    "post": "Wonder Boy",
+                    "profileImage": "images/Speakers2022/Avi Sharma.webp"
+                },
+                "Major DP Singh": {
+                    "introduction": "Major D.P. Singh is a retired officer of the Indian Army. He is a Kargil War veteran and is known as India's first blade runner. He is also the first disabled Solo Skydiver of Asia. The Limca Book of Records added his name to their \"People of the Year 2016\" list. In 2018, Govt of India, Ministry of social justice and empowerment conferred him with National award for persons with disabilities under Role model category. In 2019 he was conferred with coveted civilian award, CavinKare Ability Mastery award in recognition of excellence achieved against all odds. He was taken as Ambassador by Indian army for year 2018, which was the year dedicated to soldiers who got disabled in line of duty.",
+                    "post": "India's first blade runner",
+                    "profileImage": "images/Speakers2022/DPSingh.webp"
+                },
+                "Shikher Chaudhary": {
+                    "introduction": "A cognitive neuroscientist, writer and entrepreneur, Shikher Chaudhary is the director of the Indian division of neurons Inc. , a global applied neuroscience company. A graduate from kings college London, Shikher specializes in research on attention and information processing. A certified QEEG practitioner, he made the decision to bring cutting edge neuroscience technology out of the labs and clinical field to the business world.",
+                    "post": "Cognitive Neuroscientist",
+                    "profileImage": "images/Speakers2022/Shikher Chaudhary.webp"
+                },
+                "Tejas K Jain": {
+                    "introduction": "An entrepreneur and business management graduate working to empower learners in the subcontinent to become global leaders by implementing programmes that integrate learning, recreation and improve educational practices. His aim is to create a network of international institutions that resolutely promulgate Leadership development programs, Student growth activities, Internationalism, policy making, diplomacy and bureaucracy programmes. Further, he wishes to utilize this network to build an unrivalled alumni network capable of meeting the demands of world leaders and future dignitaries.",
+                    "post": "Entrepreneur",
+                    "profileImage": "images/Speakers2022/Tejas.webp"
+                },
+                "Akshay Y.Khobragade": {
+                    "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.He has explored 23 states for need identification ,Design and developed value chains across 16 states, monitored and evaluated 67 value chains, 50special & 14 environmental projects across 25 states and 4 UTS.",
+                    "post": "multi-faceted professional",
+                    "profileImage":"images/Speakers2022/Akshay.webp"
+                }
+            }
         }
     },
     "contributors": {},
