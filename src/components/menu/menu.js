@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export default function Menu(props) {
     const [getAboutState, setAboutState] = useState(false);
+    const [getSponsorState, setSponsorState] = useState(false);
     const [getSpeakerState, setSpeakerState] = useState(false);
 
     // Function responsible for returning the element inside sub-menu, and for hiding/ making it appear
@@ -51,6 +52,26 @@ export default function Menu(props) {
                     </a>
                 </div>
             ) : null;
+        } else if (forComponent == "Sponsors") {
+            return getSponsorState ? (
+                <div
+                    className="subMenuItemDiv"
+                    onMouseLeave={() => {
+                        setSponsorState(false);
+                        setSpeakerState(false);
+                    }}
+                    onMouseEnter={() => {
+                        setSpeakerState(false);
+                    }}
+                >
+                    <a href="/sponsors2019">
+                        <div className="subMenuItem">Sponsors '19</div>
+                    </a>
+                    <a href="/sponsors2022">
+                        <div className="subMenuItem">Sponsors '22</div>
+                    </a>
+                </div>
+            ) : null;
         }
     }
 
@@ -83,17 +104,46 @@ export default function Menu(props) {
                     <a href="/">
                         <div className="menuItem">Home</div>
                     </a>
-                    <a href="/speakers">
-                        <div className="menuItem">Speakers</div>
-                    </a>
                     <a href="/team">
-                        <div className="menuItem">Team</div>
+                        <div className="menuItem" onMouseEnter={()=>{setSpeakerState(false)}}>Team</div>
                     </a>
-                    <a href="/sponsors2019">
-                        <div className="menuItem">Sponsors '19</div>
-                    </a>
+                    <div
+                        className="menuItem"
+                        onClick={(e) => {
+                            scroll(8.7, true, 7.7);
+                            setSpeakerState(!getSpeakerState);
+                        }}
+                        onMouseEnter={() => {
+                            setSpeakerState(true);
+                            setSponsorState(false);
+                        }}
+                    >
+                        Speakers
+                        {HideSubMenuDiv("Speakers")}
+                    </div>
+                    <div
+                        className="menuItem"
+                        onClick={(e) => {
+                            scroll(8.7, true, 7.7);
+                            setSponsorState(!getSponsorState);
+                        }}
+                        onMouseEnter={() => {
+                            setSponsorState(true);
+                            setSpeakerState(false);
+                        }}
+                    >
+                        Sponsors
+                        {HideSubMenuDiv("Sponsors")}
+                    </div>
                     <a href="/contact">
-                        <div className="menuItem">Contact</div>
+                        <div
+                            className="menuItem"
+                            onMouseEnter={() => {
+                                setSponsorState(false);
+                            }}
+                        >
+                            Contact
+                        </div>
                     </a>
                 </div>
             </div>
@@ -144,25 +194,31 @@ export default function Menu(props) {
                         }}
                         onMouseEnter={() => {
                             setSpeakerState(true);
+                            setSponsorState(false);
                         }}
                     >
                         Speakers
                         {HideSubMenuDiv("Speakers")}
                     </div>
-                    <a href="/sponsors2022">
-                        <div
-                            className="menuItem"
-                            onMouseEnter={() => {
-                                setSpeakerState(false);
-                            }}
-                        >
-                            Sponsors
-                        </div>
-                    </a>
+                    <div
+                        className="menuItem"
+                        onClick={(e) => {
+                            scroll(8.7, true, 7.7);
+                            setSponsorState(!getSponsorState);
+                        }}
+                        onMouseEnter={() => {
+                            setSponsorState(true);
+                            setSpeakerState(false);
+                        }}
+                    >
+                        Sponsors
+                        {HideSubMenuDiv("Sponsors")}
+                    </div>
                     <div
                         className="menuItem"
                         onMouseEnter={() => {
                             setSpeakerState(false);
+                            setSponsorState(false);
                         }}
                         onClick={(e) => {
                             scroll(13.2, true, 40);
