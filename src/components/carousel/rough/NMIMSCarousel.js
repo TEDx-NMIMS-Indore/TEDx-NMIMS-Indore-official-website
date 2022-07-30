@@ -16,7 +16,7 @@ export default function NMIMSCarousel() {
                 slidesPerView={1}
                 // spaceBetween={30}
                 autoplay={{
-                    delay: 1000,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
                 loop={true}
