@@ -1,13 +1,10 @@
-
-@media screen and (min-width: 1000px) {
-    .NMIMSCarousel{
-        div{
-    
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
+.swiperSlide{
+    display: flex;
+    justify-content: center;
+    img{
+        // object-fit: cover;
+        // height: 80vh;
+        min-height: 50vh;
+        min-width: 50%;
     }
-    
 }

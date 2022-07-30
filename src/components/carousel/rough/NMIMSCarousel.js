@@ -1,51 +1,88 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 import "./NMIMSCarousel.scss";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+
+// import required modules
+import {Autoplay, Pagination, Navigation } from "swiper";
 
 export default function NMIMSCarousel() {
     return (
-        <Carousel autoPlay={true} infiniteLoop={true} className="NMIMSCarousel">
-            <div>
-                <img
-                    loading="lazy"
-                    alt="NMIMS, Indore campus images"
-                    decoding="async"
-                    src="images/NMIMS/1.webp"
-                />
-            </div>
-            <div>
-                <img
-                    loading="lazy"
-                    alt="NMIMS, Indore campus images"
-                    decoding="async"
-                    src="images/NMIMS/2.webp"
-                />
-            </div>
-            <div>
-                <img
-                    loading="lazy"
-                    alt="NMIMS, Indore campus images"
-                    decoding="async"
-                    src="images/NMIMS/3.webp"
-                />
-            </div>
-            <div>
-                <img
-                    loading="lazy"
-                    alt="NMIMS, Indore campus images"
-                    decoding="async"
-                    src="images/NMIMS/4.webp"
-                />
-            </div>
+        <>
+            <Swiper
+                slidesPerView={1}
+                // spaceBetween={30}
+                autoplay={{
+                    delay: 1000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation]}
+                className="mySwiper"
+                centeredSlides={true}
+                centeredSlidesBounds={true}
+                centerInsufficientSlides={true}
+            >
+                <SwiperSlide>
+                    <div className="swiperSlide">
+                        <img
+                            loading="lazy"
+                            alt="NMIMS, Indore campus images"
+                            decoding="async"
+                            src="images/NMIMS/1.webp"
+                        />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="swiperSlide">
+                        <img
+                            loading="lazy"
+                            alt="NMIMS, Indore campus images"
+                            decoding="async"
+                            src="images/NMIMS/2.webp"
+                        />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="swiperSlide">
+                        <img
+                            loading="lazy"
+                            alt="NMIMS, Indore campus images"
+                            decoding="async"
+                            src="images/NMIMS/3.webp"
+                        />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="swiperSlide">
+                        <img
+                            loading="lazy"
+                            alt="NMIMS, Indore campus images"
+                            decoding="async"
+                            src="images/NMIMS/4.webp"
+                        />
+                    </div>
+                </SwiperSlide>
 
-            <div>
-                <img
-                    loading="lazy"
-                    alt="NMIMS, Indore campus images"
-                    decoding="async"
-                    src="images/NMIMS/6.webp"
-                />
-            </div>
-        </Carousel>
+                <SwiperSlide>
+                    <div className="swiperSlide">
+                        <img
+                            loading="lazy"
+                            alt="NMIMS, Indore campus images"
+                            decoding="async"
+                            src="images/NMIMS/6.webp"
+                        />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide class="swiper-scrollbar"></SwiperSlide>
+            </Swiper>
+        </>
     );
 }

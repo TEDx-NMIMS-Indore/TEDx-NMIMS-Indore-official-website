@@ -9,10 +9,10 @@ const SpeakersComponents = (
                 <MemberProfile
                     name={speakerName}
                     theme="dark"
-                    gender={
-                        data.speakers["2022"].speakersDescription[speakerName]
-                            .gender
-                    }
+                    // gender={
+                    //     data.speakers["2022"].speakersDescription[speakerName]
+                    //         .gender
+                    // }
                     post={
                         data.speakers["2022"].speakersDescription[speakerName]
                             .post

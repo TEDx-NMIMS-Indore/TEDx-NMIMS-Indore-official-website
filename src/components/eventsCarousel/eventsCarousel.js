@@ -1,5 +1,5 @@
 import { Carousel } from "antd";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.css";
 
 import "./eventsCarousel.scss";
 

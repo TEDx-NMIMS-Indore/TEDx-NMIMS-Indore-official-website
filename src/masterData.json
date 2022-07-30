@@ -134,7 +134,6 @@
             "speakersList": [
                 "Dr Urvashi Sahni",
                 "Avi Sharma",
-                "Major DP Singh",
                 "Shikher Chaudhary",
                 "Tejas K Jain",
                 "Akshay Y.Khobragade"
@@ -150,11 +149,6 @@
                     "post": "Wonder Boy",
                     "profileImage": "images/Speakers2022/Avi Sharma.webp"
                 },
-                "Major DP Singh": {
-                    "introduction": "Major D.P. Singh is a retired officer of the Indian Army. He is a Kargil War veteran and is known as India's first blade runner. He is also the first disabled Solo Skydiver of Asia. The Limca Book of Records added his name to their \"People of the Year 2016\" list. In 2018, Govt of India, Ministry of social justice and empowerment conferred him with National award for persons with disabilities under Role model category. In 2019 he was conferred with coveted civilian award, CavinKare Ability Mastery award in recognition of excellence achieved against all odds. He was taken as Ambassador by Indian army for year 2018, which was the year dedicated to soldiers who got disabled in line of duty.",
-                    "post": "India's first blade runner",
-                    "profileImage": "images/Speakers2022/DPSingh.webp"
-                },
                 "Shikher Chaudhary": {
                     "introduction": "A cognitive neuroscientist, writer and entrepreneur, Shikher Chaudhary is the director of the Indian division of neurons Inc. , a global applied neuroscience company. A graduate from kings college London, Shikher specializes in research on attention and information processing. A certified QEEG practitioner, he made the decision to bring cutting edge neuroscience technology out of the labs and clinical field to the business world.",
                     "post": "Cognitive Neuroscientist",
@@ -167,7 +161,7 @@
                 },
                 "Akshay Y.Khobragade": {
                     "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.He has explored 23 states for need identification ,Design and developed value chains across 16 states, monitored and evaluated 67 value chains, 50special & 14 environmental projects across 25 states and 4 UTS.",
-                    "post": "multi-faceted prof.",
+                    "post": "Multi-Faceted Prof.",
                     "profileImage":"images/Speakers2022/Akshay.webp"
                 }
             }

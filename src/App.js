@@ -99,6 +99,7 @@ const App = () => {
                 ></Route>
                 {/* Team page */}
                 <Route
+                    
                     path="/team"
                     exact={true}
                     element={
