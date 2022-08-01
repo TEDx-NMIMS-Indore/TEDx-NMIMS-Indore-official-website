@@ -136,11 +136,14 @@
                 "Avi Sharma",
                 "Shikher Chaudhary",
                 "Tejas K Jain",
-                "Akshay Y.Khobragade"
+                "Akshay Y.Khobragade",
+                "Pravin Vijay Tambe",
+                "Rami Niranjan Desai",
+                "Harish Iyer"
             ],
             "speakersDescription": {
                 "Dr Urvashi Sahni": {
-                    "introduction": "Dr Urvashi Sahni is a social entrepreneur, women’s rights activist, and educationist, who has been active in the field for more than three decades. She is a leading expert in school governance, curriculum reform, and teacher training with a special focus on girls’ education and gender equality. She founded Suraksha (a women’s rights organisation), DiDi’s (a social enterprise for sustainable livelihoods for women), and the Study Hall Educational Foundation (SHEF). Over the last 3 decades, Dr. Sahni’s work, through SHEF and its schools and outreach initiatives, has impacted more than 100,000 teachers and 5 million children, most of whom are girls from disadvantaged communities.",
+                    "introduction": "Dr Urvashi Sahni is a social entrepreneur, women’s rights activist, and educationist, who has been active in the field for more than three decades.She founded Suraksha (a women’s rights organisation), DiDi’s (a social enterprise for sustainable livelihoods for women), and the Study Hall Educational Foundation (SHEF). Over the last 3 decades, Dr. Sahni’s work, through SHEF and its schools and outreach initiatives, has impacted more than 100,000 teachers and 5 million children.",
                     "post": "Social Entrepreneur",
                     "profileImage": "images/Speakers2022/Urvashi_Sahni.webp"
                 },
@@ -155,14 +158,29 @@
                     "profileImage": "images/Speakers2022/Shikher Chaudhary.webp"
                 },
                 "Tejas K Jain": {
-                    "introduction": "An entrepreneur and business management graduate working to empower learners in the subcontinent to become global leaders by implementing programmes that integrate learning, recreation and improve educational practices. His aim is to create a network of international institutions that resolutely promulgate Leadership development programs, Student growth activities, Internationalism, policy making, diplomacy and bureaucracy programmes. Further, he wishes to utilize this network to build an unrivalled alumni network capable of meeting the demands of world leaders and future dignitaries.",
+                    "introduction": "An entrepreneur and business management graduate working to empower learners in the subcontinent to become global leaders by implementing programmes that integrate learning, recreation and improve educational practices. His aim is to create a network of international institutions that resolutely promulgate Leadership development programs, Student growth activities, Internationalism, policy making, diplomacy and bureaucracy programmes.",
                     "post": "Entrepreneur",
                     "profileImage": "images/Speakers2022/Tejas.webp"
                 },
                 "Akshay Y.Khobragade": {
-                    "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.He has explored 23 states for need identification ,Design and developed value chains across 16 states, monitored and evaluated 67 value chains, 50special & 14 environmental projects across 25 states and 4 UTS.",
+                    "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.",
                     "post": "Multi-Faceted Prof.",
                     "profileImage":"images/Speakers2022/Akshay.webp"
+                },
+                "Pravin Vijay Tambe": {
+                    "introduction": "Pravin Vijay Tambe  is an Indian cricketer. Tambe made his IPL debut at the age of 41 and became the oldest ever IPL debutant. Rahul Dravid, his chief mentor at Royals had said that Praveen Tambe is an even bigger inspiration than himself. He received an IPL contract with Rajasthan Royals after being spotted by scouts during an invitational T20 tournament where he was noticed for his ability to bowl great variations of leg spin.",
+                    "post": "Indian Cricketer",
+                    "profileImage": "images/Speakers2022/Pravin Tambe.webp"
+                },
+                "Rami Niranjan Desai": {
+                    "introduction": "Rami Niranjan Desai is a NE India Specialist, as founding director of the North East Policy Institute, Guwahati she worked extensively in the area publishing on Insurgency and conflict, religion & social movements. She is presently Director of Pathfinder India Consultancy, an organisation that undertakes research and analysis. She has completed her higher education from King’ College in Theology and Anthropology of Religion. Her media outreach is available on India's leading channels.",
+                    "post": "NE Ind. Specialist",
+                    "profileImage":"images/Speakers2022/Rami Niranjan Desai.webp"
+                },
+                "Harish Iyer": {
+                    "introduction": "Harish Iyer is an Indian equal rights activist. Iyer engages in advocacy for a number of causes, including promoting the rights of the lesbian, gay, bisexual, and transgender (LGBT) community, children, women, animals, and survivors of child sexual abuse. Harish Iyer was also one of the most vocal proponents of the decriminalization of homosexuality in India. He has engaged in several awareness campaigns about the impact of the decision, and condemned the ruling via media advocacy.",
+                    "post": "Eq. Right Activist",
+                    "profileImage": "images/Speakers2022/Harrish Iyer.webp"
                 }
             }
         }
