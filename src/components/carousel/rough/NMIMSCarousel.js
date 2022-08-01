@@ -81,7 +81,7 @@ export default function NMIMSCarousel() {
                         />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide class="swiper-scrollbar"></SwiperSlide>
+                <SwiperSlide className="swiper-scrollbar"></SwiperSlide>
             </Swiper>
         </>
     );

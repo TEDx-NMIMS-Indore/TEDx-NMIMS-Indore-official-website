@@ -8,11 +8,7 @@ const SpeakersComponents = (
             return (
                 <MemberProfile
                     name={speakerName}
-                    theme="dark"
-                    // gender={
-                    //     data.speakers["2022"].speakersDescription[speakerName]
-                    //         .gender
-                    // }
+                    theme="dark" 
                     post={
                         data.speakers["2022"].speakersDescription[speakerName]
                             .post

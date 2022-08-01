@@ -132,55 +132,55 @@
         "2022": {
             "theme": "",
             "speakersList": [
-                "Dr Urvashi Sahni",
-                "Avi Sharma",
-                "Shikher Chaudhary",
-                "Tejas K Jain",
-                "Akshay Y.Khobragade",
                 "Pravin Vijay Tambe",
+                "Dr Urvashi Sahni",
+                "Harish Iyer",
                 "Rami Niranjan Desai",
-                "Harish Iyer"
+                "Anas Khan",
+                "Akshay Y.Khobragade",
+                "Tejas K Jain",
+                "Avi Sharma"
             ],
             "speakersDescription": {
+                "Pravin Vijay Tambe": {
+                    "introduction": "Pravin Vijay Tambe  is an Indian cricketer. Tambe made his IPL debut at the age of 41 and became the oldest ever IPL debutant. Rahul Dravid, his chief mentor at Royals had said that Praveen Tambe is an even bigger inspiration than himself. He received an IPL contract with Rajasthan Royals after being spotted by scouts during an invitational T20 tournament where he was noticed for his ability to bowl great variations of leg spin.",
+                    "post": "Indian Cricketer",
+                    "profileImage": "images/Speakers2022/Pravin Tambe.webp"
+                },
                 "Dr Urvashi Sahni": {
                     "introduction": "Dr Urvashi Sahni is a social entrepreneur, women’s rights activist, and educationist, who has been active in the field for more than three decades.She founded Suraksha (a women’s rights organisation), DiDi’s (a social enterprise for sustainable livelihoods for women), and the Study Hall Educational Foundation (SHEF). Over the last 3 decades, Dr. Sahni’s work, through SHEF and its schools and outreach initiatives, has impacted more than 100,000 teachers and 5 million children.",
                     "post": "Social Entrepreneur",
                     "profileImage": "images/Speakers2022/Urvashi_Sahni.webp"
                 },
-                "Avi Sharma": {
-                    "introduction": "The Pradhan Mantri Rashtriya Bal Puraskar awardee, child prodigy from Indore, Avi Sharma with young age of 12, is a World book of Record, London & India Book of Record holder. Avi is a child having IQ 161, more than Albert Einstein & famous as wonder boy. He is an author, motivational speaker, youngest mentor of Vedic maths, actor & young coder. He has bagged 20 gold and 1 silver medal in different Olympiads till date.",
-                    "post": "Wonder Boy",
-                    "profileImage": "images/Speakers2022/Avi Sharma.webp"
+                "Harish Iyer": {
+                    "introduction": "Harish Iyer is an Indian equal rights activist. Iyer engages in advocacy for a number of causes, including promoting the rights of the lesbian, gay, bisexual, and transgender (LGBT) community, children, women, animals, and survivors of child sexual abuse. Harish Iyer was also one of the most vocal proponents of the decriminalization of homosexuality in India. He has engaged in several awareness campaigns about the impact of the decision, and condemned the ruling via media advocacy.",
+                    "post": "Eq. Right Activist",
+                    "profileImage": "images/Speakers2022/Harrish Iyer.webp"
                 },
-                "Shikher Chaudhary": {
-                    "introduction": "A cognitive neuroscientist, writer and entrepreneur, Shikher Chaudhary is the director of the Indian division of neurons Inc. , a global applied neuroscience company. A graduate from kings college London, Shikher specializes in research on attention and information processing. A certified QEEG practitioner, he made the decision to bring cutting edge neuroscience technology out of the labs and clinical field to the business world.",
-                    "post": "Cognitive Neuroscientist",
-                    "profileImage": "images/Speakers2022/Shikher Chaudhary.webp"
+                "Rami Niranjan Desai": {
+                    "introduction": "Rami Niranjan Desai is a NE India Specialist, as founding director of the North East Policy Institute, Guwahati she worked extensively in the area publishing on Insurgency and conflict, religion & social movements. She is presently Director of Pathfinder India Consultancy, an organisation that undertakes research and analysis. She has completed her higher education from King’ College in Theology and Anthropology of Religion. Her media outreach is available on India's leading channels.",
+                    "post": "NE Ind. Specialist",
+                    "profileImage": "images/Speakers2022/Rami Niranjan Desai.webp"
+                },
+                "Anas Khan": {
+                    "introduction": "Anas Khan is an anthropologist and content creator hailing from Delhi, better known for his visual storytelling platform on Insta. known as Unzip Delhi. He went on to pursue his creative passion in the field of writing, travelling and content creation and it is after embarking on this journey that he discovered a greater meaning to almost everything. He strives to bridge that gap between the orientalist approach and the true state of affairs in various aspects such as history and culture.",
+                    "post": "Content Creator",
+                    "profileImage": "images/Speakers2022/Anas.webp"
+                },
+                "Akshay Y.Khobragade": {
+                    "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.",
+                    "post": "Multi-Faceted Pro",
+                    "profileImage": "images/Speakers2022/Akshay.webp"
                 },
                 "Tejas K Jain": {
                     "introduction": "An entrepreneur and business management graduate working to empower learners in the subcontinent to become global leaders by implementing programmes that integrate learning, recreation and improve educational practices. His aim is to create a network of international institutions that resolutely promulgate Leadership development programs, Student growth activities, Internationalism, policy making, diplomacy and bureaucracy programmes.",
                     "post": "Entrepreneur",
                     "profileImage": "images/Speakers2022/Tejas.webp"
                 },
-                "Akshay Y.Khobragade": {
-                    "introduction": "A multi-faceted professional, acknowledged end to end project management along with consulting: targeting assignments as program manager in the management  consulting/bilateral/multilateral agencies. His background lies in core research and management in the development sector including strategic planning, designing. A competent professional with -6 years of experience in socio-economic development.",
-                    "post": "Multi-Faceted Prof.",
-                    "profileImage":"images/Speakers2022/Akshay.webp"
-                },
-                "Pravin Vijay Tambe": {
-                    "introduction": "Pravin Vijay Tambe  is an Indian cricketer. Tambe made his IPL debut at the age of 41 and became the oldest ever IPL debutant. Rahul Dravid, his chief mentor at Royals had said that Praveen Tambe is an even bigger inspiration than himself. He received an IPL contract with Rajasthan Royals after being spotted by scouts during an invitational T20 tournament where he was noticed for his ability to bowl great variations of leg spin.",
-                    "post": "Indian Cricketer",
-                    "profileImage": "images/Speakers2022/Pravin Tambe.webp"
-                },
-                "Rami Niranjan Desai": {
-                    "introduction": "Rami Niranjan Desai is a NE India Specialist, as founding director of the North East Policy Institute, Guwahati she worked extensively in the area publishing on Insurgency and conflict, religion & social movements. She is presently Director of Pathfinder India Consultancy, an organisation that undertakes research and analysis. She has completed her higher education from King’ College in Theology and Anthropology of Religion. Her media outreach is available on India's leading channels.",
-                    "post": "NE Ind. Specialist",
-                    "profileImage":"images/Speakers2022/Rami Niranjan Desai.webp"
-                },
-                "Harish Iyer": {
-                    "introduction": "Harish Iyer is an Indian equal rights activist. Iyer engages in advocacy for a number of causes, including promoting the rights of the lesbian, gay, bisexual, and transgender (LGBT) community, children, women, animals, and survivors of child sexual abuse. Harish Iyer was also one of the most vocal proponents of the decriminalization of homosexuality in India. He has engaged in several awareness campaigns about the impact of the decision, and condemned the ruling via media advocacy.",
-                    "post": "Eq. Right Activist",
-                    "profileImage": "images/Speakers2022/Harrish Iyer.webp"
+                "Avi Sharma": {
+                    "introduction": "The Pradhan Mantri Rashtriya Bal Puraskar awardee, child prodigy from Indore, Avi Sharma with young age of 12, is a World book of Record, London & India Book of Record holder. Avi is a child having IQ 161, more than Albert Einstein & famous as wonder boy. He is an author, motivational speaker, youngest mentor of Vedic maths, actor & young coder. He has bagged 20 gold and 1 silver medal in different Olympiads till date.",
+                    "post": "Wonder Boy",
+                    "profileImage": "images/Speakers2022/Avi Sharma.webp"
                 }
             }
         }

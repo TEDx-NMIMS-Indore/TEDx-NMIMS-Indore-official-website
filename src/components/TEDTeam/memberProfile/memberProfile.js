@@ -19,7 +19,6 @@ export default function MemberProfile(props) {
                 </div>
                 <div className="name">{props.name}</div>
                 <div className="post">{props.post}</div>
-
                 <div className="introduction">{props.introduction}</div>
             </div>
         );
