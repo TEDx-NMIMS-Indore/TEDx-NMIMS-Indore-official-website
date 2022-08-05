@@ -132,18 +132,19 @@
         "2022": {
             "theme": "",
             "speakersList": [
-                "Pravin Vijay Tambe",
+                "Pravin Tambe",
                 "Dr Urvashi Sahni",
                 "Harish Iyer",
                 "Rami Niranjan Desai",
                 "Anas Khan",
                 "Akshay Y.Khobragade",
                 "Tejas K Jain",
+                "Surinder bagha",
                 "Avi Sharma"
             ],
             "speakersDescription": {
-                "Pravin Vijay Tambe": {
-                    "introduction": "Pravin Vijay Tambe  is an Indian cricketer. Tambe made his IPL debut at the age of 41 and became the oldest ever IPL debutant. Rahul Dravid, his chief mentor at Royals had said that Praveen Tambe is an even bigger inspiration than himself. He received an IPL contract with Rajasthan Royals after being spotted by scouts during an invitational T20 tournament where he was noticed for his ability to bowl great variations of leg spin.",
+                "Pravin Tambe": {
+                    "introduction": "Pravin Tambe  is an Indian cricketer. Tambe made his IPL debut at the age of 41 and became the oldest ever IPL debutant. Rahul Dravid, his chief mentor at Royals had said that Praveen Tambe is an even bigger inspiration than himself. He received an IPL contract with Rajasthan Royals after being spotted by scouts during an invitational T20 tournament where he was noticed for his ability to bowl great variations of leg spin.",
                     "post": "Indian Cricketer",
                     "profileImage": "images/Speakers2022/Pravin Tambe.webp"
                 },
@@ -154,12 +155,12 @@
                 },
                 "Harish Iyer": {
                     "introduction": "Harish Iyer is an Indian equal rights activist. Iyer engages in advocacy for a number of causes, including promoting the rights of the lesbian, gay, bisexual, and transgender (LGBT) community, children, women, animals, and survivors of child sexual abuse. Harish Iyer was also one of the most vocal proponents of the decriminalization of homosexuality in India. He has engaged in several awareness campaigns about the impact of the decision, and condemned the ruling via media advocacy.",
-                    "post": "Eq. Right Activist",
+                    "post": "Equal Rights Activist",
                     "profileImage": "images/Speakers2022/Harrish Iyer.webp"
                 },
                 "Rami Niranjan Desai": {
                     "introduction": "Rami Niranjan Desai is a NE India Specialist, as founding director of the North East Policy Institute, Guwahati she worked extensively in the area publishing on Insurgency and conflict, religion & social movements. She is presently Director of Pathfinder India Consultancy, an organisation that undertakes research and analysis. She has completed her higher education from King’ College in Theology and Anthropology of Religion. Her media outreach is available on India's leading channels.",
-                    "post": "NE Ind. Specialist",
+                    "post": "North East India Specialist",
                     "profileImage": "images/Speakers2022/Rami Niranjan Desai.webp"
                 },
                 "Anas Khan": {
@@ -176,6 +177,11 @@
                     "introduction": "An entrepreneur and business management graduate working to empower learners in the subcontinent to become global leaders by implementing programmes that integrate learning, recreation and improve educational practices. His aim is to create a network of international institutions that resolutely promulgate Leadership development programs, Student growth activities, Internationalism, policy making, diplomacy and bureaucracy programmes.",
                     "post": "Entrepreneur",
                     "profileImage": "images/Speakers2022/Tejas.webp"
+                },
+                "Surinder bagha": {
+                    "introduction": "Surinder Bahga graduated from the Chandigarh College of Architecture in 1984. His completed works include an eclectic and impressive range of religious, educational, administrative and residential buildings, urban design, interior design and landscape projects. His works are published in many journals and newspapers of repute. Two of his Churches were exhibited at the 5th Asian Congress of Architects, held at Lahore in Pakistan. He has co-authored three books namely \"Modern Architecture in India:Post Independence Perspective\", \"New Indian Homes\" and \"Le Corbusier & Pierre Jeanneret: Footprints on the Sands of Indian Architecture.\" ",
+                    "post": "Architect",
+                    "profileImage": "images/Speakers2022/Surinder.webp"
                 },
                 "Avi Sharma": {
                     "introduction": "The Pradhan Mantri Rashtriya Bal Puraskar awardee, child prodigy from Indore, Avi Sharma with young age of 12, is a World book of Record, London & India Book of Record holder. Avi is a child having IQ 161, more than Albert Einstein & famous as wonder boy. He is an author, motivational speaker, youngest mentor of Vedic maths, actor & young coder. He has bagged 20 gold and 1 silver medal in different Olympiads till date.",

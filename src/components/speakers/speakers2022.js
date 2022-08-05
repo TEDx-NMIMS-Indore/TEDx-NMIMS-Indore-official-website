@@ -1,3 +1,5 @@
+// Sponsors 2022 component
+
 import MemberProfile from "../TEDTeam/memberProfile/memberProfile";
 import "./speakers.scss";
 import data from "../../masterData.json";
