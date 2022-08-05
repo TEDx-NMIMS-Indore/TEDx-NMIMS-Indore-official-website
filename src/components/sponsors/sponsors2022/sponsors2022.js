@@ -18,7 +18,15 @@ export default function Sponsors2022() {
                         loading="lazy"
                         decoding="async"
                         src="/images/Just-Corseca.webp"
-                        alt="Lotus electronics logo"
+                        alt="Just Corseca logo"
+                    />
+                </div>
+                <div className="sponsorCategory">
+                    <img
+                        loading="lazy"
+                        decoding="async"
+                        src="/images/haier.webp"
+                        alt="Haier logo"
                     />
                 </div>
             </div>
