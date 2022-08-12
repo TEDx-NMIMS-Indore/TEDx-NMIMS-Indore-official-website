@@ -46,7 +46,7 @@ Here are the instructions if you wish to run the website on your machine, locall
 
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository.
 2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the forked repository.
-3. Execute `cd TEDx-NMIMS-Indore-official-website` command in the powershell.
+3. Execute `cd TEDxNMIMSIndore-official-website` command in the powershell.
 4. Now execute `npm i` command to install all packages used to make this website.
 5. Now execute `npm start` command to run the code on your machine.
 6. Execute `npm run test` to start testing the react app.
@@ -83,7 +83,7 @@ We follow _Contributor Covenant Code Of Conduct_. You may read that [here](./COD
 
 ---
 
-- [Website](https://tedxnmimsindore.com) (https://tedxnmimsindore.com)
+- Website (tedxnmimsindore.com)
 - [Instagram](https://www.instagram.com/tedxnmimsindore/)
 - [Facebook](https://www.facebook.com/tedx.nmimsindore.1)
 - [GitHub](https://github.com/TEDx-NMIMS-Indore)
