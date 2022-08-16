@@ -2,6 +2,7 @@ import MemberProfile from "../TEDTeam/memberProfile/memberProfile";
 import "./speakers.scss"
 import data from "../../masterData.json";
 
+
 const SpeakersComponents = (
     <div className="membersProfileDiv">
         {data.speakers["2019"].speakersList.map((speakerName, index) => {
