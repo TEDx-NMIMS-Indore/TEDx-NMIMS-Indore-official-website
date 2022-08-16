@@ -83,7 +83,7 @@ We follow _Contributor Covenant Code Of Conduct_. You may read that [here](./COD
 
 ---
 
-- Website (tedxnmimsindore.com)
+- [Website](https://tedxnmimsindore.com) (https://tedxnmimsindore.com)
 - [Instagram](https://www.instagram.com/tedxnmimsindore/)
 - [Facebook](https://www.facebook.com/tedx.nmimsindore.1)
 - [GitHub](https://github.com/TEDx-NMIMS-Indore)
