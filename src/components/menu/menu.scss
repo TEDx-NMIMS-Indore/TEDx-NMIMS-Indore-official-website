@@ -1,5 +1,10 @@
 @import "../../_globalUtilityScss.scss";
 
+.icons{
+    padding-right: 0.3vw;
+    padding-top: 0.3vw;
+}
+
 .menuDiv {
     @include centerContentVerticallyHorizontally();
     margin-top: 1vw;
@@ -36,7 +41,7 @@
         color: white;
         padding-right: 1vw;
         text-align: center;
-        padding-left: 1vw;
+        padding-left:1vw;
         // width: 10vw;
         // margin-left: 0.5vw;
         margin-right: 0.5vw;
@@ -49,7 +54,10 @@
     }
     .subMenuItemDiv {
         overflow: visible;
-        margin-top: 1.5vw;
+        margin-top: 1vw;
+        @media screen and (max-width: 1000px) {
+            margin-top: 7vw;
+        }
         width: fit-content;
         position: absolute;
         color: black;
@@ -70,11 +78,16 @@
         .subMenuItem:hover {
             border: 0.2vw solid red;
         }
+        
     }
     @media only screen and (max-width: 1000px) {
         .menuItem {
             font-size: 3vw;
             width: 15vw;
+            display:grid;
+        }
+        .icons{
+            margin-left:3rem;
         }
         justify-content: center;
         img {
@@ -87,6 +100,46 @@
             }
         }
     }
+    @media only screen and (max-width: 500px) {
+        .menuItem {
+            font-size: 3vw;
+            width: 15vw;
+            display:grid;
+        }
+        .icons{
+        margin-left:1.5rem;
+        }
+        justify-content: center;
+        img {
+            width: 50%;
+        }
+        .subMenuItemDiv{
+            div{
+                font-size: 3vw;
+            }
+        }
+    }
+    @media  (min-width: 500px) and (max-width:700px) {
+        .menuItem {
+            font-size: 3vw;
+            width: 15vw;
+            display:grid;
+        }
+        .icons{
+        margin-left:2rem;
+        }
+        justify-content: center;
+        img {
+            width: 50%;
+        }
+        .subMenuItemDiv{
+            div{
+                font-size: 3vw;
+            }
+        }
+    }
+   
+
 }
 .menuDiv:hover{
     background-color: rgba(0, 0, 0, 0.8);

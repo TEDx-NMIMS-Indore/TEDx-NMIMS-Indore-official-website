@@ -1,6 +1,9 @@
 import "./menu.scss";
 import { useState } from "react";
-
+import { BsFillInfoCircleFill , BsTelephoneFill} from "react-icons/bs";
+import { FaTeamspeak ,FaHandshake, FaHome } from "react-icons/fa";
+import { RiTeamFill ,RiPhoneFill} from "react-icons/ri";
+const style = {paddingRight:"0.3rem",verticalAlign:"top"};
 export default function Menu(props) {
     const [getAboutState, setAboutState] = useState(false);
     const [getSponsorState, setSponsorState] = useState(false);
@@ -13,7 +16,7 @@ export default function Menu(props) {
                 <div
                     className="subMenuItemDiv"
                     onMouseLeave={() => {
-                        setAboutState(false);
+                        setAboutState(false); 
                     }}
                 >
                     <div
@@ -102,10 +105,10 @@ export default function Menu(props) {
                 </div>
                 <div className="rtMenu">
                     <a href="/">
-                        <div className="menuItem">Home</div>
+                        <div className="menuItem"> <FaHome className="icons"/>Home</div>
                     </a>
                     <a href="/team">
-                        <div className="menuItem" onMouseEnter={()=>{setSpeakerState(false)}}>Team</div>
+                        <div className="menuItem" onMouseEnter={()=>{setSpeakerState(false)}}><RiTeamFill className="icons"/>Team</div>
                     </a>
                     <div
                         className="menuItem"
@@ -117,7 +120,8 @@ export default function Menu(props) {
                             setSpeakerState(true);
                             setSponsorState(false);
                         }}
-                    >
+                    > 
+                    <FaTeamspeak className="icons"/>
                         Speakers
                         {HideSubMenuDiv("Speakers")}
                     </div>
@@ -132,6 +136,7 @@ export default function Menu(props) {
                             setSpeakerState(false);
                         }}
                     >
+                       <FaHandshake className="icons"/>
                         Sponsors
                         {HideSubMenuDiv("Sponsors")}
                     </div>
@@ -142,6 +147,7 @@ export default function Menu(props) {
                                 setSponsorState(false);
                             }}
                         >
+                             <RiPhoneFill className="icons"/>
                             Contact
                         </div>
                     </a>
@@ -162,6 +168,7 @@ export default function Menu(props) {
                     </a>
                 </div>
                 <div className="rtMenu">
+                
                     <div
                         className="menuItem"
                         onMouseEnter={() => {
@@ -171,7 +178,8 @@ export default function Menu(props) {
                             setAboutState(!getAboutState);
                         }}
                     >
-                        About
+                        <BsFillInfoCircleFill className="icons" />
+                                                                           About
                         {HideSubMenuDiv("About")}
                     </div>
                     <div
@@ -184,6 +192,7 @@ export default function Menu(props) {
                             setSpeakerState(false);
                         }}
                     >
+                        <RiTeamFill style={style}  className="icons" />
                         Team
                     </div>
                     <div
@@ -197,6 +206,7 @@ export default function Menu(props) {
                             setSponsorState(false);
                         }}
                     >
+                        <FaTeamspeak  className="icons" />
                         Speakers
                         {HideSubMenuDiv("Speakers")}
                     </div>
@@ -211,6 +221,7 @@ export default function Menu(props) {
                             setSpeakerState(false);
                         }}
                     >
+                          <FaHandshake className="icons"  />
                         Sponsors
                         {HideSubMenuDiv("Sponsors")}
                     </div>
@@ -224,6 +235,7 @@ export default function Menu(props) {
                             scroll(13.2, true, 40);
                         }}
                     >
+                        <RiPhoneFill style={style} className="icons" />
                         Contact
                     </div>
                 </div>
