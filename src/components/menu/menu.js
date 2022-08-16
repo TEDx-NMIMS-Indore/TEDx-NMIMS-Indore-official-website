@@ -105,10 +105,10 @@ export default function Menu(props) {
                 </div>
                 <div className="rtMenu">
                     <a href="/">
-                        <div className="menuItem"> <FaHome />Home</div>
+                        <div className="menuItem"> <FaHome className="icons"/>Home</div>
                     </a>
                     <a href="/team">
-                        <div className="menuItem" onMouseEnter={()=>{setSpeakerState(false)}}><RiTeamFill />Team</div>
+                        <div className="menuItem" onMouseEnter={()=>{setSpeakerState(false)}}><RiTeamFill className="icons"/>Team</div>
                     </a>
                     <div
                         className="menuItem"
@@ -121,7 +121,7 @@ export default function Menu(props) {
                             setSponsorState(false);
                         }}
                     > 
-                    <FaTeamspeak />
+                    <FaTeamspeak className="icons"/>
                         Speakers
                         {HideSubMenuDiv("Speakers")}
                     </div>
@@ -136,7 +136,7 @@ export default function Menu(props) {
                             setSpeakerState(false);
                         }}
                     >
-                       <FaHandshake style={style}/>
+                       <FaHandshake className="icons"/>
                         Sponsors
                         {HideSubMenuDiv("Sponsors")}
                     </div>
@@ -147,7 +147,7 @@ export default function Menu(props) {
                                 setSponsorState(false);
                             }}
                         >
-                             <RiPhoneFill style={style}/>
+                             <RiPhoneFill className="icons"/>
                             Contact
                         </div>
                     </a>
