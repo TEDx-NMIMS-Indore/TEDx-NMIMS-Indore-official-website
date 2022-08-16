@@ -1,6 +1,6 @@
 @import "../../_globalUtilityScss.scss";
 
-.icons{
+.icons {
     padding-right: 0.3vw;
     padding-top: 0.3vw;
 }
@@ -27,6 +27,9 @@
         width: $defaultHeadingFontSize + 15;
         padding: 0;
         margin-left: 0 !important;
+        @media screen and (max-width: 1000px) {
+            width: $defaultHeadingFontSize + 200;
+        }
     }
     div {
         // margin: 1vw;
@@ -41,7 +44,7 @@
         color: white;
         padding-right: 1vw;
         text-align: center;
-        padding-left:1vw;
+        padding-left: 1vw;
         // width: 10vw;
         // margin-left: 0.5vw;
         margin-right: 0.5vw;
@@ -70,7 +73,10 @@
             color: white;
             overflow: visible;
             min-width: 10vw;
-            padding: 0.5vw;
+            padding: 1vw;
+            @media screen and (max-width: 1000px) {
+                padding: 2vw;
+            }
             margin-top: 0.5vw;
             text-align: left;
             border: 0.2vw solid black;
@@ -78,24 +84,22 @@
         .subMenuItem:hover {
             border: 0.2vw solid red;
         }
-        
     }
     @media only screen and (max-width: 1000px) {
         .menuItem {
             font-size: 3vw;
             width: 15vw;
-            display:grid;
+            display: grid;
         }
-        .icons{
-            margin-left:3rem;
+        .icons {
+            margin-left: 3rem;
         }
         justify-content: center;
         img {
             width: 50%;
         }
-        .subMenuItemDiv{
-            div{
-
+        .subMenuItemDiv {
+            div {
                 font-size: 3vw;
             }
         }
@@ -104,50 +108,48 @@
         .menuItem {
             font-size: 3vw;
             width: 15vw;
-            display:grid;
+            display: grid;
         }
-        .icons{
-        margin-left:1.5rem;
+        .icons {
+            margin-left: 1.5rem;
         }
         justify-content: center;
         img {
-            width: 50%;
+            width: 500%;
         }
-        .subMenuItemDiv{
-            div{
+        .subMenuItemDiv {
+            div {
                 font-size: 3vw;
             }
         }
     }
-    @media  (min-width: 500px) and (max-width:700px) {
+    @media (min-width: 500px) and (max-width: 700px) {
         .menuItem {
             font-size: 3vw;
             width: 15vw;
-            display:grid;
+            display: grid;
         }
-        .icons{
-        margin-left:2rem;
+        .icons {
+            margin-left: 2rem;
         }
         justify-content: center;
         img {
-            width: 50%;
+            width: 500%;
         }
-        .subMenuItemDiv{
-            div{
+        .subMenuItemDiv {
+            div {
                 font-size: 3vw;
             }
         }
     }
-   
-
 }
-.menuDiv:hover{
+.menuDiv:hover {
     background-color: rgba(0, 0, 0, 0.8);
     transition: all;
     transition-duration: 0.5s;
 }
 
-.rtMenu{
+.rtMenu {
     display: flex;
     flex-direction: row;
 }
