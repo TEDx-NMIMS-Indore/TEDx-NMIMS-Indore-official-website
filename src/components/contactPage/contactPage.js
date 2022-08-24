@@ -87,7 +87,7 @@ export default function ContactPage() {
                 <div className="credits">
                     Website made by:
                     <a
-                        href="www.linkedin.com/in/sam-varghese2003"
+                        href="https://www.linkedin.com/in/sam-varghese2003/"
                         target="_blank"
                         rel="noreferrer"
                         className="spaceClass"
