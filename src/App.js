@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Some secret console text to showcase the name of contributors :)
 
 console.log(
-    "%cTEDxNMIMS, Indore",
+    "%cTEDxNMIMSIndore",
     "font-size: 3vw; font-weight: 900; color: red; background-color: black; padding: 2vw; margin: 1vw; display: flex; justify-content: center"
 );
 
