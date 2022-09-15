@@ -42,13 +42,6 @@ const App = () => {
                     path="/"
                     element={
                         <div className="headingPage">
-                            {/* <Tooltip
-                                placement="topLeft"
-                                title="Back to top"
-                                color="grey"
-                            >
-                                <BackTop />
-                            </Tooltip> */}
                             <Menu />
                             <Heading />
                             <NMIMSCarousel />
