@@ -14,3 +14,18 @@
         align-items: flex-start;
     }
 }
+
+.WhiteTEDTeamBackground {
+    @include centerContentVerticallyHorizontally();
+    h1 {
+        color: black;
+    }
+    @include fixBackgroundImage();
+    // background-image: url("../../../public/images/backgroundImage1.webp");
+
+    .membersProfileDiv {
+        @include centerContentVerticallyHorizontally();
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

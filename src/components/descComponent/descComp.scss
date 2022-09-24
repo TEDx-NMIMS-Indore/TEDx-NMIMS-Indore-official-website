@@ -10,6 +10,7 @@
     text-align: center;
     .heading {
         font-size: $defaultHeadingFontSize;
+        color: black;
         @media screen and (max-width: 1000px) {
             font-size: 10vw;
         }
@@ -26,5 +27,5 @@
     // background-image: url("../../../public/images/backgroundImage.webp");
     // background-color: black;
     background-image: url("../../../public/images/backgroundImage1.webp");
-    color: white;
+    color: black;
 }

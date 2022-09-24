@@ -55,8 +55,8 @@ const App = () => {
                             <AboutNMIMS />
                             <TEDxNMIMSCarousel />
                             <TedxNMIMS />
-                            <Team />
                             <Speakers2022 />
+                            <Team />
                             <ContactPage />
                         </div>
                     }

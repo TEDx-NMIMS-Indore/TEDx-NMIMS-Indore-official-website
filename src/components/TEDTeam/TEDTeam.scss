@@ -2,6 +2,7 @@
 
 h1 {
     font-weight: 700;
+    color: white;
     font-size: $defaultHeadingFontSize;
 }
 
@@ -14,7 +15,9 @@ h1 {
         }
     }
     // background-color: whitesmoke;
-    background-color: rgba(0,0,0,0);
+    // background-color: rgba(0,0,0, 0.5);
+        background-image: url("../../../public/images/backgroundImage1.webp");
+
     // background-color: yellow;
     .membersProfileDiv {
         @include centerContentVerticallyHorizontally();
