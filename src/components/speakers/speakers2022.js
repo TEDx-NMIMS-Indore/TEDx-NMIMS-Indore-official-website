@@ -10,7 +10,7 @@ const SpeakersComponents = (
             return (
                 <MemberProfile
                     name={speakerName}
-                    theme="dark" 
+                    theme="white" 
                     post={
                         data.speakers["2022"].speakersDescription[speakerName]
                             .post
@@ -31,7 +31,7 @@ const SpeakersComponents = (
 
 export default function Speakers2022() {
     return (
-        <div className="BlackTEDTeamBackground membersProfileDiv">
+        <div className="WhiteTEDTeamBackground membersProfileDiv">
             {/* <TEDxLogo /> */}
             <h1>Speakers '22</h1>
             {SpeakersComponents}

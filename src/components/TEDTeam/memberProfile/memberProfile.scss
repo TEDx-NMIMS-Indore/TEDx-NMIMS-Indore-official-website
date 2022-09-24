@@ -71,7 +71,9 @@
 }
 .blackProfileDiv {
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
+    // background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("../../../../public/images/backgroundImage1.webp");
+
     .post {
         color: white;
         margin-top: -1vw;

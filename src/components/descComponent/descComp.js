@@ -2,7 +2,7 @@ import "./descComp.scss";
 import TEDxLogo from "../TEDxLogo/TEDxLogo";
 
 export default function DescComp(props) {
-    if (props.theme == "dark") {
+    if (props.theme == "white") {
         if (props.headingRequired) {
             return (
                 <div className="darkThemeMasterDiv">

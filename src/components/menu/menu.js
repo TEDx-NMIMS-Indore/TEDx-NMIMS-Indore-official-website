@@ -113,7 +113,7 @@ export default function Menu(props) {
                     <div
                         className="menuItem"
                         onClick={(e) => {
-                            scroll(8.7, true, 7.7);
+                            // scroll(8.7, true, 7.7);
                             setSpeakerState(!getSpeakerState);
                         }}
                         onMouseEnter={() => {
@@ -128,7 +128,7 @@ export default function Menu(props) {
                     <div
                         className="menuItem"
                         onClick={(e) => {
-                            scroll(8.7, true, 7.7);
+                            // scroll(8.7, true, 7.7);
                             setSponsorState(!getSponsorState);
                         }}
                         onMouseEnter={() => {
@@ -182,11 +182,10 @@ export default function Menu(props) {
                                                                            About
                         {HideSubMenuDiv("About")}
                     </div>
+                    <a href="/team">
                     <div
                         className="menuItem"
-                        onClick={(e) => {
-                            scroll(3.2, true, 2.3);
-                        }}
+                        
                         onMouseEnter={() => {
                             setAboutState(false);
                             setSpeakerState(false);
@@ -194,7 +193,7 @@ export default function Menu(props) {
                     >
                         <RiTeamFill style={style}  className="icons" />
                         Team
-                    </div>
+                    </div></a>
                     <div
                         className="menuItem"
                         onClick={(e) => {

@@ -31,6 +31,7 @@ const AllMembers = [
                 post={value.post}
                 gender={value.gender}
                 key={index}
+                theme="dark"
             />
         );
     });
