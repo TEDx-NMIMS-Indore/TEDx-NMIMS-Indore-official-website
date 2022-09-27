@@ -17,18 +17,34 @@ export default function Sponsors2022() {
                     <img
                         loading="lazy"
                         decoding="async"
-                        src="/images/Just-Corseca.webp"
-                        alt="Just Corseca logo"
+                        src="/images/jmc.webp"
+                        alt="JMC logo"
                     />
                 </div>
                 <div className="sponsorCategory">
                     <img
                         loading="lazy"
                         decoding="async"
+                        src="/images/Vibrant.webp"
+                        alt="Vibrant building inspirations logo"
+                    />
+                </div>
+                {/* <div className="sponsorCategory">
+                    <img
+                        loading="lazy"
+                        decoding="async"
+                        src="/images/Just-Corseca.webp"
+                        alt="Just Corseca logo"
+                    />
+                </div> */}
+                {/* <div className="sponsorCategory">
+                    <img
+                        loading="lazy"
+                        decoding="async"
                         src="/images/haier.webp"
                         alt="Haier logo"
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );
