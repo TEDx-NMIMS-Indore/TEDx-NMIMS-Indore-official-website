@@ -5,6 +5,14 @@ export default function Sponsors2022() {
         <div className="masterDiv">
             <h1>Our Sponsors '22</h1>
             <div className="sponsorsMainDiv">
+                <div className="sponsorCategory" style={{ width: "100vw" }}>
+                    <img
+                        loading="lazy"
+                        decoding="async"
+                        src="/images/Vibrant.webp"
+                        alt="Vibrant building inspirations logo"
+                    />
+                </div>
                 <div className="sponsorCategory">
                     <img
                         loading="lazy"
@@ -21,14 +29,7 @@ export default function Sponsors2022() {
                         alt="JMC logo"
                     />
                 </div>
-                <div className="sponsorCategory">
-                    <img
-                        loading="lazy"
-                        decoding="async"
-                        src="/images/Vibrant.webp"
-                        alt="Vibrant building inspirations logo"
-                    />
-                </div>
+
                 {/* <div className="sponsorCategory">
                     <img
                         loading="lazy"
@@ -37,7 +38,7 @@ export default function Sponsors2022() {
                         alt="Just Corseca logo"
                     />
                 </div> */}
-                <div className="sponsorCategory">
+                <div className="sponsorCategory" style={{ width: "100vw" }}>
                     <img
                         loading="lazy"
                         decoding="async"
