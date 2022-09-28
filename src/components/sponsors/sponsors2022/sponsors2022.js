@@ -37,14 +37,14 @@ export default function Sponsors2022() {
                         alt="Just Corseca logo"
                     />
                 </div> */}
-                {/* <div className="sponsorCategory">
+                <div className="sponsorCategory">
                     <img
                         loading="lazy"
                         decoding="async"
                         src="/images/haier.webp"
                         alt="Haier logo"
                     />
-                </div> */}
+                </div>
             </div>
         </div>
     );
