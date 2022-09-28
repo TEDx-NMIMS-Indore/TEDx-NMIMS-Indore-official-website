@@ -9,15 +9,15 @@ export default function Sponsors2022() {
                     <img
                         loading="lazy"
                         decoding="async"
-                        src="/images/fhi-logo-primary.webp"
-                        alt="Lotus electronics logo"
+                        src="/images/sans.webp"
+                        alt="Sanskruti logo"
                     />
                 </div>
                 <div className="sponsorCategory">
                     <img
                         loading="lazy"
                         decoding="async"
-                        src="/images/jmc.webp"
+                        src="/images/JMC.webp"
                         alt="JMC logo"
                     />
                 </div>
